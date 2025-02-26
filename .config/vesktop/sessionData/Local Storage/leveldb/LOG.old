@@ -1,0 +1,14 @@
+2025/02/10-15:51:47.158 7e6 Reusing MANIFEST /home/skye/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/02/10-15:51:47.166 7e6 Recovering log #665
+2025/02/10-15:51:47.166 7e6 Level-0 table #668: started
+2025/02/10-15:51:47.169 7e6 Level-0 table #668: 87035 bytes OK
+2025/02/10-15:51:47.172 7e6 Delete type=0 #665
+2025/02/10-15:51:47.172 7e7 Compacting 4@0 + 1@1 files
+2025/02/10-15:51:47.175 7e7 Generated table #670@0: 128 keys, 59864 bytes
+2025/02/10-15:51:47.175 7e7 Compacted 4@0 + 1@1 files => 59864 bytes
+2025/02/10-15:51:47.177 7e7 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/02/10-15:51:47.177 7e7 Delete type=2 #666
+2025/02/10-15:51:47.177 7e7 Delete type=2 #660
+2025/02/10-15:51:47.177 7e7 Delete type=2 #664
+2025/02/10-15:51:47.177 7e7 Delete type=2 #662
+2025/02/10-15:51:47.177 7e7 Delete type=2 #668

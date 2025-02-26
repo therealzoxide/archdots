@@ -1,0 +1,126 @@
+@import "mocha.css";
+
+* {
+  font-family: iMWritingMono Nerd Font, Noto Sans CJK HK Regular, Symbols Nerd Font Regular;
+  font-size: 13px;
+  min-height: 0;
+}
+
+#waybar {
+  background: @transparent;
+  color: @text;
+  margin: 5px 5px;
+}
+
+#workspaces {
+  border-radius: 0.5rem;
+  margin: 5px;
+  background-color: @base;
+  margin-left: 1rem;
+}
+
+#workspaces button {
+  color: @blue;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+#workspaces button.empty {
+  color: @lavender;
+}
+
+#workspaces button.visible {
+  color: @blue;
+  border-radius: 0.5rem;
+}
+
+#workspaces button.urgent {
+   color: @red;
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+  border-radius: 0.5rem;
+}
+
+
+#mpris {
+	border-radius: 0.5rem;
+	margin: 5px;
+	background-color: @base;
+	color: @peach;
+	padding: 0.5rem 1rem;
+}
+
+#tray,
+#backlight,
+#clock,
+#battery,
+#wireplumber,
+#idle_inhibitor,
+#network,
+#cpu,
+#memory
+{
+  background-color: @base;
+  padding: 0.4rem 1rem;
+  margin: 5px 0;
+}
+
+#clock {
+  color: @blue;
+  border-radius: 0px 0.5rem 0.5rem 0px;
+  margin-right: 1rem;
+}
+
+#battery {
+  color: @green;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#backlight, #battery {
+    border-radius: 0;
+}
+
+#wireplumber {
+  color: @maroon;
+  border-radius: 0.5rem 0px 0px 0.5rem;
+  margin-left: 1rem;
+}
+
+#memory {
+	color: @teal;
+}
+
+#cpu {
+	color: @mauve;
+}
+
+#network {
+	color: @rosewater;
+}
+
+#idle_inhibitor {
+	color: @pink;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+}
+
+tooltip {
+  color: @text;
+  background-color: @base;
+}
