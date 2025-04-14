@@ -24,7 +24,7 @@ noto-fonts-extra
 hyprpolkitagent  
 hyprlock  
 hypridle  
-brave  
+vivaldi  
   
 NEXT YOU MAY INSTALL:  
 bottom  
