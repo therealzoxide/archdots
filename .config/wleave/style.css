@@ -31,21 +31,21 @@ button:focus, button:active, button:hover {
 }
 
 #logout {
-    background-image: url("/home/skye/.config/wleave/logout.svg");
+    background-image: url("/home/ayaya/.config/wleave/logout.svg");
 }
 
 #suspend {
-    background-image: url("/home/skye/.config/wleave/suspend.svg");
+    background-image: url("/home/ayaya/.config/wleave/suspend.svg");
 }
 
 #hibernate {
-    background-image: url("/home/skye/.config/wleave/hibernate.svg");
+    background-image: url("/home/ayaya/.config/wleave/hibernate.svg");
 }
 
 #shutdown {
-    background-image: url("/home/skye/.config/wleave/shutdown.svg");
+    background-image: url("/home/ayaya/.config/wleave/shutdown.svg");
 }
 
 #reboot {
-    background-image: url("/home/skye/.config/wleave/reboot.svg");
+    background-image: url("/home/ayaya/.config/wleave/reboot.svg");
 }

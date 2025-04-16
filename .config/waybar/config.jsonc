@@ -23,7 +23,7 @@
       "persistent-workspaces": {
         "*": [1,2,3,4,5,6,7,8,9,10]
         //"DP-1": [1, 2, 3, 4, 5],
-        //"HDMI-A-1": [6, 7, 8, 9, 10]
+        //"DP-2": [6, 7, 8, 9, 10]
       },
       "format-icons": {
       "active": "",
@@ -34,7 +34,7 @@
     "mpris": {
       "format": "  {dynamic}",
       "format-paused": "  {dynamic}",
-      "ignored-players": ["brave"],
+      "ignored-players": ["Vivaldi"],
       "dynamic-order": [
         "title",
         "artist",
