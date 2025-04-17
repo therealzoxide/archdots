@@ -1,4 +1,6 @@
-# dotfiles  
+# dotfiles
+
+REMINDER TO MYSELF FOR WHAT APPS I USE    
 INSTALL THE FOLLOWING FIRST:   
 paru  
 fish  
@@ -36,7 +38,7 @@ grim
 slurp  
 hyprshot   
 vestktop   
-spotify-player-full   
+youtube-music-bin (aur)  
 nwg-look  
 
 CONFIGURE THE FOLLOWING:  
