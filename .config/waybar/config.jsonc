@@ -34,7 +34,7 @@
     "mpris": {
       "format": "  {dynamic}",
       "format-paused": "  {dynamic}",
-      "ignored-players": ["Vivaldi"],
+      "ignored-players": ["chromium"],
       "dynamic-order": [
         "title",
         "artist",
