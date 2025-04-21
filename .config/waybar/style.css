@@ -9,14 +9,16 @@
 #waybar {
   background: @transparent;
   color: @text;
-  margin: 5px 5px;
+  margin: 7px 0px;
 }
 
 #workspaces {
   border-radius: 0.5rem;
-  margin: 5px;
+  margin-top: 7px;
   background-color: @base;
-  margin-left: 1rem;
+  margin-left: 7px;
+  padding-right: 2px;
+  border: 1px solid @lavender;
 }
 
 #workspaces button {
@@ -46,10 +48,11 @@
 
 #mpris {
 	border-radius: 0.5rem;
-	margin: 5px;
+  margin-top: 7px;
 	background-color: @base;
 	color: @peach;
-	padding: 0.5rem 1rem;
+  border: 1px solid @peach;
+	padding: 0.5rem;
 }
 
 #tray,
@@ -64,29 +67,35 @@
 {
   background-color: @base;
   padding: 0.4rem 1rem;
-  margin: 5px 0;
+  margin-top: 7px;
 }
 
 #clock {
   color: @blue;
+  border: 1px solid @blue;
   border-radius: 0px 0.5rem 0.5rem 0px;
-  margin-right: 1rem;
+  margin-right: 7px;
+  padding-right: 13px;
 }
 
 #battery {
   color: @green;
+  border: 1px solid @green;
 }
 
 #battery.charging {
   color: @green;
+  border: 1px solid @green;
 }
 
 #battery.warning:not(.charging) {
   color: @red;
+  border: 1px solid @red;
 }
 
 #backlight {
   color: @yellow;
+  border: 1px solid @yellow;
 }
 
 #backlight, #battery {
@@ -95,29 +104,36 @@
 
 #wireplumber {
   color: @maroon;
+  border: 1px solid @maroon;
   border-radius: 0.5rem 0px 0px 0.5rem;
   margin-left: 1rem;
 }
 
 #memory {
 	color: @teal;
+  border: 1px solid @teal;
 }
 
 #cpu {
 	color: @mauve;
+  border: 1px solid @mauve;
 }
 
 #network {
 	color: @rosewater;
+  border: 1px solid @rosewater;
 }
 
 #idle_inhibitor {
 	color: @pink;
+  padding-right: 12px;
+  border: 1px solid @pink;
 }
 
 #tray {
-  margin-right: 1rem;
+  margin-right: 7px;
   border-radius: 0.5rem;
+  border: 1px solid @text;
 }
 
 tooltip {
