@@ -4,14 +4,11 @@
       "hyprland/workspaces",
     ],
     "modules-center": [
-      "mpris"
     ],
     "modules-right": [
       "wireplumber",
-      "network",
       "cpu",
       "memory",
-      "backlight",
       "battery",
       "clock",
       "group/drawer",
@@ -27,8 +24,9 @@
       "custom/logo",
       "tray",
       "custom/power",
-      "custom/fuzzel",
-      "idle_inhibitor"
+      "backlight",
+      "idle_inhibitor",
+      "network",
       ]
     },
 
@@ -43,18 +41,6 @@
       "active": "",
       "default": ""
       }
-    },
-
-    "mpris": {
-      "format": "  {dynamic}",
-      "format-paused": "  {dynamic}",
-      "ignored-players": ["chromium"],
-      "dynamic-order": [
-        "title",
-        "artist",
-        "position",
-        "length"
-        ]
     },
 
     "wireplumber": {
@@ -86,12 +72,14 @@
 
     "cpu": {
       "format": "  {usage}%",
-      "format-alt": "  {avg_frequency} GHz"
+      "format-alt": "  {avg_frequency} GHz",
+      "on-click-right": "kitty -e fish -c 'btm'"
     },
 
     "memory": {
       "format": "  {}%",
-      "format-alt": "  {swapUsed}/{swapTotal}GiB"
+      "format-alt": "  {swapUsed}/{swapTotal}GiB",
+      "on-click-right": "kitty -e fish -c 'btm'"
     },
 
     "backlight": {
@@ -126,12 +114,6 @@
     "custom/power": {
       "format": "",
       "on-click": "wleave -k",
-      "tooltip": false
-    },
-
-    "custom/fuzzel": {
-      "format": "",
-      "on-click": "fuzzel --no-icons --use-bold",
       "tooltip": false
     },
 

@@ -45,16 +45,6 @@
   border-radius: 0.5rem;
 }
 
-
-#mpris {
-	border-radius: 0.5rem;
-  margin-top: 7px;
-	background-color: @base;
-	color: @peach;
-  border: 1px solid @peach;
-	padding: 0.5rem;
-}
-
 #tray,
 #backlight,
 #clock,
@@ -64,20 +54,21 @@
 #network,
 #cpu,
 #memory,
+#clock,
 #custom-power,
-#custom-fuzzel,
 #custom-logo
 {
   background-color: @base;
   padding: 0.4rem 1rem;
   margin-top: 7px;
+  margin-right: 5px;
+  border-radius: 6px
 }
 
 #clock {
   color: @blue;
   border: 1px solid @blue;
-  border-radius: 0px 0.5rem 0.5rem 0px;
-  margin-right: 7px;
+  border-radius: 6px;
   padding-right: 13px;
 }
 
@@ -99,6 +90,7 @@
 #backlight {
   color: @yellow;
   border: 1px solid @yellow;
+  padding-right: 7px;
 }
 
 #backlight, #battery {
@@ -108,23 +100,24 @@
 #wireplumber {
   color: @maroon;
   border: 1px solid @maroon;
-  border-radius: 0.5rem 0px 0px 0.5rem;
-  margin-left: 1rem;
 }
 
 #memory {
 	color: @teal;
   border: 1px solid @teal;
+  border-radius: 0.5rem;
 }
 
 #cpu {
 	color: @mauve;
   border: 1px solid @mauve;
+  border-radius: 0.5rem;
 }
 
 #network {
 	color: @rosewater;
   border: 1px solid @rosewater;
+  border-radius: 0.5rem;
 }
 
 #idle_inhibitor {
@@ -132,29 +125,17 @@
   padding-right: 12px;
   border: 1px solid @pink;
   border-radius: 0.5rem;
-  margin-right: 7px;
 }
 
 #tray {
-  margin-right: 7px;
   border-radius: 0.5rem;
   border: 1px solid @text;
 }
 
 #custom-power {
-  margin-right: 7px;
   border-radius: 0.5rem;
   border: 1px solid @red;
   color: @red;
-  background-color: @base;
-  padding-right: 18px;
-}
-
-#custom-fuzzel {
-  margin-right: 7px;
-  border-radius: 0.5rem;
-  border: 1px solid @peach;
-  color: @peach;
   background-color: @base;
   padding-right: 18px;
 }
