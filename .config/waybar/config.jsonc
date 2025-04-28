@@ -58,7 +58,7 @@
     },
 
     "wireplumber": {
-      "on-click": "kitty -e fish -c 'pulsemixer'",
+      "on-click": "pavucontrol",
       "format": "{icon} {volume}%",
       "format-muted": "",
       "format-icons": {
@@ -81,7 +81,7 @@
       "tooltip-format": "{ifname} via {gwaddr}",
       "format-linked": "  {ifname} (No IP)",
       "format-disconnected": "  Disconnected",
-      "format-alt": "{essid}: {ipaddr}/{cidr}"
+      "on-click": "nm-connection-editor"
     },
 
     "cpu": {
