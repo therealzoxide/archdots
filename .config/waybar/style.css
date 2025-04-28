@@ -63,7 +63,8 @@
 #idle_inhibitor,
 #network,
 #cpu,
-#memory
+#memory,
+#custom-power
 {
   background-color: @base;
   padding: 0.4rem 1rem;
@@ -134,6 +135,15 @@
   margin-right: 7px;
   border-radius: 0.5rem;
   border: 1px solid @text;
+}
+
+#custom-power {
+  margin-right: 7px;
+  border-radius: 0.5rem;
+  border: 1px solid @red;
+  color: @red;
+  background-color: @base;
+  padding-right: 18px;
 }
 
 tooltip {

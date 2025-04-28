@@ -8,7 +8,7 @@ window {
 }
 
 button {
-	border-radius: 0;
+	border-radius: 0.5rem;
 	border-color: #b4befe;
 	text-decoration-color: #cdd6f4;
 	color: #cdd6f4;
@@ -27,7 +27,7 @@ button:focus, button:active, button:hover {
 }
 
 #lock {
-    background-image: url("/home/skye/.config/wleave/lock.svg");
+    background-image: url("/home/ayaya/.config/wleave/lock.svg");
 }
 
 #logout {

@@ -15,7 +15,8 @@
       "backlight",
       "battery",
       "clock",
-      "tray"
+      "tray",
+      "custom/power"
     ],
 
     "hyprland/workspaces": {
@@ -105,7 +106,12 @@
     },
 
     "tray": {
-      "spacing": 9
-    }
+      "spacing": 9,
+      "icon-size": 13
+    },
 
+    "custom/power": {
+      "format": "",
+      "on-click": "wleave -k"
+    }
   }
