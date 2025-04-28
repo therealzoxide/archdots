@@ -16,7 +16,7 @@ wl-clipboard
 clipse (aur)  
 udiskie   
 gvfs  
-pulsemixer  
+pavucontrol  
 xarchiver  
 7zip   
 noto-fonts   
@@ -27,7 +27,8 @@ hyprpolkitagent
 hyprlock  
 hypridle  
 vivaldi  
-  
+nm-connection-editor
+
 NEXT YOU MAY INSTALL:  
 bottom  
 yazi   
