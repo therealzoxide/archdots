@@ -64,7 +64,9 @@
 #network,
 #cpu,
 #memory,
-#custom-power
+#custom-power,
+#custom-fuzzel,
+#custom-logo
 {
   background-color: @base;
   padding: 0.4rem 1rem;
@@ -129,6 +131,8 @@
 	color: @pink;
   padding-right: 12px;
   border: 1px solid @pink;
+  border-radius: 0.5rem;
+  margin-right: 7px;
 }
 
 #tray {
@@ -144,6 +148,23 @@
   color: @red;
   background-color: @base;
   padding-right: 18px;
+}
+
+#custom-fuzzel {
+  margin-right: 7px;
+  border-radius: 0.5rem;
+  border: 1px solid @peach;
+  color: @peach;
+  background-color: @base;
+  padding-right: 18px;
+}
+
+#custom-logo {
+  margin-right: 7px;
+  border-radius: 0.5rem;
+  border: 1px solid @lavender;
+  background-color: @base;
+  padding-right: 16px;
 }
 
 tooltip {

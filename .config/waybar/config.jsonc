@@ -8,16 +8,29 @@
     ],
     "modules-right": [
       "wireplumber",
-      "idle_inhibitor",
       "network",
       "cpu",
       "memory",
       "backlight",
       "battery",
       "clock",
-      "tray",
-      "custom/power"
+      "group/drawer",
     ],
+
+    "group/drawer": {
+      "orientation": "horizontal",
+      "drawer": {
+        "transition-duration": 500,
+        "transition-left-to-right": false,
+      },
+      "modules": [
+      "custom/logo",
+      "tray",
+      "custom/power",
+      "custom/fuzzel",
+      "idle_inhibitor"
+      ]
+    },
 
     "hyprland/workspaces": {
       "format": "{icon}",
@@ -112,6 +125,18 @@
 
     "custom/power": {
       "format": "",
-      "on-click": "wleave -k"
-    }
+      "on-click": "wleave -k",
+      "tooltip": false
+    },
+
+    "custom/fuzzel": {
+      "format": "",
+      "on-click": "fuzzel --no-icons --use-bold",
+      "tooltip": false
+    },
+
+    "custom/logo": {
+      "format": "󰣇",
+      "tooltip": false
+    },
   }
