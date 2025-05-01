@@ -31,7 +31,9 @@
 }
 
 #workspaces button.visible {
-  color: @pink;
+  color: @base;
+  background-color: @mauve;
+  border-radius: 0px;
 }
 
 #workspaces button.urgent {
@@ -50,7 +52,7 @@
 #tray
 {
   background-color: @base;
-  padding: 0.4rem 1rem;
+  padding: 0px 8px 0px 8px;
   margin-top: 7px;
   margin-right: 5px;
 }
@@ -94,28 +96,30 @@
 
 #idle_inhibitor {
 	color: @mauve;
-  padding-right: 12px;
   border: 1px solid @mauve;
+  padding-right: 0px;
 }
 
 #tray {
   border: 1px solid @mauve;
   margin-right: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #custom-power {
   border: 1px solid @mauve;
   color: @mauve;
   background-color: @base;
-  padding-right: 18px;
 }
 
 #custom-logo {
   border: 1px solid @mauve;
   color: @mauve;
   background-color: @base;
-  padding-right: 16px;
   margin-right: 7px;
+  padding-right: 13;
+  padding-left: 11px;
 }
 
 tooltip {

@@ -35,33 +35,25 @@
         "DP-1": [1, 2, 3, 4, 5],
         "DP-2": [6, 7, 8, 9, 10]
       },
-      "format-icons": {
-      "active": "",
-      "default": ""
-      }
     },
 
     "wireplumber": {
-      "on-click": "kitty -e fish -c 'pulsemixer'",
-      "format": "{icon} {volume}%",
+      "on-click": "pavucontrol",
+      "format": "[ Volume: {volume}% ]",
       "tooltip": false,
-      "format-muted": "",
-      "format-icons": {
-        "default": ["",""]
-      },
     },
 
     "idle_inhibitor": {
       "format": "{icon} ",
       "format-icons": {
-        "activated": "",
-        "deactivated": ""
+        "activated": "[ No Sleep ]",
+        "deactivated": "[ Sleep ]"
       }
     },
 
     "network": {
-      "format-wifi": "  {signalStrength}%",
-      "format-ethernet": "  {ipaddr}/{cidr}",
+      "format-wifi": "[ WiFi: {signalStrength}% ]",
+      "format-ethernet": "[ Eth: {ipaddr}/{cidr} ]",
       "tooltip-format": "{ifname} via {gwaddr}",
       "format-linked": "  {ifname} (No IP)",
       "format-disconnected": "  Disconnected",
@@ -69,8 +61,8 @@
     },
 
     "memory": {
-      "format": "  {used} GiB",
-      "format-alt": "  {swapUsed} GiB",
+      "format": "[ Memory: {used} GiB ]",
+      "format-alt": "[ Swap: {swapUsed} GiB ]",
       "on-click-right": "kitty -e fish -c 'btm'",
       "tooltip": false,
     },
@@ -80,17 +72,16 @@
         "warning": 30,
         "critical": 15
       },
-      "format": "{icon} {capacity}%",
-      "format-full": "{icon} {capacity}%",
-      "format-charging": " {capacity}%",
-      "format-plugged": " {capacity}%",
-      "format-alt": "{time} {icon}",
-      "format-icons": ["", "", "", "", ""]
+      "format": "[ Draining: {capacity}% ]",
+      "format-full": "[ Full: {capacity}% ]",
+      "format-charging": "[ Charging: {capacity}% ]",
+      "format-plugged": "[ Charged: {capacity}% ]",
+      "format-alt": "[ Remaining: {time} ]",
     },
   
     "clock": {
-	    "format": "  {:%I:%M %p}",
-      "format-alt": "  {:%b %d %Y}",
+	    "format": "[ Time: {:%I:%M %p} ]",
+      "format-alt": "[ Date: {:%b %d %Y} ]",
       "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
@@ -100,7 +91,7 @@
     },
 
     "custom/power": {
-      "format": "",
+      "format": "[ Power ]",
       "on-click": "wleave -k",
       "tooltip": false
     },
