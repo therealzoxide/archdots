@@ -1,20 +1,20 @@
 {
     "spacing": 2,
     "modules-left": [
-      "hyprland/workspaces",
+      "clock",
+      "battery",
+      "memory",
     ],
     "modules-center": [
+      "hyprland/workspaces",
     ],
     "modules-right": [
       "wireplumber",
-      "cpu",
-      "memory",
-      "battery",
-      "clock",
-      "group/drawer",
+      "network",
+      "group/system"
     ],
 
-    "group/drawer": {
+    "group/system": {
       "orientation": "horizontal",
       "drawer": {
         "transition-duration": 500,
@@ -24,9 +24,7 @@
       "custom/logo",
       "tray",
       "custom/power",
-      "backlight",
-      "idle_inhibitor",
-      "network",
+      "idle_inhibitor"
       ]
     },
 
@@ -44,12 +42,12 @@
     },
 
     "wireplumber": {
-      "on-click": "pavucontrol",
+      "on-click": "kitty -e fish -c 'pulsemixer'",
       "format": "{icon} {volume}%",
+      "tooltip": false,
       "format-muted": "",
       "format-icons": {
-        "headphone": "",
-        "default": ["","",""]
+        "default": ["",""]
       },
     },
 
@@ -70,21 +68,11 @@
       "on-click": "nm-connection-editor"
     },
 
-    "cpu": {
-      "format": "  {usage}%",
-      "format-alt": "  {avg_frequency} GHz",
-      "on-click-right": "kitty -e fish -c 'btm'"
-    },
-
     "memory": {
-      "format": "  {}%",
-      "format-alt": "  {swapUsed}/{swapTotal}GiB",
-      "on-click-right": "kitty -e fish -c 'btm'"
-    },
-
-    "backlight": {
-      "format": "{icon} {percent}%",
-      "format-icons": ["", "", "", "", "", "", "", "", ""]
+      "format": "  {used} GiB",
+      "format-alt": "  {swapUsed} GiB",
+      "on-click-right": "kitty -e fish -c 'btm'",
+      "tooltip": false,
     },
 
     "battery": {
@@ -119,6 +107,7 @@
 
     "custom/logo": {
       "format": "󰣇",
-      "tooltip": false
-    },
+      "tooltip": false,
+    }
+
   }

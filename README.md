@@ -16,7 +16,7 @@ wl-clipboard
 clipse (aur)  
 udiskie   
 gvfs  
-pavucontrol  
+pulsemixer  
 xarchiver  
 7zip   
 noto-fonts   
