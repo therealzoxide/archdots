@@ -11,7 +11,7 @@ ly
 Eza   
 nvim  
 waybar  
-fuzzel  
+rofi  
 wl-clipboard  
 clipse (aur)  
 udiskie   
@@ -27,8 +27,8 @@ hyprpolkitagent
 hyprlock  
 hypridle  
 vivaldi  
-nm-connection-editor
-
+nm-connection-editor  
+  
 NEXT YOU MAY INSTALL:  
 bottom  
 yazi   
