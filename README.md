@@ -28,6 +28,7 @@ vivaldi
 nm-connection-editor  
 greetd  
 greetd-tuigreet    
+mako  
   
 NEXT YOU MAY INSTALL:  
 bottom  
