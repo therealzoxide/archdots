@@ -38,7 +38,7 @@
     },
 
     "wireplumber": {
-      "on-click": "pavucontrol",
+      "on-click": "kitty -e fish -c pulsemixer",
       "format": "[ Volume: {volume}% ]",
       "tooltip": false,
     },
