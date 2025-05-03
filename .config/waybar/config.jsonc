@@ -92,7 +92,7 @@
 
     "custom/power": {
       "format": "[ Power ]",
-      "on-click": "wleave -k",
+      "on-click": "rofi -show powermenu -modi powermenu:~/.config/rofi/power-menu -theme ~/.config/rofi/themes/power.rasi",
       "tooltip": false
     },
 
