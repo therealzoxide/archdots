@@ -7,11 +7,15 @@
   spacing:                     2;
 
 }
+element {
+    children: ["textbox-prompt-colon", "element-text", "textbox-num-sep"];
+}
 element normal.normal {
     text-color:       @mauve;
 }
 element selected.normal {
     text-color:       @pink;
+    children:         ["textbox-prompt-colon", "element-text", "textbox-num-sep"];
 }
 element alternate.normal {
     text-color:       @mauve;
@@ -23,7 +27,7 @@ element-text {
 }
 window {
     padding:          0;
-    width:            325px;
+    width:            340px;
     border:           1;
 }
 listview {
@@ -42,6 +46,7 @@ inputbar {
 }
 entry {
     text-color:        @mauve;
+    cursor:            text;
     placeholder-color: @mauve;
     placeholder:       "Search";
     vertical-align:    0.5;
