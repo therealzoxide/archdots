@@ -9,8 +9,8 @@
       "hyprland/workspaces",
     ],
     "modules-right": [
-      "wireplumber",
       "network",
+      "wireplumber",
       "group/system"
     ],
 
@@ -23,6 +23,7 @@
       "modules": [
       "custom/logo",
       "tray",
+      "custom/dnd",
       "custom/power",
       "idle_inhibitor"
       ]
@@ -44,6 +45,7 @@
     },
 
     "idle_inhibitor": {
+      "tooltip": false,
       "format": "{icon} ",
       "format-icons": {
         "activated": "[ No Sleep ]",
@@ -52,11 +54,10 @@
     },
 
     "network": {
-      "format-wifi": "[ WiFi: {signalStrength}% ]",
-      "format-ethernet": "[ Eth: {ipaddr}/{cidr} ]",
-      "tooltip-format": "{ifname} via {gwaddr}",
-      "format-linked": "  {ifname} (No IP)",
-      "format-disconnected": "  Disconnected",
+      "tooltip": false,
+      "format-wifi": "[ WiFi: {bandwidthDownBytes} ]",
+      "format-ethernet": "[ Eth: {bandwidthDownBytes} ]",
+      "format-disconnected": "[ Disconnected ]",
       "on-click": "nm-connection-editor"
     },
 
@@ -90,6 +91,14 @@
       "icon-size": 13
     },
 
+    "custom/dnd": {
+      "exec": "~/.config/waybar/toggle_dnd.sh",
+      "interval": 1,
+      "format": "{}",
+      "on-click": "~/.config/waybar/toggle_dnd.sh toggle"
+    },
+
+
     "custom/power": {
       "format": "[ Power ]",
       "on-click": "rofi -show powermenu -modi powermenu:~/.config/rofi/power-menu -theme ~/.config/rofi/themes/power.rasi",
@@ -98,6 +107,7 @@
 
     "custom/logo": {
       "format": "󰣇",
+      "on-click": "rofi -show drun",
       "tooltip": false,
     }
 

@@ -1,28 +1,71 @@
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "logo": {
-    "source": "~/.config/fastfetch/migu2.txt",
-    "color": {
-      "1": "34"
-    }
-  },
-  "display": {
-    "color": "36"
-  },
-  "modules": [
-    "title",
-    "separator",
-    "os",
-    "kernel",
-    "break",
-    "uptime",
-    "processes",
-    "packages",
-    "break",
-    "memory",
-    "swap",
-    "wifi",
-    "break",
-    "colors"
-  ]
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+    "logo": {
+        "source": "~/.config/fastfetch/migu2.txt",
+        "color": {
+            "1": "34"
+        }
+    },
+
+    "modules": [
+        // ───── Box 1: Setup ─────
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌─────────────────────Setup──────────────────────┐"
+        },
+        {
+            "type": "title",
+            "key": "Host"
+        },
+        {
+            "type": "os",
+            "key": "OS"
+        },
+        {
+            "type": "kernel",
+            "key": "Kernel"
+        },
+
+        // ───── Box 2: System ─────
+        {
+            "type": "custom",
+            "format": "\u001b[90m│─────────────────────System─────────────────────│"
+        },
+        {
+            "type": "uptime",
+            "key": "Uptime"
+        },
+        {
+            "type": "processes",
+            "key": "Processes"
+        },
+        {
+            "type": "packages",
+            "key": "Packages"
+        },
+
+        // ───── Box 3: Resources ─────
+        {
+            "type": "custom",
+            "format": "\u001b[90m│───────────────────Resources────────────────────│"
+        },
+        {
+            "type": "memory",
+            "key": "Memory"
+        },
+        {
+            "type": "swap",
+            "key": "Swap"
+        },
+        {
+            "type": "wifi",
+            "key": "WiFi"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────┘"
+        }
+    ]
 }
+

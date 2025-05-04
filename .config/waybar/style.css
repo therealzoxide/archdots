@@ -48,6 +48,7 @@
 #memory,
 #clock,
 #custom-power,
+#custom-dnd,
 #custom-logo,
 #tray
 {
@@ -55,6 +56,8 @@
   padding: 0px 8px 0px 8px;
   margin-top: 7px;
   margin-right: 5px;
+  color: @mauve;
+  border: 1px solid @mauve;
 }
 
 #clock {
@@ -64,34 +67,9 @@
   margin-left: 7px;
 }
 
-#battery {
-  color: @mauve;
-  border: 1px solid @mauve;
-}
-
-#battery.charging {
-  color: @mauve;
-  border: 1px solid @mauve;
-}
-
 #battery.warning:not(.charging) {
   color: @red;
-  border: 1px solid @mauve;
-}
-
-#wireplumber {
-  color: @mauve;
-  border: 1px solid @mauve;
-}
-
-#memory {
-	color: @mauve;
-  border: 1px solid @mauve;
-}
-
-#network {
-	color: @mauve;
-  border: 1px solid @mauve;
+  border: 1px solid @red;
 }
 
 #idle_inhibitor {
@@ -107,12 +85,6 @@
   padding-left: 10px;
 }
 
-#custom-power {
-  border: 1px solid @mauve;
-  color: @mauve;
-  background-color: @base;
-}
-
 #custom-logo {
   border: 1px solid @mauve;
   color: @mauve;
@@ -123,6 +95,10 @@
 }
 
 tooltip {
-  color: @text;
+  color: @mauve;
   background-color: @base;
+  border-radius: 0;
+  border: 1px solid @mauve;
+  padding: 11px;
+  margin-top: 7px;
 }
