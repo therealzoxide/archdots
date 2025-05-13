@@ -38,7 +38,6 @@ grim
 slurp  
 hyprshot   
 vestktop   
-youtube-music-bin (aur)  
 nwg-look  
 
 CONFIGURE THE FOLLOWING:  
