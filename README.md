@@ -39,6 +39,7 @@ slurp
 hyprshot   
 vestktop   
 nwg-look  
+qt6ct  
 
 CONFIGURE THE FOLLOWING:  
 edit computerSpecific.conf to fit the current PCs needs (hypr config folder)  
