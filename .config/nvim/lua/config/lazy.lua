@@ -29,10 +29,7 @@ require("lazy").setup({
     				"rcarriga/nvim-notify",
     			}
 		},
-
   	},
 	install = { colorscheme = { "catppuccin-mocha" } },
   checker = { enabled = true },
 })
-
-

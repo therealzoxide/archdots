@@ -1,14 +1,7 @@
 require("catppuccin").setup({
     integrations = {
 	    noice = true,
-	    require('lualine').setup {
-    options = {
-        theme = "catppuccin-mocha",
-	component_separators = { left = '|', right = '|'},
-    section_separators = { left = '', right = ''},
-    }
-}
-    }
+    },
 })
 
 require("noice").setup({
