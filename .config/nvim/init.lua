@@ -1,2 +1,4 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
+require("config.setup")
+vim.cmd.colorscheme "catppuccin"
+vim.opt.number = true
