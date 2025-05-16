@@ -20,7 +20,9 @@ vim.g.maplocalleader = "\\"
 require("lazy").setup({
   spec = {
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+
 	{ 'nvim-lualine/lualine.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' } },
+
 	{
   		"folke/noice.nvim",
   		event = "VeryLazy",
@@ -29,6 +31,14 @@ require("lazy").setup({
     				"rcarriga/nvim-notify",
     			}
 		},
+
+	{
+		"startup-nvim/startup.nvim",
+  		dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim", "nvim-telescope/telescope-file-browser.nvim" },
+	},
+
+
+
   	},
 	install = { colorscheme = { "catppuccin-mocha" } },
   checker = { enabled = true },
