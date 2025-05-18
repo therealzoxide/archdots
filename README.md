@@ -38,7 +38,7 @@ slurp - selects regions and prints to stdout, allows grim to screenshot
 hyprshot - wrapper script for grim + slurp, makes life easier  
 nwg-look - applies themes, icons, and fonts to GTK programs, default settings will be used without  
 bottom - resource monitor  
-fastfetch - ascii art and system specs/details, looks pretty on terminal startup mainly but comes with a few helpful things to see  
+macchina - ascii art and system specs/details, looks pretty on terminal startup mainly but comes with a few helpful things to see  
   
 FONTS:  
 ttf-iawriter-nerd

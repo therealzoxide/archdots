@@ -1,0 +1,23 @@
+hide_ascii      = false
+spacing         = 1
+padding         = 0
+separator       = ">>"
+key_color       = "#cba6f7"
+separator_color = "#f5c2e7"
+
+[box]
+title           = " Hatsune Migu "
+border          = "plain"
+visible         = true
+
+[box.inner_margin]
+x               = 1
+y               = 1
+
+[custom_ascii]
+color           = "#89b4fa"
+path = "~/.config/macchina/themes/migu.txt"
+
+[keys]
+terminal = "Term"
+packages = "Package"

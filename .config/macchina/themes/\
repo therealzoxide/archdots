@@ -1,0 +1,32 @@
+interface = "wlan0"
+long_uptime = true
+long_shell = false
+long_kernel = false
+current_shell = true
+
+# Toggle between displaying the number of physical or logical cores of your
+# processor.
+physical_cores = true
+ theme = "migu"
+
+#Host
+#Machine
+#Kernel
+#Distribution
+#OperatingSystem
+#DesktopEnvironment
+#WindowManager
+#Resolution
+#Backlight
+#Packages
+#LocalIP
+#Terminal
+#Shell
+#Uptime
+#Processor
+#ProcessorLoad
+#Memory
+#Battery
+#GPU
+#DiskSpace
+   show = ["Host", "Distribution", "Kernel", "WindowManager", "Uptime", "Packages", "Memory"]
