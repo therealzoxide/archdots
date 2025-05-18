@@ -91,18 +91,22 @@ ins_left {
 
 ins_left {
   function()
-    return ''
-  end,
-  color = function()
-    local mode_color = {
-      n = colors.red,
-      i = colors.mauve,
-      v = colors.peach,
-      [''] = colors.peach,
-      V = colors.peach,
+    local mode = vim.fn.mode()
+    local mode_name = {
+      n = 'NORMAL',
+      i = 'INSERT',
+      v = 'VISUAL',
+      [''] = 'VISUAL BLOCK',
+      V = 'VISUAL LINE',
+      c = 'COMMAND',
+      R = 'REPLACE',
+      s = 'SELECT',
+      S = 'SELECT LINE',
+      [''] = 'SELECT BLOCK',
     }
-    return { fg = mode_color[vim.fn.mode()] }
+    return mode_name[mode] or mode:upper()
   end,
+  color = { fg = colors.mauve },
   padding = { right = 1 },
 }
 
@@ -132,12 +136,9 @@ ins_left {
   },
 }
 
-
-
--- Add components to right sections
 ins_right {
-  'o:encoding', -- option component same as &encoding in viml
-  fmt = string.upper, -- I'm not sure why it's upper case either ;)
+  'o:encoding',
+  fmt = string.upper,
   cond = conditions.hide_in_width,
   color = { fg = colors.mauve, gui = 'bold' },
 }
@@ -157,7 +158,6 @@ ins_right {
 
 ins_right {
   'diff',
-  -- Is it me or the symbol for modified us really weird
   symbols = { added = ' ', modified = '󰝤 ', removed = ' ' },
   diff_color = {
     added = { fg = colors.green },
@@ -175,5 +175,4 @@ ins_right {
   padding = { left = 1 },
 }
 
--- Now don't forget to initialize lualine
 lualine.setup(config)

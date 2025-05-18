@@ -41,7 +41,7 @@ bottom - resource monitor
 fastfetch - ascii art and system specs/details, looks pretty on terminal startup mainly but comes with a few helpful things to see  
   
 FONTS:  
-I use the iMWriting/iAWriter Nerd Fonts for most things, its in my .fonts directory, however I use the following for fallback/cjk/emoji because Nerd Fonts don't cover everything:  
+ttf-iawriter-nerd
 noto-fonts  
 noto-fonts-emoji  
 noto-fonts-cjk  
