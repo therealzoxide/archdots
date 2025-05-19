@@ -1,8 +1,7 @@
 font=iMWritingDuo Nerd Font 10
-background-color=#1e1e2e
-text-color=#cba6f7
-border-color=#cba6f7
-progress-color=over #313244
+background-color=#1d2021
+text-color=#ebdbb2
+border-color=#83a598
 
 default-timeout=8000
 ignore-timeout=1
@@ -13,5 +12,8 @@ text-alignment=center
 border-size=1
 
 [urgency=high]
-border-color=#fab387
-text-color=#fab387
+border-color=#fb4934
+text-color=#fb4934
+
+[mode=hide]
+invisible=1

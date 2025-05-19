@@ -2,8 +2,8 @@ hide_ascii      = false
 spacing         = 1
 padding         = 0
 separator       = ">>"
-key_color       = "#cba6f7"
-separator_color = "#f5c2e7"
+key_color       = "#8ec07c"
+separator_color = "#fabd2f"
 
 [box]
 title           = " Hatsune Migu "
@@ -15,7 +15,7 @@ x               = 1
 y               = 1
 
 [custom_ascii]
-color           = "#89b4fa"
+color           = "#83a598"
 path = "~/.config/macchina/themes/migu.txt"
 
 [keys]

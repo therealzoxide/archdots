@@ -1,9 +1,9 @@
-@import "catppuccin-mocha"
+@import "gruvbox-dark"
 
 * {
   font: "iMWriting Nerd Font Mono 13";
-  background-color:            @base;
-  border-color:                @mauve;
+  background-color:            @bg0hard;
+  border-color:                @blue0;
   spacing:                     2;
 
 }
@@ -12,13 +12,13 @@ element {
     children:     [ "textbox-prompt-colon","element-text","textbox-num-sep"];
 }
 element normal.normal {
-    text-color:       @mauve;
+    text-color:       @blue0;
 }
 element selected.normal {
-    text-color:       @pink;
+    text-color:       @yellow0;
 }
 element alternate.normal {
-    text-color:       @mauve;
+    text-color:       @blue0;
 }
 element-text {
     background-color: transparent;
@@ -34,7 +34,7 @@ window {
 listview {
     padding:      5px 9px 5px 9px;
     scrollbar:    false;
-    border-color: @mauve;
+    border-color: @blue0;
     spacing:      0px ;
     fixed-height: 0;
     border:       0px solid 0px 0px ;
@@ -43,13 +43,13 @@ inputbar {
     enabled:    false;
     padding:    5px 10px 5px;
     spacing:    0px ;
-    text-color: @mauve;
+    text-color: @blue0;
     children:   [ "textbox-prompt-colon","entry","textbox-num-sep"];
 }
 entry {
     enabled:           false;
-    text-color:        @mauve;
-    placeholder-color: @mauve;
+    text-color:        @blue0;
+    placeholder-color: @blue0;
     placeholder:       "Search";
     vertical-align:    0.5;
     horizontal-align:  0.5;
@@ -57,12 +57,12 @@ entry {
 textbox-prompt-colon {
     expand:     false;
     str:        "[";
-    text-color: @mauve;
+    text-color: @blue0;
     vertical-align: 0.5;
 }
 textbox-num-sep {
    expand:    false;
    str:       "]";
-   text-color: @mauve;
+   text-color: @blue0;
    vertical-align: 0.5;
 }

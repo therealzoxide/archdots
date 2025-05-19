@@ -38,13 +38,20 @@ require("noice").setup({
   views = {
     cmdline_popup = {
       border = {
-        style = "single", -- square border
+        style = "single",
       },
     },
     popup = {
       border = {
-        style = "single", -- square border
+        style = "single",
       },
     },
   },
 })
+
+vim.api.nvim_set_hl(0, "NoiceCmdlinePopup", { fg = "#83a598" })
+vim.api.nvim_set_hl(0, "NoiceCmdlineIcon", { fg = "#689d6a" })
+vim.api.nvim_set_hl(0, "NoiceCmdline", { fg = "#8ec07c" })
+vim.api.nvim_set_hl(0, "NoicePopup", { fg = "#83a598" })
+vim.api.nvim_set_hl(0, "NoicePopupBorder", { fg = "#83a598" })
+vim.api.nvim_set_hl(0, "NoiceCmdlinePopupBorder", { fg = "#83a598" })

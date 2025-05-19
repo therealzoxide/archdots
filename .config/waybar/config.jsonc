@@ -3,10 +3,10 @@
     "modules-left": [
       "clock",
       "battery",
-      "memory",
+      "memory"
     ],
     "modules-center": [
-      "hyprland/workspaces",
+      "hyprland/workspaces"
     ],
     "modules-right": [
       "network",
@@ -18,7 +18,7 @@
       "orientation": "horizontal",
       "drawer": {
         "transition-duration": 500,
-        "transition-left-to-right": false,
+        "transition-left-to-right": false
       },
       "modules": [
       "custom/logo",
@@ -32,16 +32,16 @@
     "hyprland/workspaces": {
       "format": "{icon}",
       "persistent-workspaces": {
-        "*": [1,2,3,4,5,6,7,8,9,10]
-        //"DP-1": [1, 2, 3, 4, 5],
-        //"DP-2": [6, 7, 8, 9, 10]
-      },
+        //"*": [1,2,3,4,5,6,7,8,9,10]
+        "DP-1": [1, 2, 3, 4, 5],
+        "DP-2": [6, 7, 8, 9, 10]
+      }
     },
 
     "wireplumber": {
       "on-click": "kitty -e fish -c pulsemixer",
       "format": "[ Volume: {volume}% ]",
-      "tooltip": false,
+      "tooltip": false
     },
 
     "idle_inhibitor": {
@@ -65,7 +65,7 @@
       "format": "[ Memory: {used} GiB ]",
       "format-alt": "[ Swap: {swapUsed} GiB ]",
       "on-click-right": "kitty -e fish -c 'btm'",
-      "tooltip": false,
+      "tooltip": false
     },
 
     "battery": {
@@ -77,7 +77,7 @@
       "format-full": "[ Full: {capacity}% ]",
       "format-charging": "[ Charging: {capacity}% ]",
       "format-plugged": "[ Charged: {capacity}% ]",
-      "format-alt": "[ Remaining: {time} ]",
+      "format-alt": "[ Remaining: {time} ]"
     },
   
     "clock": {
@@ -95,7 +95,8 @@
       "exec": "~/.config/waybar/toggle_dnd.sh",
       "interval": 1,
       "format": "{}",
-      "on-click": "~/.config/waybar/toggle_dnd.sh toggle"
+      "on-click": "~/.config/waybar/toggle_dnd.sh toggle",
+      "tooltip": false
     },
 
 
@@ -108,7 +109,7 @@
     "custom/logo": {
       "format": "󰣇",
       "on-click": "rofi -show drun",
-      "tooltip": false,
+      "tooltip": false
     }
 
   }

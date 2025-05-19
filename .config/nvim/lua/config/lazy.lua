@@ -20,6 +20,7 @@ vim.g.maplocalleader = "\\"
 require("lazy").setup({
   spec = {
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+	{ "ellisonleao/gruvbox.nvim", priority = 1000 },
 
 	{ 'nvim-lualine/lualine.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' } },
 

@@ -3,7 +3,7 @@
 #
 echo "You're now in Bash"
 echo " "
-fastfetch
+macchina
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 

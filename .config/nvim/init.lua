@@ -3,7 +3,6 @@ require("config.colorscheme")
 require("config.lualine")
 require("config.noice")
 require("config.startup")
-vim.cmd.colorscheme "catppuccin"
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.o.undofile = true

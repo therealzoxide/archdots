@@ -34,7 +34,7 @@ local settings = {
 	    "⠀⠀⠀⠀⠀⠀⣧⣾⣹⣿⠀⠀⠀⠀⠀⢠⠏⢉⠀⡞⣰⡇⠀⣴⣥⠞⢷⠀⠀⠀⠀⣠⠎⠀⠸⣶⠋⣠⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀",
         },
         highlight = "",
-        default_color = "#89b4fa",
+        default_color = "#83a598",
         oldfiles_amount = 0,
     },
 
@@ -53,7 +53,7 @@ local settings = {
 	    { "Quit", ":q!", "q" },
         },
         highlight = "",
-        default_color = "#f5c2e7",
+        default_color = "#d3869b",
         oldfiles_amount = 0,
     },
     footer = {
@@ -74,7 +74,7 @@ local settings = {
 
 	},
         highlight = "",
-        default_color = "#cba6f7",
+        default_color = "#8ec07c",
         oldfiles_amount = 0,
     },
 
@@ -93,7 +93,7 @@ local settings = {
         open_help = "?",
     },
     colors = {
-        background = "#1e1e2e",
+        background = "#1d2021",
         folded_section = "#b4befe",
     },
     parts = { "header", "body", "footer" },
