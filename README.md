@@ -44,6 +44,7 @@ hypridle - idle daemon, you can use any this is just a part of the hypr ecosyste
 hyprpaper - wallpaper manager, again just a part of hypr ecosystem, can use others just fine  
 greetd - greeter daemon, my personal choice  
 greetd-tuigreet, tui login screen for greetd, minimal setup, I only have just in case as I use autologin , if you wont use autologin but want tui I suggest ly instead of greetd  
+tumbler - thumbnail plugin for thunar  
   
 FONTS:  
 ttf-iawriter-nerd  
