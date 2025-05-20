@@ -39,9 +39,13 @@ hyprshot - wrapper script for grim + slurp, makes life easier
 nwg-look - applies themes, icons, and fonts to GTK programs, default settings will be used without  
 bottom - resource monitor  
 macchina - ascii art and system specs/details, looks pretty on terminal startup mainly but comes with a few helpful things to see  
+hyprlock - lockscreen, looks nice  
+hypridle - idle daemon, you can use any this is just a part of the hypr ecosystem  
+greetd - greeter daemon, my personal choice  
+greetd-tuigreet, tui login screen for greetd, minimal setup, I only have just in case as I use autologin , if you wont use autologin but want tui I suggest ly instead of greetd  
   
 FONTS:  
-ttf-iawriter-nerd
+ttf-iawriter-nerd  
 noto-fonts  
 noto-fonts-emoji  
 noto-fonts-cjk  
