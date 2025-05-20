@@ -13,7 +13,7 @@ I listed the programs I use below both for my own sake and for anyone who may fi
   
 CORE (needed for desktop function, no particular order, DO NOT SKIP ANY OF THESE UNLESS YOU HAVE AN ALTERNATIVE, YOUR SYSTEM WILL NOT WORK):   
 hyprland  - hyprland  
-kitty  - terminal  
+foot - terminal (used to use kitty but got tired of all text being italic and couldn't figure out why it was like that)   
 waybar - status bar, not absolutely mandatory  
 rofi - app launcher and power menu  
 thunar - file manager  
