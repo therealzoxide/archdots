@@ -13,7 +13,7 @@ I listed the programs I use below both for my own sake and for anyone who may fi
   
 CORE (needed for desktop function, no particular order, DO NOT SKIP ANY OF THESE UNLESS YOU HAVE AN ALTERNATIVE, YOUR SYSTEM WILL NOT WORK):   
 hyprland  - hyprland  
-kitty  - terminal
+kitty  - terminal  
 waybar - status bar, not absolutely mandatory  
 rofi - app launcher and power menu  
 thunar - file manager  
@@ -41,6 +41,7 @@ bottom - resource monitor
 macchina - ascii art and system specs/details, looks pretty on terminal startup mainly but comes with a few helpful things to see  
 hyprlock - lockscreen, looks nice  
 hypridle - idle daemon, you can use any this is just a part of the hypr ecosystem  
+hyprpaper - wallpaper manager, again just a part of hypr ecosystem, can use others just fine  
 greetd - greeter daemon, my personal choice  
 greetd-tuigreet, tui login screen for greetd, minimal setup, I only have just in case as I use autologin , if you wont use autologin but want tui I suggest ly instead of greetd  
   
