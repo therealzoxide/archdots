@@ -16,7 +16,7 @@ require("gruvbox").setup({
   invert_signs = false,
   invert_tabline = false,
   inverse = true,
-  contrast = "hard",
+  contrast = "",
   palette_overrides = {},
   overrides = {},
   dim_inactive = false,
