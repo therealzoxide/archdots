@@ -45,6 +45,7 @@ hyprpaper - wallpaper manager, again just a part of hypr ecosystem, can use othe
 greetd - greeter daemon, my personal choice  
 greetd-tuigreet, tui login screen for greetd, minimal setup, I only have just in case as I use autologin , if you wont use autologin but want tui I suggest ly instead of greetd  
 tumbler - thumbnail plugin for thunar  
+mako - notification daemon for Wayland, dunst and swaync can also work if mako isnt preferred  
   
 FONTS:  
 ttf-iawriter-nerd  
