@@ -71,7 +71,7 @@ case_sensitive = false
 whole_word = false
 
 [styles]
-theme = "default"
+theme = "gruvbox"
 
 [styles.cpu]
 all_entry_color = "green"
