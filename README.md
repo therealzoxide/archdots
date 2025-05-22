@@ -24,6 +24,7 @@ wl-clipboard - its your clipboard
 UTILITY (recommended to have but will function without, these are my personal choices):  
 udiskie - external disk auto mount  
 gvfs - adds trash support  
+gvfs-mtp - compatibility with android file system  
 clipse (aur) - adds clipboard history and management, runs in Kitty  
 paru - AUR helper, aliased to "yay" in my fish config  
 fish - best shell, works better than zsh  
