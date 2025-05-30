@@ -1,0 +1,156 @@
+[
+    {
+        "type" : "Information",
+        "description" : "Map Overlay",
+        "movable" : false,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Information",
+        "description" : "Color Table",
+        "movable" : false,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Information",
+        "description" : "Radar Sites",
+        "movable" : false,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Information",
+        "description" : "Location Markers",
+        "movable" : false,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Data",
+        "description" : "Radar Range",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Alert",
+        "description" : "TO",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Alert",
+        "description" : "SQ",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Alert",
+        "description" : "SV",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Alert",
+        "description" : "FF",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Alert",
+        "description" : "MA",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Map",
+        "description" : "Map Symbology",
+        "movable" : false,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Data",
+        "description" : "Overlay Product",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Radar",
+        "description" : "",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Map",
+        "description" : "Map Underlay",
+        "movable" : false,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    }
+]

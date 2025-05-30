@@ -1,0 +1,362 @@
+{
+    "general" : {
+        "anti_aliasing_enabled" : true,
+        "center_on_radar_selection" : false,
+        "clock_format" : "24-hour",
+        "custom_style_draw_layer" : ".*\\.annotations\\.points",
+        "custom_style_url" : "",
+        "debug_enabled" : false,
+        "default_alert_action" : "go",
+        "default_radar_site" : "KINX",
+        "default_time_zone" : "radar",
+        "font_sizes" : [
+            16
+        ],
+        "grid_width" : 2,
+        "grid_height" : 1,
+        "loop_delay" : 2500,
+        "loop_speed" : 5,
+        "loop_time" : 30,
+        "map_provider" : "maptiler",
+        "mapbox_api_key" : "?",
+        "maptiler_api_key" : "Scd8Ulee3TH0WdTklMId",
+        "nmea_baud_rate" : 9600,
+        "nmea_source" : "",
+        "positioning_plugin" : "default",
+        "process_module_warnings_enabled" : true,
+        "show_map_attribution" : true,
+        "show_map_center" : false,
+        "show_map_logo" : false,
+        "theme" : "fusion dark",
+        "theme_file" : "",
+        "track_location" : false,
+        "update_notifications" : true,
+        "warnings_provider" : "https://warnings.cod.edu",
+        "cursor_icon_always_on" : true,
+        "radar_site_threshold" : 0,
+        "high_privilege_warning_enabled" : true,
+        "cursor_icon_scale" : 1
+    },
+    "audio" : {
+        "alert_sound_file" : ":/res/audio/wikimedia/Emergency_Alert_System_Attention_Signal_20s.ogg",
+        "alert_location_method" : "fixed",
+        "alert_latitude" : 0,
+        "alert_longitude" : 0,
+        "alert_radar_site" : "default",
+        "alert_radius" : 0,
+        "alert_county" : "",
+        "alert_wfo" : "",
+        "ignore_missing_codecs" : false,
+        "FF_enabled" : true,
+        "SV_enabled" : true,
+        "SQ_enabled" : false,
+        "TO_enabled" : true
+    },
+    "hotkeys" : {
+        "add_location_marker" : "M",
+        "change_map_style" : "Z",
+        "copy_cursor_coordinates" : "Ctrl+C",
+        "copy_map_coordinates" : "Ctrl+Shift+C",
+        "map_pan_up" : "W",
+        "map_pan_down" : "S",
+        "map_pan_left" : "A",
+        "map_pan_right" : "D",
+        "map_rotate_clockwise" : "E",
+        "map_rotate_counterclockwise" : "Q",
+        "map_zoom_in" : "=",
+        "map_zoom_out" : "-",
+        "product_tilt_decrease" : "[",
+        "product_tilt_increase" : "]",
+        "select_l2_ref" : "F1",
+        "select_l2_vel" : "F2",
+        "select_l2_sw" : "F3",
+        "select_l2_zdr" : "F4",
+        "select_l2_phi" : "F5",
+        "select_l2_rho" : "F6",
+        "select_l2_cfp" : "F7",
+        "select_l3_ref" : "`",
+        "select_l3_vel" : "1",
+        "select_l3_srm" : "2",
+        "select_l3_sw" : "3",
+        "select_l3_zdr" : "4",
+        "select_l3_kdp" : "5",
+        "select_l3_cc" : "6",
+        "select_l3_vil" : "7",
+        "select_l3_et" : "8",
+        "select_l3_hc" : "9",
+        "select_l3_acc" : "0",
+        "timeline_step_begin" : "Ctrl+Left",
+        "timeline_step_back" : "Left",
+        "timeline_play" : "Space",
+        "timeline_step_next" : "Right",
+        "timeline_step_end" : "Ctrl+Right"
+    },
+    "maps" : [
+        {
+            "map_style" : "Streets Dark",
+            "radar_site" : "KLSX",
+            "radar_product_group" : "L3",
+            "radar_product" : "N0B",
+            "smoothing_enabled" : false
+        },
+        {
+            "map_style" : "Streets Dark",
+            "radar_site" : "KLSX",
+            "radar_product_group" : "L3",
+            "radar_product" : "N0G",
+            "smoothing_enabled" : false
+        },
+        {
+            "map_style" : "Satellite",
+            "radar_site" : "KLSX",
+            "radar_product_group" : "L3",
+            "radar_product" : "N0C",
+            "smoothing_enabled" : false
+        },
+        {
+            "map_style" : "Satellite",
+            "radar_site" : "KLSX",
+            "radar_product_group" : "L3",
+            "radar_product" : "N0X",
+            "smoothing_enabled" : false
+        }
+    ],
+    "palette" : {
+        "alerts" : {
+            "MA" : {
+                "base" : {
+                    "line_color" : "#ffff7f00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 3,
+                    "highlight_width" : 0,
+                    "border_width" : 1
+                },
+                "tornado_possible" : {
+                    "line_color" : "#ff000000",
+                    "highlight_color" : "#ffff7f00",
+                    "border_color" : "#ff000000",
+                    "line_width" : 1,
+                    "highlight_width" : 1,
+                    "border_width" : 1
+                },
+                "inactive" : {
+                    "line_color" : "#ff7f3f00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 3,
+                    "highlight_width" : 0,
+                    "border_width" : 1
+                }
+            },
+            "FF" : {
+                "base" : {
+                    "line_color" : "#ff00ff00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 3,
+                    "highlight_width" : 0,
+                    "border_width" : 1
+                },
+                "considerable" : {
+                    "line_color" : "#ff000000",
+                    "highlight_color" : "#ff00ff00",
+                    "border_color" : "#ff000000",
+                    "line_width" : 1,
+                    "highlight_width" : 1,
+                    "border_width" : 1
+                },
+                "catastrophic" : {
+                    "line_color" : "#ffff0000",
+                    "highlight_color" : "#ff00ff00",
+                    "border_color" : "#ff000000",
+                    "line_width" : 1,
+                    "highlight_width" : 1,
+                    "border_width" : 1
+                },
+                "inactive" : {
+                    "line_color" : "#ff007f00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 3,
+                    "highlight_width" : 0,
+                    "border_width" : 1
+                }
+            },
+            "SV" : {
+                "base" : {
+                    "line_color" : "#ffffff00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 3,
+                    "highlight_width" : 0,
+                    "border_width" : 1
+                },
+                "considerable" : {
+                    "line_color" : "#ffff0000",
+                    "highlight_color" : "#ffffff00",
+                    "border_color" : "#ff000000",
+                    "line_width" : 1,
+                    "highlight_width" : 1,
+                    "border_width" : 1
+                },
+                "destructive" : {
+                    "line_color" : "#ffff0000",
+                    "highlight_color" : "#ffffff00",
+                    "border_color" : "#ff000000",
+                    "line_width" : 2,
+                    "highlight_width" : 1,
+                    "border_width" : 1
+                },
+                "tornado_possible" : {
+                    "line_color" : "#ff000000",
+                    "highlight_color" : "#ffffff00",
+                    "border_color" : "#ff000000",
+                    "line_width" : 1,
+                    "highlight_width" : 1,
+                    "border_width" : 1
+                },
+                "inactive" : {
+                    "line_color" : "#ff7f7f00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 3,
+                    "highlight_width" : 0,
+                    "border_width" : 1
+                }
+            },
+            "SQ" : {
+                "base" : {
+                    "line_color" : "#ff00ffff",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 3,
+                    "highlight_width" : 0,
+                    "border_width" : 1
+                },
+                "inactive" : {
+                    "line_color" : "#ff007f7f",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 3,
+                    "highlight_width" : 0,
+                    "border_width" : 1
+                }
+            },
+            "TO" : {
+                "base" : {
+                    "line_color" : "#ffff0000",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 3,
+                    "highlight_width" : 0,
+                    "border_width" : 1
+                },
+                "considerable" : {
+                    "line_color" : "#ffff00ff",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 3,
+                    "highlight_width" : 0,
+                    "border_width" : 1
+                },
+                "catastrophic" : {
+                    "line_color" : "#ff000000",
+                    "highlight_color" : "#ffff00ff",
+                    "border_color" : "#ff000000",
+                    "line_width" : 1,
+                    "highlight_width" : 1,
+                    "border_width" : 1
+                },
+                "observed" : {
+                    "line_color" : "#ff000000",
+                    "highlight_color" : "#ffff0000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 1,
+                    "highlight_width" : 1,
+                    "border_width" : 1
+                },
+                "inactive" : {
+                    "line_color" : "#ff7f0000",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
+                    "line_width" : 3,
+                    "highlight_width" : 0,
+                    "border_width" : 1
+                }
+            }
+        },
+        "BR" : ":/res/palettes/wct/DR.pal",
+        "BV" : ":/res/palettes/wct/DV.pal",
+        "SW" : ":/res/palettes/wct/SW.pal",
+        "CC" : ":/res/palettes/wct/CC.pal",
+        "ZDR" : ":/res/palettes/wct/ZDR.pal",
+        "PHI2" : ":/res/palettes/wct/KDP2.pal",
+        "DOD" : ":/res/palettes/wct/DOD_DSD.pal",
+        "DSD" : ":/res/palettes/wct/DOD_DSD.pal",
+        "ET" : ":/res/palettes/wct/ET.pal",
+        "HC" : ":/res/palettes/wct/HC.pal",
+        "STP" : ":/res/palettes/wct/STP.pal",
+        "OHP" : ":/res/palettes/wct/OHP.pal",
+        "STPIN" : "",
+        "OHPIN" : "",
+        "PHI3" : ":/res/palettes/wct/KDP.pal",
+        "SRV" : ":/res/palettes/wct/SRV.pal",
+        "VIL" : ":/res/palettes/wct/VIL.pal",
+        "???" : ":/res/palettes/wct/Default16.pal",
+        "FF-active" : "#ff00ff00",
+        "FF-inactive" : "#ff007f00",
+        "MA-active" : "#ffff7f00",
+        "MA-inactive" : "#ff7f3f00",
+        "SQ-active" : "#ff00ffff",
+        "SQ-inactive" : "#ff007f7f",
+        "SV-active" : "#ffffff00",
+        "SV-inactive" : "#ff7f7f00",
+        "TO-active" : "#ffff0000",
+        "TO-inactive" : "#ff7f0000"
+    },
+    "product" : {
+        "show_smoothed_range_folding" : false,
+        "sti_forecast_enabled" : true,
+        "sti_past_enabled" : true
+    },
+    "text" : {
+        "fonts" : {
+            "Default" : {
+                "font_family" : "Alte DIN 1451 Mittelschrift",
+                "font_style" : "Regular",
+                "font_point_size" : 12
+            },
+            "Tooltip" : {
+                "font_family" : "Inconsolata",
+                "font_style" : "Regular",
+                "font_point_size" : 10.5
+            },
+            "Attribution" : {
+                "font_family" : "Roboto Flex",
+                "font_style" : "Regular",
+                "font_point_size" : 9
+            }
+        },
+        "hover_text_wrap" : 80,
+        "placefile_text_drop_shadow_enabled" : true,
+        "radar_site_hover_text_enabled" : true,
+        "tooltip_method" : "imgui"
+    },
+    "ui" : {
+        "level2_products_expanded" : false,
+        "level2_settings_expanded" : true,
+        "level3_products_expanded" : true,
+        "map_settings_expanded" : false,
+        "timeline_expanded" : true,
+        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADCAAADzfwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsBAAAAFgAAA80AAABbAP///wAAAAMAAANMAAABBvwBAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AQAAAMgAAANMAAABBgD///8AAANMAAACwQAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
+        "main_ui_geometry" : "AdnQywADAAAAAAeIAAAAMwAAC5sAAAQvAAAHiAAAADMAAAubAAAELwAAAAEAAAAAB4AAAAeIAAAAMwAAC5sAAAQv"
+    },
+    "unit" : {
+        "accumulation_units" : "inches",
+        "echo_tops_units" : "kilofeet",
+        "other_units" : "default",
+        "speed_units" : "miles per hour",
+        "distance_units" : "miles"
+    }
+}

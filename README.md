@@ -59,6 +59,8 @@ Use Vesktop or Webcord instead of the official discord app unless you need the k
 They are both wrappers for the website and work much better on Wayland, Vesktop comes with Vencord built in so it will be slightly less stable.  
 If you use a chromium browser remember to go to chrome://flags in the url bar, search "ozone", and set the option in the result to "Wayland", otherwise it may default to using Xorg and cause issues.  
   
+Reminder to myself that I use supercell-wx for weather, hopefully wont be abandoned  
+  
 CONFIGURE THE FOLLOWING:  
 edit computerSpecific.conf to fit the current PCs needs (hypr config folder)  
 there are scripts in the ~/.config/hypr and ~/.config/waybar directories, make them executable.  
