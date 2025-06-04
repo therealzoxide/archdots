@@ -2,8 +2,6 @@
 
 First and foremost these are written for me and the repo is only public because it is easier.  
 If you stumble onto this somehow either I shared it with you or I don't know what you're doing here.  
-Some config files use absolute paths and as such use my username (ayaya) instead of relative paths, I tried to use those anywhere possible.    
-If something is broken, check the config file and make sure it is not using my username.  
 If it isn't you're on your own, everything in here works on all of my computers.    
 Some of these config files are just edits of defaults, if credit is not listed then credit goes to the author of the program.  
 Commenting is inconsistent, it was either left by other people or likely does not exist.  
