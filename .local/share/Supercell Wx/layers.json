@@ -15,6 +15,17 @@
         "description" : "Color Table",
         "movable" : false,
         "displayed" : [
+            false,
+            false,
+            false,
+            false
+        ]
+    },
+    {
+        "type" : "Information",
+        "description" : "Radar Sites",
+        "movable" : false,
+        "displayed" : [
             true,
             true,
             true,
@@ -22,9 +33,86 @@
         ]
     },
     {
-        "type" : "Information",
-        "description" : "Radar Sites",
-        "movable" : false,
+        "type" : "Placefile",
+        "description" : "http://placefiles.redteamwx.com/fwo2.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "http://placefiles.redteamwx.com/fwo1.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "http://placefilenation.com/Placefiles/hail.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "http://placefilenation.com/Placefiles/wind.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "http://placefilenation.com/Placefiles/tornado.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "http://placefilenation.com/Placefiles/spcday3.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "http://placefilenation.com/Placefiles/spcday2.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "http://placefilenation.com/Placefiles/spcday1.php",
+        "movable" : true,
         "displayed" : [
             true,
             true,

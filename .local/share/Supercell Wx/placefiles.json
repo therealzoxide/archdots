@@ -1,3 +1,50 @@
 [
-
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "SPC Day 1 Outlook - Sat Jun 7 13:37:10 CDT 2025 - PlacefileNation",
+        "name" : "http://placefilenation.com/Placefiles/spcday1.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "SPC Day 2 Outlook - Sat Jun 7 13:37:34 CDT 2025 - PlacefileNation",
+        "name" : "http://placefilenation.com/Placefiles/spcday2.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "SPC Day 3 Outlook - Sat Jun 7 13:37:32 CDT 2025 - PlacefileNation",
+        "name" : "http://placefilenation.com/Placefiles/spcday3.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "",
+        "name" : "http://placefilenation.com/Placefiles/tornado.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "",
+        "name" : "http://placefilenation.com/Placefiles/wind.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "",
+        "name" : "http://placefilenation.com/Placefiles/hail.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "",
+        "name" : "http://placefiles.redteamwx.com/fwo1.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "",
+        "name" : "http://placefiles.redteamwx.com/fwo2.php"
+    }
 ]

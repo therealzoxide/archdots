@@ -2,7 +2,7 @@
     "general" : {
         "anti_aliasing_enabled" : true,
         "center_on_radar_selection" : false,
-        "clock_format" : "24-hour",
+        "clock_format" : "12-hour",
         "custom_style_draw_layer" : ".*\\.annotations\\.points",
         "custom_style_url" : "",
         "debug_enabled" : false,
@@ -15,7 +15,7 @@
         "grid_width" : 2,
         "grid_height" : 1,
         "loop_delay" : 2500,
-        "loop_speed" : 5,
+        "loop_speed" : 10,
         "loop_time" : 30,
         "map_provider" : "maptiler",
         "mapbox_api_key" : "?",
@@ -30,24 +30,24 @@
         "theme" : "fusion dark",
         "theme_file" : "",
         "track_location" : false,
-        "update_notifications" : true,
+        "update_notifications" : false,
         "warnings_provider" : "https://warnings.cod.edu",
-        "cursor_icon_always_on" : true,
-        "radar_site_threshold" : 0,
+        "cursor_icon_always_on" : false,
+        "radar_site_threshold" : 804.672,
         "high_privilege_warning_enabled" : true,
-        "cursor_icon_scale" : 1
+        "cursor_icon_scale" : 2
     },
     "audio" : {
         "alert_sound_file" : ":/res/audio/wikimedia/Emergency_Alert_System_Attention_Signal_20s.ogg",
-        "alert_location_method" : "fixed",
+        "alert_location_method" : "wfo",
         "alert_latitude" : 0,
         "alert_longitude" : 0,
-        "alert_radar_site" : "default",
-        "alert_radius" : 0,
+        "alert_radar_site" : "follow",
+        "alert_radius" : 1609.34,
         "alert_county" : "",
         "alert_wfo" : "",
         "ignore_missing_codecs" : false,
-        "FF_enabled" : true,
+        "FF_enabled" : false,
         "SV_enabled" : true,
         "SQ_enabled" : false,
         "TO_enabled" : true
@@ -93,17 +93,17 @@
     },
     "maps" : [
         {
-            "map_style" : "Streets Dark",
+            "map_style" : "Dataviz Dark",
             "radar_site" : "KLSX",
-            "radar_product_group" : "L3",
-            "radar_product" : "N0B",
+            "radar_product_group" : "L2",
+            "radar_product" : "REF",
             "smoothing_enabled" : false
         },
         {
-            "map_style" : "Streets Dark",
+            "map_style" : "Dataviz Dark",
             "radar_site" : "KLSX",
-            "radar_product_group" : "L3",
-            "radar_product" : "N0G",
+            "radar_product_group" : "L2",
+            "radar_product" : "VEL",
             "smoothing_enabled" : false
         },
         {
@@ -286,8 +286,8 @@
                 }
             }
         },
-        "BR" : ":/res/palettes/wct/DR.pal",
-        "BV" : ":/res/palettes/wct/DV.pal",
+        "BR" : "/home/ayaya/.local/share/Supercell Wx/Max_Velocity.pal",
+        "BV" : "/home/ayaya/.local/share/Supercell Wx/Force Velo.pal",
         "SW" : ":/res/palettes/wct/SW.pal",
         "CC" : ":/res/palettes/wct/CC.pal",
         "ZDR" : ":/res/palettes/wct/ZDR.pal",
@@ -323,7 +323,7 @@
     "text" : {
         "fonts" : {
             "Default" : {
-                "font_family" : "Alte DIN 1451 Mittelschrift",
+                "font_family" : "iMWritingMono Nerd Font",
                 "font_style" : "Regular",
                 "font_point_size" : 12
             },
@@ -341,16 +341,16 @@
         "hover_text_wrap" : 80,
         "placefile_text_drop_shadow_enabled" : true,
         "radar_site_hover_text_enabled" : true,
-        "tooltip_method" : "imgui"
+        "tooltip_method" : "native tooltip"
     },
     "ui" : {
-        "level2_products_expanded" : false,
+        "level2_products_expanded" : true,
         "level2_settings_expanded" : true,
         "level3_products_expanded" : true,
-        "map_settings_expanded" : false,
-        "timeline_expanded" : true,
-        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADCAAADzfwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsBAAAAFgAAA80AAABbAP///wAAAAMAAANMAAABBvwBAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AQAAAMgAAANMAAABBgD///8AAANMAAACwQAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
-        "main_ui_geometry" : "AdnQywADAAAAAAeIAAAAMwAAC5sAAAQvAAAHiAAAADMAAAubAAAELwAAAAEAAAAAB4AAAAeIAAAAMwAAC5sAAAQv"
+        "map_settings_expanded" : true,
+        "timeline_expanded" : false,
+        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAADzfwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsBAAAAFgAAA80AAABbAP///wAAAAMAAAatAAAAjPwBAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AAAAAMMAAAatAAABBgD///8AAAatAAADzQAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
+        "main_ui_geometry" : "AdnQywADAAAAAAeIAAAAMwAADvcAAAQvAAAHiAAAADMAAA73AAAELwAAAAEAAAAAB4AAAAeIAAAAMwAADvcAAAQv"
     },
     "unit" : {
         "accumulation_units" : "inches",
