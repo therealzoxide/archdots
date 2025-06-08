@@ -15,10 +15,10 @@
         "description" : "Color Table",
         "movable" : false,
         "displayed" : [
-            false,
-            false,
-            false,
-            false
+            true,
+            true,
+            true,
+            true
         ]
     },
     {

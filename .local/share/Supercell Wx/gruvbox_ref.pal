@@ -1,0 +1,23 @@
+Product: BR
+Units: dBZ
+Step: 5
+Scale: 1
+Offset: 0
+
+Color:  5	131 165 152 ;blue start
+Color:  10	69  133 136
+Color:  15	142 192 124 ; aqua start
+Color:  19	104 157 106
+Color:  22	184 187 38 ;green start
+Color:  25	152 151 26
+Color:  30	250 189 47 ;yellow start
+Color:  33	215 153 33
+Color:  35	181 118 20
+Color:  40	251 73  52 ;red start
+Color:  45	204 36  29
+Color:  50  	157 0   6
+Color:  55  	211 134 155 ; purple start
+Color:  57  	177 98  134
+Color:  60  	143 63  113
+Color:  65  	40  40  40
+Color:  70   	29  32  33
