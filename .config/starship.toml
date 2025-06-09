@@ -13,7 +13,7 @@ vimcmd_visual_symbol = '[Vis>>](bold green0)'
 
 [directory]
 style = 'bold yellow0'
-read_only = 'Read Only'
+read_only = ' Read Only'
 read_only_style = 'red0'
 
 [sudo]
