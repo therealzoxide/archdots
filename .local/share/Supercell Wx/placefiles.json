@@ -2,49 +2,73 @@
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "SPC Day 1 Outlook - Sat Jun 7 13:37:10 CDT 2025 - PlacefileNation",
+        "title" : "SPC Day 1 Outlook - Sun Jun 8 23:28:51 CDT 2025 - PlacefileNation",
         "name" : "http://placefilenation.com/Placefiles/spcday1.php"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "SPC Day 2 Outlook - Sat Jun 7 13:37:34 CDT 2025 - PlacefileNation",
+        "title" : "SPC Day 2 Outlook - Sun Jun 8 23:29:46 CDT 2025 - PlacefileNation",
         "name" : "http://placefilenation.com/Placefiles/spcday2.php"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "SPC Day 3 Outlook - Sat Jun 7 13:37:32 CDT 2025 - PlacefileNation",
+        "title" : "SPC Day 3 Outlook - Sun Jun 8 10:51:28 CDT 2025 - PlacefileNation",
         "name" : "http://placefilenation.com/Placefiles/spcday3.php"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "",
-        "name" : "http://placefilenation.com/Placefiles/tornado.php"
+        "title" : "Day 1 Tornado Probability - VALID TIME 090100Z - 091200Z",
+        "name" : "https://placefiles.supercellwx.net/wxfanatic/day1tornadoprob.php"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "",
-        "name" : "http://placefilenation.com/Placefiles/wind.php"
+        "title" : "Day 1 Wind Probabilities - VALID TIME 090100Z - 091200Z",
+        "name" : "https://placefiles.supercellwx.net/wxfanatic/day1windprob.php"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "",
-        "name" : "http://placefilenation.com/Placefiles/hail.php"
+        "title" : "Day 1 Hail Probability - VALID TIME 090100Z - 091200Z",
+        "name" : "https://placefiles.supercellwx.net/wxfanatic/day1hailprob.php"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "",
-        "name" : "http://placefiles.redteamwx.com/fwo1.php"
+        "title" : "Down Radar Site Status",
+        "name" : "https://placefiles.supercellwx.net/wxfanatic/downRadarStatus.txt"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "",
-        "name" : "http://placefiles.redteamwx.com/fwo2.php"
+        "title" : "SPC Mesoscale Convective Discussions - Mon Jun 9 4:55:01 UTC 2025 - PlacefileNation",
+        "name" : "http://placefilenation.com/Placefiles/mcd.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "mPING Reports (5 Hour) - Mon Jun 9 5:05:06 UTC 2025 - PlacefileNation",
+        "name" : "http://placefilenation.com/Placefiles/mping_300min.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "mPING Reports (30 Minute) - Mon Jun 9 5:05:06 UTC 2025 - PlacefileNation",
+        "name" : "http://placefilenation.com/Placefiles/mping_30min.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "Gusts - Mon Jun 9 5:13:22 UTC 2025 - PlacefileNation",
+        "name" : "https://placefilenation.com/Placefiles/gusts.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "Full National Spotter Network",
+        "name" : "https://www.spotternetwork.org/feeds/gr-all-no.txt"
     }
 ]

@@ -1,14 +1,14 @@
 Product: BV
 Unit: MPH
 Scale: 2.237
-Step: 20
+Step: 10
 
 RF: 		40  40  40
 
 color: 0   	168 153 132
-color: -10 	150 151 26
-color: -30 	184 187 38
-color: -50	104 157 106
+color: -10 	121 116 14
+color: -30 	152 151 26
+color: -50	184 187 38
 color: -60	142 192 124
 color: -120 	131 165 152
 color: 10 	157 0 6

@@ -13,10 +13,10 @@
             16
         ],
         "grid_width" : 2,
-        "grid_height" : 1,
+        "grid_height" : 2,
         "loop_delay" : 2500,
         "loop_speed" : 10,
-        "loop_time" : 30,
+        "loop_time" : 10,
         "map_provider" : "maptiler",
         "mapbox_api_key" : "?",
         "maptiler_api_key" : "Scd8Ulee3TH0WdTklMId",
@@ -32,7 +32,7 @@
         "track_location" : false,
         "update_notifications" : false,
         "warnings_provider" : "https://warnings.cod.edu",
-        "cursor_icon_always_on" : false,
+        "cursor_icon_always_on" : true,
         "radar_site_threshold" : 804.672,
         "high_privilege_warning_enabled" : true,
         "cursor_icon_scale" : 2
@@ -95,29 +95,29 @@
         {
             "map_style" : "Dataviz Dark",
             "radar_site" : "KLSX",
-            "radar_product_group" : "L2",
-            "radar_product" : "REF",
+            "radar_product_group" : "L3",
+            "radar_product" : "N0B",
             "smoothing_enabled" : false
         },
         {
             "map_style" : "Dataviz Dark",
             "radar_site" : "KLSX",
-            "radar_product_group" : "L2",
-            "radar_product" : "VEL",
+            "radar_product_group" : "L3",
+            "radar_product" : "N0G",
             "smoothing_enabled" : false
         },
         {
-            "map_style" : "Satellite",
+            "map_style" : "Dataviz Dark",
             "radar_site" : "KLSX",
             "radar_product_group" : "L3",
             "radar_product" : "N0C",
             "smoothing_enabled" : false
         },
         {
-            "map_style" : "Satellite",
+            "map_style" : "Streets Dark",
             "radar_site" : "KLSX",
             "radar_product_group" : "L3",
-            "radar_product" : "N0X",
+            "radar_product" : "N0B",
             "smoothing_enabled" : false
         }
     ],
@@ -289,7 +289,7 @@
         "BR" : "/home/ayaya/.local/share/Supercell Wx/gruvbox_ref.pal",
         "BV" : "/home/ayaya/.local/share/Supercell Wx/gruvbox_vel.pal",
         "SW" : ":/res/palettes/wct/SW.pal",
-        "CC" : ":/res/palettes/wct/CC.pal",
+        "CC" : "/home/ayaya/.local/share/Supercell Wx/gruvbox_cc.pal",
         "ZDR" : ":/res/palettes/wct/ZDR.pal",
         "PHI2" : ":/res/palettes/wct/KDP2.pal",
         "DOD" : ":/res/palettes/wct/DOD_DSD.pal",
@@ -341,16 +341,16 @@
         "hover_text_wrap" : 80,
         "placefile_text_drop_shadow_enabled" : true,
         "radar_site_hover_text_enabled" : true,
-        "tooltip_method" : "native tooltip"
+        "tooltip_method" : "imgui"
     },
     "ui" : {
-        "level2_products_expanded" : true,
+        "level2_products_expanded" : false,
         "level2_settings_expanded" : true,
-        "level3_products_expanded" : true,
+        "level3_products_expanded" : false,
         "map_settings_expanded" : true,
-        "timeline_expanded" : false,
-        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADEAAADzfwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsBAAAAFgAAA80AAABbAP///wAAAAMAAAatAAAAjPwBAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AAAAAMMAAAatAAABBgD///8AAAamAAADzQAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
-        "main_ui_geometry" : "AdnQywADAAAAAAeIAAAAMwAADvcAAAQvAAAHiAAAADMAAA73AAAELwAAAAEAAAAAB4AAAAeIAAAAMwAADvcAAAQv"
+        "timeline_expanded" : true,
+        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADaAAADzfwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsBAAAAFgAAA80AAABbAP///wAAAAMAAAdwAAAAjPwBAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AAAAAMMAAAatAAABBgD///8AAAaQAAADzQAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
+        "main_ui_geometry" : "AdnQywADAAAAAAAIAAAAMwAAB3cAAAQvAAAACAAAADMAAAd3AAAELwAAAAAAAAAAB4AAAAAIAAAAMwAAB3cAAAQv"
     },
     "unit" : {
         "accumulation_units" : "inches",

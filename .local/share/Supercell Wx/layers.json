@@ -34,7 +34,7 @@
     },
     {
         "type" : "Placefile",
-        "description" : "http://placefiles.redteamwx.com/fwo2.php",
+        "description" : "https://www.spotternetwork.org/feeds/gr-all-no.txt",
         "movable" : true,
         "displayed" : [
             true,
@@ -45,7 +45,7 @@
     },
     {
         "type" : "Placefile",
-        "description" : "http://placefiles.redteamwx.com/fwo1.php",
+        "description" : "https://placefilenation.com/Placefiles/gusts.php",
         "movable" : true,
         "displayed" : [
             true,
@@ -56,7 +56,7 @@
     },
     {
         "type" : "Placefile",
-        "description" : "http://placefilenation.com/Placefiles/hail.php",
+        "description" : "http://placefilenation.com/Placefiles/mping_30min.php",
         "movable" : true,
         "displayed" : [
             true,
@@ -67,7 +67,7 @@
     },
     {
         "type" : "Placefile",
-        "description" : "http://placefilenation.com/Placefiles/wind.php",
+        "description" : "http://placefilenation.com/Placefiles/mping_300min.php",
         "movable" : true,
         "displayed" : [
             true,
@@ -78,7 +78,51 @@
     },
     {
         "type" : "Placefile",
-        "description" : "http://placefilenation.com/Placefiles/tornado.php",
+        "description" : "http://placefilenation.com/Placefiles/mcd.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "https://placefiles.supercellwx.net/wxfanatic/downRadarStatus.txt",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "https://placefiles.supercellwx.net/wxfanatic/day1hailprob.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "https://placefiles.supercellwx.net/wxfanatic/day1windprob.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "https://placefiles.supercellwx.net/wxfanatic/day1tornadoprob.php",
         "movable" : true,
         "displayed" : [
             true,
@@ -139,7 +183,7 @@
             true,
             true,
             true,
-            true
+            false
         ]
     },
     {
@@ -150,7 +194,7 @@
             true,
             true,
             true,
-            true
+            false
         ]
     },
     {
@@ -161,7 +205,7 @@
             true,
             true,
             true,
-            true
+            false
         ]
     },
     {
@@ -172,7 +216,7 @@
             true,
             true,
             true,
-            true
+            false
         ]
     },
     {
@@ -183,7 +227,7 @@
             true,
             true,
             true,
-            true
+            false
         ]
     },
     {
@@ -194,7 +238,7 @@
             true,
             true,
             true,
-            true
+            false
         ]
     },
     {
@@ -213,10 +257,10 @@
         "description" : "Overlay Product",
         "movable" : true,
         "displayed" : [
-            true,
-            true,
-            true,
-            true
+            false,
+            false,
+            false,
+            false
         ]
     },
     {
@@ -227,7 +271,7 @@
             true,
             true,
             true,
-            true
+            false
         ]
     },
     {

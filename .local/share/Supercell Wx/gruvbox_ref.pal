@@ -19,5 +19,7 @@ Color:  50  	157 0   6
 Color:  55  	211 134 155 ; purple start
 Color:  57  	177 98  134
 Color:  60  	143 63  113
-Color:  65  	40  40  40
-Color:  70   	29  32  33
+Color:  70  	40  40  40 ; dark start
+Color:  80   	29  32  33
+Color:  85	235 219 178 ; light start
+Color:  90	251 241 199
