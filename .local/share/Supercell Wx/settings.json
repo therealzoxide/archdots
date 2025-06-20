@@ -93,21 +93,21 @@
     },
     "maps" : [
         {
-            "map_style" : "Dataviz Dark",
+            "map_style" : "Streets Dark",
             "radar_site" : "KLSX",
             "radar_product_group" : "L3",
             "radar_product" : "N0B",
             "smoothing_enabled" : false
         },
         {
-            "map_style" : "Dataviz Dark",
+            "map_style" : "Streets Dark",
             "radar_site" : "KLSX",
             "radar_product_group" : "L3",
             "radar_product" : "N0G",
             "smoothing_enabled" : false
         },
         {
-            "map_style" : "Dataviz Dark",
+            "map_style" : "Streets Dark",
             "radar_site" : "KLSX",
             "radar_product_group" : "L3",
             "radar_product" : "N0C",
@@ -117,7 +117,7 @@
             "map_style" : "Streets Dark",
             "radar_site" : "KLSX",
             "radar_product_group" : "L3",
-            "radar_product" : "N0B",
+            "radar_product" : "N0X",
             "smoothing_enabled" : false
         }
     ],
@@ -125,25 +125,25 @@
         "alerts" : {
             "MA" : {
                 "base" : {
-                    "line_color" : "#ffd65d0e",
-                    "highlight_color" : "#ff282828",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ffff7f00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
                     "line_width" : 3,
                     "highlight_width" : 0,
                     "border_width" : 1
                 },
                 "tornado_possible" : {
-                    "line_color" : "#ff1d2021",
-                    "highlight_color" : "#ffd65d0e",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff000000",
+                    "highlight_color" : "#ffff7f00",
+                    "border_color" : "#ff000000",
                     "line_width" : 1,
                     "highlight_width" : 1,
                     "border_width" : 1
                 },
                 "inactive" : {
-                    "line_color" : "#ffaf3a03",
-                    "highlight_color" : "#ff282828",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff7f3f00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
                     "line_width" : 3,
                     "highlight_width" : 0,
                     "border_width" : 1
@@ -151,33 +151,33 @@
             },
             "FF" : {
                 "base" : {
-                    "line_color" : "#ffb8bb26",
-                    "highlight_color" : "#ff282828",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff00ff00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
                     "line_width" : 3,
                     "highlight_width" : 0,
                     "border_width" : 1
                 },
                 "considerable" : {
-                    "line_color" : "#ff1d2021",
-                    "highlight_color" : "#ffb8bb26",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff000000",
+                    "highlight_color" : "#ff00ff00",
+                    "border_color" : "#ff000000",
                     "line_width" : 1,
                     "highlight_width" : 1,
                     "border_width" : 1
                 },
                 "catastrophic" : {
-                    "line_color" : "#fffb4934",
-                    "highlight_color" : "#ffb8bb26",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ffff0000",
+                    "highlight_color" : "#ff00ff00",
+                    "border_color" : "#ff000000",
                     "line_width" : 1,
                     "highlight_width" : 1,
                     "border_width" : 1
                 },
                 "inactive" : {
-                    "line_color" : "#ff79740e",
-                    "highlight_color" : "#ff282828",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff007f00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
                     "line_width" : 3,
                     "highlight_width" : 0,
                     "border_width" : 1
@@ -185,41 +185,41 @@
             },
             "SV" : {
                 "base" : {
-                    "line_color" : "#fffabd2f",
-                    "highlight_color" : "#ff282828",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ffffff00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
                     "line_width" : 3,
                     "highlight_width" : 0,
                     "border_width" : 1
                 },
                 "considerable" : {
-                    "line_color" : "#fffb4934",
-                    "highlight_color" : "#fffabd2f",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ffff0000",
+                    "highlight_color" : "#ffffff00",
+                    "border_color" : "#ff000000",
                     "line_width" : 1,
                     "highlight_width" : 1,
                     "border_width" : 1
                 },
                 "destructive" : {
-                    "line_color" : "#fffb4934",
-                    "highlight_color" : "#fffabd2f",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ffff0000",
+                    "highlight_color" : "#ffffff00",
+                    "border_color" : "#ff000000",
                     "line_width" : 2,
                     "highlight_width" : 1,
                     "border_width" : 1
                 },
                 "tornado_possible" : {
-                    "line_color" : "#ff1d2021",
-                    "highlight_color" : "#fffabd2f",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff000000",
+                    "highlight_color" : "#ffffff00",
+                    "border_color" : "#ff000000",
                     "line_width" : 1,
                     "highlight_width" : 1,
                     "border_width" : 1
                 },
                 "inactive" : {
-                    "line_color" : "#ffb57614",
-                    "highlight_color" : "#ff282828",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff7f7f00",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
                     "line_width" : 3,
                     "highlight_width" : 0,
                     "border_width" : 1
@@ -227,17 +227,17 @@
             },
             "SQ" : {
                 "base" : {
-                    "line_color" : "#ff83a598",
-                    "highlight_color" : "#ff282828",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff00ffff",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
                     "line_width" : 3,
                     "highlight_width" : 0,
                     "border_width" : 1
                 },
                 "inactive" : {
-                    "line_color" : "#ff076678",
-                    "highlight_color" : "#ff282828",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff007f7f",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
                     "line_width" : 3,
                     "highlight_width" : 0,
                     "border_width" : 1
@@ -245,51 +245,51 @@
             },
             "TO" : {
                 "base" : {
-                    "line_color" : "#fffb4934",
-                    "highlight_color" : "#ff282828",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ffff0000",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
                     "line_width" : 3,
                     "highlight_width" : 0,
                     "border_width" : 1
                 },
                 "considerable" : {
-                    "line_color" : "#ffd3869b",
-                    "highlight_color" : "#ff282828",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ffff00ff",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
                     "line_width" : 3,
                     "highlight_width" : 0,
                     "border_width" : 1
                 },
                 "catastrophic" : {
-                    "line_color" : "#ff1d2021",
-                    "highlight_color" : "#ffd3869b",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff000000",
+                    "highlight_color" : "#ffff00ff",
+                    "border_color" : "#ff000000",
                     "line_width" : 1,
                     "highlight_width" : 1,
                     "border_width" : 1
                 },
                 "observed" : {
-                    "line_color" : "#ff1d2021",
-                    "highlight_color" : "#fffb4934",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff000000",
+                    "highlight_color" : "#ffff0000",
+                    "border_color" : "#ff000000",
                     "line_width" : 1,
                     "highlight_width" : 1,
                     "border_width" : 1
                 },
                 "inactive" : {
-                    "line_color" : "#ff9d0006",
-                    "highlight_color" : "#ff282828",
-                    "border_color" : "#ff282828",
+                    "line_color" : "#ff7f0000",
+                    "highlight_color" : "#ff000000",
+                    "border_color" : "#ff000000",
                     "line_width" : 3,
                     "highlight_width" : 0,
                     "border_width" : 1
                 }
             }
         },
-        "BR" : "/home/ayaya/.local/share/Supercell Wx/gruvbox_ref.pal",
-        "BV" : "/home/ayaya/.local/share/Supercell Wx/gruvbox_vel.pal",
+        "BR" : "/home/ayaya/.local/share/Supercell Wx/tables/Apocs_BR.pal",
+        "BV" : "/home/ayaya/.local/share/Supercell Wx/tables/SamBV.pal",
         "SW" : ":/res/palettes/wct/SW.pal",
-        "CC" : "/home/ayaya/.local/share/Supercell Wx/gruvbox_cc.pal",
+        "CC" : "/home/ayaya/.local/share/Supercell Wx/tables/Ben's CC.pal",
         "ZDR" : ":/res/palettes/wct/ZDR.pal",
         "PHI2" : ":/res/palettes/wct/KDP2.pal",
         "DOD" : ":/res/palettes/wct/DOD_DSD.pal",
@@ -346,11 +346,11 @@
     "ui" : {
         "level2_products_expanded" : false,
         "level2_settings_expanded" : true,
-        "level3_products_expanded" : false,
+        "level3_products_expanded" : true,
         "map_settings_expanded" : true,
         "timeline_expanded" : true,
-        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADaAAADzfwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsBAAAAFgAAA80AAABbAP///wAAAAMAAAdwAAAAjPwBAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AAAAAMMAAAatAAABBgD///8AAAaQAAADzQAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
-        "main_ui_geometry" : "AdnQywADAAAAAAAIAAAAMwAAB3cAAAQvAAAACAAAADMAAAd3AAAELwAAAAAAAAAAB4AAAAAIAAAAMwAAB3cAAAQv"
+        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADaAAADzfwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsBAAAAFgAAA80AAABbAP///wAAAAEAAAEGAAADzfwCAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AQAAABYAAAPNAAAAjAD///8AAAWEAAADzQAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
+        "main_ui_geometry" : "AdnQywADAAAAAAeIAAAAMwAADvcAAAQvAAAHiAAAADMAAA73AAAELwAAAAEAAAAAB4AAAAeIAAAAMwAADvcAAAQv"
     },
     "unit" : {
         "accumulation_units" : "inches",

@@ -34,6 +34,17 @@
     },
     {
         "type" : "Placefile",
+        "description" : "https://placefiles.supercellwx.net/wxfanatic/alarmRadarStatus.txt",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
         "description" : "https://www.spotternetwork.org/feeds/gr-all-no.txt",
         "movable" : true,
         "displayed" : [
@@ -103,9 +114,9 @@
         "description" : "https://placefiles.supercellwx.net/wxfanatic/day1hailprob.php",
         "movable" : true,
         "displayed" : [
-            true,
-            true,
-            true,
+            false,
+            false,
+            false,
             true
         ]
     },
@@ -114,9 +125,9 @@
         "description" : "https://placefiles.supercellwx.net/wxfanatic/day1windprob.php",
         "movable" : true,
         "displayed" : [
-            true,
-            true,
-            true,
+            false,
+            false,
+            false,
             true
         ]
     },
@@ -125,9 +136,9 @@
         "description" : "https://placefiles.supercellwx.net/wxfanatic/day1tornadoprob.php",
         "movable" : true,
         "displayed" : [
-            true,
-            true,
-            true,
+            false,
+            false,
+            false,
             true
         ]
     },
@@ -136,9 +147,9 @@
         "description" : "http://placefilenation.com/Placefiles/spcday3.php",
         "movable" : true,
         "displayed" : [
-            true,
-            true,
-            true,
+            false,
+            false,
+            false,
             true
         ]
     },
@@ -147,9 +158,9 @@
         "description" : "http://placefilenation.com/Placefiles/spcday2.php",
         "movable" : true,
         "displayed" : [
-            true,
-            true,
-            true,
+            false,
+            false,
+            false,
             true
         ]
     },
@@ -158,9 +169,9 @@
         "description" : "http://placefilenation.com/Placefiles/spcday1.php",
         "movable" : true,
         "displayed" : [
-            true,
-            true,
-            true,
+            false,
+            false,
+            false,
             true
         ]
     },
@@ -183,7 +194,7 @@
             true,
             true,
             true,
-            false
+            true
         ]
     },
     {
@@ -271,7 +282,7 @@
             true,
             true,
             true,
-            false
+            true
         ]
     },
     {
