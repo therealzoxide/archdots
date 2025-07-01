@@ -34,6 +34,50 @@
     },
     {
         "type" : "Placefile",
+        "description" : "https://www.freelightning.com/hub/placefile.php?request=10521|10816|107118581|10219|10321|10379|0|254292|2",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "https://www.freelightning.com/hub/placefile.php?request=10306|10557|107118581|10259|10303|10689|0|254292|1",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "https://www.freelightning.com/placefiles/SPC_Mesoscale_Discussions.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
+        "description" : "http://placefiles.redteamwx.com/WG.php",
+        "movable" : true,
+        "displayed" : [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    {
+        "type" : "Placefile",
         "description" : "https://placefiles.supercellwx.net/wxfanatic/alarmRadarStatus.txt",
         "movable" : true,
         "displayed" : [
@@ -49,9 +93,9 @@
         "movable" : true,
         "displayed" : [
             true,
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ]
     },
     {
@@ -60,9 +104,9 @@
         "movable" : true,
         "displayed" : [
             true,
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ]
     },
     {
@@ -114,9 +158,9 @@
         "description" : "https://placefiles.supercellwx.net/wxfanatic/day1hailprob.php",
         "movable" : true,
         "displayed" : [
-            false,
-            false,
-            false,
+            true,
+            true,
+            true,
             true
         ]
     },
@@ -125,9 +169,9 @@
         "description" : "https://placefiles.supercellwx.net/wxfanatic/day1windprob.php",
         "movable" : true,
         "displayed" : [
-            false,
-            false,
-            false,
+            true,
+            true,
+            true,
             true
         ]
     },
@@ -136,9 +180,9 @@
         "description" : "https://placefiles.supercellwx.net/wxfanatic/day1tornadoprob.php",
         "movable" : true,
         "displayed" : [
-            false,
-            false,
-            false,
+            true,
+            true,
+            true,
             true
         ]
     },
@@ -147,9 +191,9 @@
         "description" : "http://placefilenation.com/Placefiles/spcday3.php",
         "movable" : true,
         "displayed" : [
-            false,
-            false,
-            false,
+            true,
+            true,
+            true,
             true
         ]
     },
@@ -158,9 +202,9 @@
         "description" : "http://placefilenation.com/Placefiles/spcday2.php",
         "movable" : true,
         "displayed" : [
-            false,
-            false,
-            false,
+            true,
+            true,
+            true,
             true
         ]
     },
@@ -169,9 +213,9 @@
         "description" : "http://placefilenation.com/Placefiles/spcday1.php",
         "movable" : true,
         "displayed" : [
-            false,
-            false,
-            false,
+            true,
+            true,
+            true,
             true
         ]
     },
@@ -203,8 +247,8 @@
         "movable" : true,
         "displayed" : [
             true,
-            true,
-            true,
+            false,
+            false,
             false
         ]
     },
@@ -214,8 +258,8 @@
         "movable" : true,
         "displayed" : [
             true,
-            true,
-            true,
+            false,
+            false,
             false
         ]
     },
@@ -225,8 +269,8 @@
         "movable" : true,
         "displayed" : [
             true,
-            true,
-            true,
+            false,
+            false,
             false
         ]
     },
@@ -236,8 +280,8 @@
         "movable" : true,
         "displayed" : [
             true,
-            true,
-            true,
+            false,
+            false,
             false
         ]
     },
@@ -247,8 +291,8 @@
         "movable" : true,
         "displayed" : [
             true,
-            true,
-            true,
+            false,
+            false,
             false
         ]
     },

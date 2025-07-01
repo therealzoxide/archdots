@@ -2,7 +2,7 @@
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "SPC Day 1 Outlook - Wed Jun 18 14:01:16 CDT 2025 - PlacefileNation",
+        "title" : "SPC Day 1 Outlook - Fri Jun 27 15:01:29 CDT 2025 - PlacefileNation",
         "name" : "http://placefilenation.com/Placefiles/spcday1.php"
     },
     {
@@ -20,19 +20,19 @@
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "Day 1 Tornado Probability - VALID TIME 181630Z - 191200Z",
+        "title" : "Day 1 Tornado Probability - VALID TIME 271630Z - 281200Z",
         "name" : "https://placefiles.supercellwx.net/wxfanatic/day1tornadoprob.php"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "Day 1 Wind Probabilities - VALID TIME 090100Z - 091200Z",
+        "title" : "Day 1 Wind Probabilities - VALID TIME 271630Z - 281200Z",
         "name" : "https://placefiles.supercellwx.net/wxfanatic/day1windprob.php"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "Day 1 Hail Probability - VALID TIME 131630Z - 141200Z",
+        "title" : "Day 1 Hail Probability - VALID TIME 271630Z - 281200Z",
         "name" : "https://placefiles.supercellwx.net/wxfanatic/day1hailprob.php"
     },
     {
@@ -44,25 +44,25 @@
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "SPC Mesoscale Convective Discussions - Wed Jun 18 2:15:02 UTC 2025 - PlacefileNation",
+        "title" : "SPC Mesoscale Convective Discussions - Fri Jun 27 20:00:02 UTC 2025 - PlacefileNation",
         "name" : "http://placefilenation.com/Placefiles/mcd.php"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "mPING Reports (5 Hour) - Fri Jun 13 18:35:06 UTC 2025 - PlacefileNation",
+        "title" : "mPING Reports (5 Hour) - Fri Jun 27 20:00:08 UTC 2025 - PlacefileNation",
         "name" : "http://placefilenation.com/Placefiles/mping_300min.php"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "mPING Reports (30 Minute) - Fri Jun 13 18:35:06 UTC 2025 - PlacefileNation",
+        "title" : "mPING Reports (30 Minute) - Fri Jun 27 20:00:08 UTC 2025 - PlacefileNation",
         "name" : "http://placefilenation.com/Placefiles/mping_30min.php"
     },
     {
         "enabled" : false,
         "thresholded" : false,
-        "title" : "Gusts - Tue Jun 17 20:24:57 UTC 2025 - PlacefileNation",
+        "title" : "Gusts - Sun Jun 22 23:11:57 UTC 2025 - PlacefileNation",
         "name" : "https://placefilenation.com/Placefiles/gusts.php"
     },
     {
@@ -76,5 +76,29 @@
         "thresholded" : false,
         "title" : "Alarm Radar Site Status",
         "name" : "https://placefiles.supercellwx.net/wxfanatic/alarmRadarStatus.txt"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "RTWX - Wind Gust (knots) - 9:01pm MDT Fri Jun 27",
+        "name" : "http://placefiles.redteamwx.com/WG.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "SPC Mesoscale Discussions",
+        "name" : "https://www.freelightning.com/placefiles/SPC_Mesoscale_Discussions.php"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "FreeLightning.com (Hi-Res) Strikes (21:24 CDT)",
+        "name" : "https://www.freelightning.com/hub/placefile.php?request=10306|10557|107118581|10259|10303|10689|0|254292|1"
+    },
+    {
+        "enabled" : false,
+        "thresholded" : false,
+        "title" : "FreeLightning.com (Severe) Strikes (21:24 CDT)",
+        "name" : "https://www.freelightning.com/hub/placefile.php?request=10521|10816|107118581|10219|10321|10379|0|254292|2"
     }
 ]

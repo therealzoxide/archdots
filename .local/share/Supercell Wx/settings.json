@@ -3,8 +3,8 @@
         "anti_aliasing_enabled" : true,
         "center_on_radar_selection" : false,
         "clock_format" : "12-hour",
-        "custom_style_draw_layer" : ".*\\.annotations\\.points",
-        "custom_style_url" : "",
+        "custom_style_draw_layer" : "Minor road outline",
+        "custom_style_url" : "https://api.maptiler.com/maps/0197c3b6-66c9-7c8f-924b-c7d18b56b486/style.json",
         "debug_enabled" : false,
         "default_alert_action" : "go",
         "default_radar_site" : "KINX",
@@ -93,28 +93,28 @@
     },
     "maps" : [
         {
-            "map_style" : "Streets Dark",
+            "map_style" : "Custom",
             "radar_site" : "KLSX",
             "radar_product_group" : "L3",
             "radar_product" : "N0B",
             "smoothing_enabled" : false
         },
         {
-            "map_style" : "Streets Dark",
+            "map_style" : "Custom",
             "radar_site" : "KLSX",
             "radar_product_group" : "L3",
             "radar_product" : "N0G",
             "smoothing_enabled" : false
         },
         {
-            "map_style" : "Streets Dark",
+            "map_style" : "Custom",
             "radar_site" : "KLSX",
             "radar_product_group" : "L3",
             "radar_product" : "N0C",
             "smoothing_enabled" : false
         },
         {
-            "map_style" : "Streets Dark",
+            "map_style" : "Custom",
             "radar_site" : "KLSX",
             "radar_product_group" : "L3",
             "radar_product" : "N0X",
@@ -287,7 +287,7 @@
             }
         },
         "BR" : "/home/ayaya/.local/share/Supercell Wx/tables/Apocs_BR.pal",
-        "BV" : "/home/ayaya/.local/share/Supercell Wx/tables/SamBV.pal",
+        "BV" : "/home/ayaya/.local/share/Supercell Wx/tables/Force Velo.pal",
         "SW" : ":/res/palettes/wct/SW.pal",
         "CC" : "/home/ayaya/.local/share/Supercell Wx/tables/Ben's CC.pal",
         "ZDR" : ":/res/palettes/wct/ZDR.pal",
@@ -344,12 +344,12 @@
         "tooltip_method" : "imgui"
     },
     "ui" : {
-        "level2_products_expanded" : false,
-        "level2_settings_expanded" : true,
+        "level2_products_expanded" : true,
+        "level2_settings_expanded" : false,
         "level3_products_expanded" : true,
         "map_settings_expanded" : true,
-        "timeline_expanded" : true,
-        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADaAAADzfwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsBAAAAFgAAA80AAABbAP///wAAAAEAAAEGAAADzfwCAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AQAAABYAAAPNAAAAjAD///8AAAWEAAADzQAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
+        "timeline_expanded" : false,
+        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADaAAADzfwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsAAAAAFgAAA80AAABbAP///wAAAAEAAAEGAAADzfwCAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AAAAABYAAAPNAAAAjAD///8AAAdwAAADzQAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
         "main_ui_geometry" : "AdnQywADAAAAAAeIAAAAMwAADvcAAAQvAAAHiAAAADMAAA73AAAELwAAAAEAAAAAB4AAAAeIAAAAMwAADvcAAAQv"
     },
     "unit" : {
