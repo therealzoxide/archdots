@@ -19,7 +19,7 @@
         "loop_time" : 10,
         "map_provider" : "maptiler",
         "mapbox_api_key" : "?",
-        "maptiler_api_key" : "Scd8Ulee3TH0WdTklMId",
+        "maptiler_api_key" : "?",
         "nmea_baud_rate" : 9600,
         "nmea_source" : "",
         "positioning_plugin" : "default",
