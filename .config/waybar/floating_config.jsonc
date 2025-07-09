@@ -1,18 +1,17 @@
 {
     "spacing": 2,
     "modules-left": [
-      "hyprland/workspaces",
-      "custom/layout",
-      "hyprland/window"
+      "clock",
+      "battery",
+      "memory"
     ],
     "modules-center": [
+      "hyprland/workspaces"
     ],
     "modules-right": [
       "network",
-      "memory",
       "wireplumber",
-      "group/system",
-      "clock"
+      "group/system"
     ],
 
     "group/system": {
@@ -38,17 +37,6 @@
         "DP-2": [6, 7, 8, 9, 10]
       }
     },
-
-    "hyprland/window": {
-	"separate-outputs": true,
-	"rewrite": {
-		"(.*) - Vivaldi": "Vivaldi"
-	}
-     },
-
-     "custom/layout": {
-	     "format": "[]="
-     },
 
     "wireplumber": {
       "on-click": "foot -e fish -c pulsemixer",
@@ -119,7 +107,7 @@
     },
 
     "custom/logo": {
-      "format": "[ 󰣇 ]",
+      "format": "󰣇",
       "on-click": "rofi -show drun",
       "tooltip": false
     }
