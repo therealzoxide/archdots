@@ -8,6 +8,7 @@
     "modules-center": [
     ],
     "modules-right": [
+      "mpris",
       "network",
       "battery",
       "memory",
@@ -34,9 +35,9 @@
     "hyprland/workspaces": {
       "format": "{icon}",
       "persistent-workspaces": {
-        "*": [1,2,3,4,5,6,7,8,9,10]
-        //"DP-1": [1, 2, 3, 4, 5],
-        //"DP-2": [6, 7, 8, 9, 10]
+        //"*": [1,2,3,4,5,6,7,8,9,10]
+        "DP-1": [1, 2, 3, 4, 5],
+        "DP-2": [6, 7, 8, 9, 10]
       }
     },
 
@@ -48,8 +49,15 @@
      },
 
      "custom/layout": {
-	     "format": "[]=",
+	     "exec": "~/.config/waybar/layout.sh",
+	     "interval": 1,
+	     "format": "{}",
 	     "tooltip": false
+     },
+
+     "mpris": {
+	     "format": "[ {artist} | {title} ]",
+	     "title-len": 30
      },
 
     "wireplumber": {
@@ -107,7 +115,7 @@
 
     "custom/dnd": {
       "exec": "~/.config/waybar/toggle_dnd.sh",
-      "interval": 1,
+      "interval": 60,
       "format": "{}",
       "on-click": "~/.config/waybar/toggle_dnd.sh toggle",
       "tooltip": false

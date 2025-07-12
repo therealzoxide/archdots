@@ -48,11 +48,11 @@ mako - notification daemon for Wayland, dunst and swaync can also work if mako i
 gromit-mpx - for drawing on your screen  
   
 FONTS:  
-ttf-iawriter-nerd  
-noto-fonts  
-noto-fonts-emoji  
-noto-fonts-cjk  
-noto-fonts-extra  
+ttf-iawriter-nerd - main font used by me  
+ttf-sarasa-gothic - noto-fonts-cjk shifts the entire waybar when paired with english text, this font doesnt  
+noto-fonts - required by many programs anyway   
+noto-fonts-emoji - so emojis work  
+noto-fonts-extra - nerd font wasnt covering everything, this ensured no missing characters   
   
 Use Vesktop or Webcord instead of the official discord app unless you need the keybinds.  
 They are both wrappers for the website and work much better on Wayland, Vesktop comes with Vencord built in so it will be slightly less stable.  
