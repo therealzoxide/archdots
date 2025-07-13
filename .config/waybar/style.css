@@ -1,7 +1,7 @@
 @import "gruvbox_dark.css";
 
 * {
-  font-family: iMWritingMono Nerd Font, Sarasa Fixed J Regular, Symbols Nerd Font Regular;
+  font-family: iMWritingMono Nerd Font Propo, Sarasa Fixed J Regular, Symbols Nerd Font Regular;
   font-size: 13px;
   min-height: 0;
 }

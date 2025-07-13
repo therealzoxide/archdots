@@ -1,9 +1,3 @@
-require("catppuccin").setup({
-    integrations = {
-	    noice = true,
-    },
-})
-
 require("noice").setup({
   lsp = {
     override = {
