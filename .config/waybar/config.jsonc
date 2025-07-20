@@ -35,9 +35,9 @@
     "hyprland/workspaces": {
       "format": "{icon}",
       "persistent-workspaces": {
-        //"*": [1,2,3,4,5,6,7,8,9,10]
-        "DP-1": [1, 2, 3, 4, 5],
-        "DP-2": [6, 7, 8, 9, 10]
+        "*": [1,2,3,4,5,6,7,8,9,10]
+        //"DP-1": [1, 2, 3, 4, 5],
+        //"DP-2": [6, 7, 8, 9, 10]
       }
     },
 
@@ -50,6 +50,7 @@
 
      "custom/layout": {
 	     "exec": "~/.config/waybar/layout.sh",
+	     "on-click": "~/.config/waybar/layout.sh toggle",
 	     "interval": 1,
 	     "format": "{}",
 	     "tooltip": false
