@@ -82,7 +82,7 @@
   
     "clock": {
 	    "format": "[ Time: {:%I:%M %p} ]",
-      "format-alt": "[ Date: {:%b %d %Y} ]",
+      "format-alt": "[ Date: {:%b %d, %Y} ]",
       "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
