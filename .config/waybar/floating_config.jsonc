@@ -102,13 +102,13 @@
 
     "custom/power": {
       "format": "[ Power ]",
-      "on-click": "rofi -show powermenu -modi powermenu:~/.config/rofi/power-menu -theme ~/.config/rofi/themes/power.rasi",
+      "on-click": "~/.scripts/bemenu_power",
       "tooltip": false
     },
 
     "custom/logo": {
-      "format": "󰣇",
-      "on-click": "rofi -show drun",
+      "format": "[ 󰣇 ]",
+      "on-click": "~/.scripts/gruvbox_bemenu.sh",
       "tooltip": false
     }
 

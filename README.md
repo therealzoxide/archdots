@@ -13,7 +13,7 @@ CORE (needed for desktop function, no particular order, DO NOT SKIP ANY OF THESE
 hyprland  - hyprland  
 foot - terminal (used to use kitty but got tired of all text being italic and couldn't figure out why it was like that)   
 waybar - status bar, not absolutely mandatory  
-rofi - app launcher and power menu  
+bemenu - app launcher and power menu (dmenu alternative)  
 thunar - file manager  
 polkit-gnome - policy kit agent, needed for authentication   
 xdg-desktop-portal-hyprland - the xdg desktop portal for hyprland, mandatory for basic functions such as screenshare and clipboard  
@@ -57,6 +57,7 @@ noto-fonts-extra - nerd font wasnt covering everything, this ensured no missing 
 Use Vesktop or Webcord instead of the official discord app unless you need the keybinds.  
 They are both wrappers for the website and work much better on Wayland, Vesktop comes with Vencord built in so it will be slightly less stable.  
 If you use a chromium browser remember to go to chrome://flags in the url bar, search "ozone", and set the option in the result to "Wayland", otherwise it may default to using Xorg and cause issues.  
+Rofi-wayland is the best alternative to bemenu if you want to show desktop entries with pretty names instead of every single thing in your path with raw info  
   
 Reminder to myself that I use supercell-wx (the app image version because its the up to date one) for weather, hopefully wont be abandoned  
   
@@ -69,11 +70,6 @@ Add the following to /etc/greetd/config.toml:
   
 ``[terminal]``  
 ``vt = 1`` 
-  
-``[initial_session]``  
+``[default_session]`` 
 ``command = "Hyprland"``  
 ``user = "(yourname)"``
-  
-``[default_session]``    
-``command = "tuigreet -r --cmd Hyprland"``   
-``user = "greeter"``  

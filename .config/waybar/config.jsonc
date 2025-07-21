@@ -105,7 +105,7 @@
   
     "clock": {
 	    "format": "[ Time: {:%I:%M %p} ]",
-      "format-alt": "[ Date: {:%b %d, %Y} ]",
+      "format-alt": "[ Date: {:%b %d %Y} ]",
       "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
@@ -125,13 +125,13 @@
 
     "custom/power": {
       "format": "[ Power ]",
-      "on-click": "rofi -show powermenu -modi powermenu:~/.config/rofi/power-menu -theme ~/.config/rofi/themes/power.rasi",
+      "on-click": "~/.scripts/bemenu_power",
       "tooltip": false
     },
 
     "custom/logo": {
       "format": "[ 󰣇 ]",
-      "on-click": "rofi -show drun",
+      "on-click": "~/.scripts/gruvbox_bemenu.sh",
       "tooltip": false
     }
 
