@@ -2,8 +2,8 @@
 
 ~/.scripts/bemenu_run \
 	--fn "iMWritingMono Nerd Font 13" \
-	-c --prompt ">" --list 20 \
-	--width-factor 0.18 \
+	-c --prompt ">" --list 12 \
+	--width-factor 0.13 \
 	--center \
 	--border 1 \
 	--no-spacing \
