@@ -31,7 +31,7 @@ eza - better ls, aliased to "ls, ll la" in my fish config
 nvim - text editor, vim with better plugin ecosystem  
 xarchiver - allows you to view files inside archives  (can use fileroller instead if preferred)  
 7zip - most versatile archiver  
-nm-connection-editor - visual way to connect to wifi, NMTUI for TUI (nmtui is worse)  
+impala - TUI for IWD, doesn't work with networkmanager  
 pulsemixer - TUI volume mixer, pavucontrol for GUI (pavucontrol has a bit more function)   
 grim - screenshots for wayland, cant see the screen without slurp  
 slurp - selects regions and prints to stdout, allows grim to screenshot  
