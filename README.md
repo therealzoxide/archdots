@@ -14,6 +14,7 @@ hyprland  - hyprland
 foot - terminal (used to use kitty but got tired of all text being italic and couldn't figure out why it was like that)   
 waybar - status bar, not absolutely mandatory  
 bemenu - app launcher and power menu (dmenu alternative)  
+j4_dmenu_desktop - lets bemenu search desktop entries instead of path  
 thunar - file manager  
 polkit-gnome - policy kit agent, needed for authentication   
 xdg-desktop-portal-hyprland - the xdg desktop portal for hyprland, mandatory for basic functions such as screenshare and clipboard  
