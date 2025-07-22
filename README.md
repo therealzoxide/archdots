@@ -25,9 +25,8 @@ udiskie - external disk auto mount
 gvfs - adds trash support  
 gvfs-mtp - compatibility with android file system  
 clipse (aur) - adds clipboard history and management, runs in Kitty  
-paru - AUR helper, aliased to "yay" in my fish config  
-fish - best shell, works better than zsh  
-eza - better ls, aliased to "ls, ll la" in my fish config  
+paru - AUR helper, aliased to "yay" in my bash config  
+eza - better ls, aliased to "ls, ll la" in my bash config  
 nvim - text editor, vim with better plugin ecosystem  
 xarchiver - allows you to view files inside archives  (can use fileroller instead if preferred)  
 7zip - most versatile archiver  
@@ -58,8 +57,9 @@ noto-fonts-extra - nerd font wasnt covering everything, this ensured no missing 
 Use Vesktop or Webcord instead of the official discord app unless you need the keybinds.  
 They are both wrappers for the website and work much better on Wayland, Vesktop comes with Vencord built in so it will be slightly less stable.  
 If you use a chromium browser remember to go to chrome://flags in the url bar, search "ozone", and set the option in the result to "Wayland", otherwise it may default to using Xorg and cause issues.  
-Rofi-wayland is the best alternative to bemenu if you want to show desktop entries with pretty names instead of every single thing in your path with raw info  
-  
+
+This repo also comes with config files for fish, starship, and rofi, I no longer use these but have no reason to drop the files so they will for now  
+
 Reminder to myself that I use supercell-wx (the app image version because its the up to date one) for weather, hopefully wont be abandoned  
   
 CONFIGURE THE FOLLOWING:  
