@@ -14,7 +14,6 @@ macchina
 	alias ......='cd ../../..'
 
 
-source ~/.scripts/bash/shell_motivation.sh
 [[ -f ~/.bash_prompt ]] && source ~/.bash_prompt
 
 [[ ! ${BLE_VERSION-} ]] || ble-attach
