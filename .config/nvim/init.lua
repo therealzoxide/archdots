@@ -6,3 +6,4 @@ require("config.startup")
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.o.undofile = true
+vim.opt.clipboard = "unnamedplus"
