@@ -1,0 +1,21 @@
+resize_algorithm = none
+hotspot_x = 0.50
+hotspot_y = 0.50
+
+define_size = 32, size_bdiag_000.png, 100
+define_size = 32, size_bdiag_001.png, 100
+define_size = 32, size_bdiag_002.png, 100
+define_size = 32, size_bdiag_003.png, 100
+define_size = 32, size_bdiag_004.png, 100
+define_size = 32, size_bdiag_005.png, 100
+define_size = 32, size_bdiag_006.png, 100
+define_size = 32, size_bdiag_007.png, 100
+define_size = 32, size_bdiag_008.png, 100
+define_size = 32, size_bdiag_009.png, 100
+define_size = 32, size_bdiag_010.png, 100
+define_size = 32, size_bdiag_011.png, 100
+define_size = 32, size_bdiag_012.png, 100
+define_size = 32, size_bdiag_013.png, 100
+define_size = 32, size_bdiag_014.png, 100
+define_size = 32, size_bdiag_015.png, 100
+

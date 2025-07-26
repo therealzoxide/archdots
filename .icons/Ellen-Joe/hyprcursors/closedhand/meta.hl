@@ -1,0 +1,21 @@
+resize_algorithm = none
+hotspot_x = 0.50
+hotspot_y = 0.50
+
+define_size = 32, closedhand_000.png, 100
+define_size = 32, closedhand_001.png, 100
+define_size = 32, closedhand_002.png, 100
+define_size = 32, closedhand_003.png, 100
+define_size = 32, closedhand_004.png, 100
+define_size = 32, closedhand_005.png, 100
+define_size = 32, closedhand_006.png, 100
+define_size = 32, closedhand_007.png, 100
+define_size = 32, closedhand_008.png, 100
+define_size = 32, closedhand_009.png, 100
+define_size = 32, closedhand_010.png, 100
+define_size = 32, closedhand_011.png, 100
+define_size = 32, closedhand_012.png, 100
+define_size = 32, closedhand_013.png, 100
+define_size = 32, closedhand_014.png, 100
+define_size = 32, closedhand_015.png, 100
+

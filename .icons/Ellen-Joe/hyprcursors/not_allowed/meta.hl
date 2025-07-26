@@ -1,0 +1,21 @@
+resize_algorithm = none
+hotspot_x = 0.03
+hotspot_y = 0.03
+
+define_size = 32, not_allowed_000.png, 100
+define_size = 32, not_allowed_001.png, 100
+define_size = 32, not_allowed_002.png, 100
+define_size = 32, not_allowed_003.png, 100
+define_size = 32, not_allowed_004.png, 100
+define_size = 32, not_allowed_005.png, 100
+define_size = 32, not_allowed_006.png, 100
+define_size = 32, not_allowed_007.png, 100
+define_size = 32, not_allowed_008.png, 100
+define_size = 32, not_allowed_009.png, 100
+define_size = 32, not_allowed_010.png, 100
+define_size = 32, not_allowed_011.png, 100
+define_size = 32, not_allowed_012.png, 100
+define_size = 32, not_allowed_013.png, 100
+define_size = 32, not_allowed_014.png, 100
+define_size = 32, not_allowed_015.png, 100
+

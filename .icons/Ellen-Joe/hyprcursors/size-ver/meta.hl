@@ -1,0 +1,21 @@
+resize_algorithm = none
+hotspot_x = 0.03
+hotspot_y = 0.03
+
+define_size = 32, size-ver_000.png, 100
+define_size = 32, size-ver_001.png, 100
+define_size = 32, size-ver_002.png, 100
+define_size = 32, size-ver_003.png, 100
+define_size = 32, size-ver_004.png, 100
+define_size = 32, size-ver_005.png, 100
+define_size = 32, size-ver_006.png, 100
+define_size = 32, size-ver_007.png, 100
+define_size = 32, size-ver_008.png, 100
+define_size = 32, size-ver_009.png, 100
+define_size = 32, size-ver_010.png, 100
+define_size = 32, size-ver_011.png, 100
+define_size = 32, size-ver_012.png, 100
+define_size = 32, size-ver_013.png, 100
+define_size = 32, size-ver_014.png, 100
+define_size = 32, size-ver_015.png, 100
+

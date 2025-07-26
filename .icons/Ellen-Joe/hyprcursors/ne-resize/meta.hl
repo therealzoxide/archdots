@@ -1,0 +1,21 @@
+resize_algorithm = none
+hotspot_x = 0.50
+hotspot_y = 0.50
+
+define_size = 32, ne-resize_000.png, 100
+define_size = 32, ne-resize_001.png, 100
+define_size = 32, ne-resize_002.png, 100
+define_size = 32, ne-resize_003.png, 100
+define_size = 32, ne-resize_004.png, 100
+define_size = 32, ne-resize_005.png, 100
+define_size = 32, ne-resize_006.png, 100
+define_size = 32, ne-resize_007.png, 100
+define_size = 32, ne-resize_008.png, 100
+define_size = 32, ne-resize_009.png, 100
+define_size = 32, ne-resize_010.png, 100
+define_size = 32, ne-resize_011.png, 100
+define_size = 32, ne-resize_012.png, 100
+define_size = 32, ne-resize_013.png, 100
+define_size = 32, ne-resize_014.png, 100
+define_size = 32, ne-resize_015.png, 100
+

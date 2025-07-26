@@ -1,0 +1,21 @@
+resize_algorithm = none
+hotspot_x = 0.50
+hotspot_y = 0.50
+
+define_size = 32, fleur_000.png, 100
+define_size = 32, fleur_001.png, 100
+define_size = 32, fleur_002.png, 100
+define_size = 32, fleur_003.png, 100
+define_size = 32, fleur_004.png, 100
+define_size = 32, fleur_005.png, 100
+define_size = 32, fleur_006.png, 100
+define_size = 32, fleur_007.png, 100
+define_size = 32, fleur_008.png, 100
+define_size = 32, fleur_009.png, 100
+define_size = 32, fleur_010.png, 100
+define_size = 32, fleur_011.png, 100
+define_size = 32, fleur_012.png, 100
+define_size = 32, fleur_013.png, 100
+define_size = 32, fleur_014.png, 100
+define_size = 32, fleur_015.png, 100
+
