@@ -1,0 +1,23 @@
+hide_ascii      = false
+spacing         = 1
+padding         = 0
+separator       = ">>"
+key_color       = "#8ec07c"
+separator_color = "#fabd2f"
+
+[box]
+title           = " Sharj "
+border          = "plain"
+visible         = true
+
+[box.inner_margin]
+x               = 1
+y               = 1
+
+[custom_ascii]
+color           = "#83a598"
+path = "~/.config/macchina/themes/ellen.txt"
+
+[keys]
+terminal = "Term"
+packages = "Package"
