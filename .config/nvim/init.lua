@@ -3,7 +3,9 @@ require("config.colorscheme")
 require("config.lualine")
 require("config.noice")
 require("config.startup")
-vim.opt.number = true
-vim.opt.relativenumber = true
+vim.o.number = true
+vim.o.list = true
+vim.o.relativenumber = true
 vim.o.undofile = true
-vim.opt.clipboard = "unnamedplus"
+vim.o.tabstop=2
+vim.o.shiftwidth=2

@@ -17,8 +17,8 @@ bleopt exec_errexit_mark=
 #############################
 
 function hexcolor_bold {
-  local hex=${1#\#}
-  printf '\e[1;38;2;%d;%d;%dm' "$((16#${hex:0:2}))" "$((16#${hex:2:2}))" "$((16#${hex:4:2}))"
+	local hex=${1#\#}
+	printf '\e[1;38;2;%d;%d;%dm' "$((16#${hex:0:2}))" "$((16#${hex:2:2}))" "$((16#${hex:4:2}))"
 }
 
 local blue=$(hexcolor_bold $blue0)
@@ -33,29 +33,28 @@ bleopt prompt_ps1_transient=trim
 ################
 
 function blerc/vim-load-hook {
-  ((_ble_bash>=40300)) && builtin bind 'set keyseq-timeout 1'
+	((_ble_bash>=40300)) && builtin bind 'set keyseq-timeout 1'
 
-  bleopt prompt_vi_mode_indicator='\e[38;5;109m\q{keymap:vi/mode-indicator}\e[0m'
-  bleopt keymap_vi_mode_show=0
+	bleopt prompt_vi_mode_indicator='\e[38;5;109m\q{keymap:vi/mode-indicator}\e[0m'
+	bleopt keymap_vi_mode_show=
 
-  bleopt keymap_vi_mode_name_insert=INSERT
-  bleopt keymap_vi_mode_name_replace=REPLACE
-  bleopt keymap_vi_mode_name_vreplace=VREPLACE
-  bleopt keymap_vi_mode_name_visual=VISUSAL
-  bleopt keymap_vi_mode_name_select=SELECT
-  bleopt keymap_vi_mode_name_linewise=LINE
-  bleopt keymap_vi_mode_name_blockwise=BLOCK
+	bleopt keymap_vi_mode_name_insert=INSERT
+	bleopt keymap_vi_mode_name_replace=REPLACE
+	bleopt keymap_vi_mode_name_vreplace=VREPLACE
+	bleopt keymap_vi_mode_name_visual=VISUSAL
+	bleopt keymap_vi_mode_name_select=SELECT
+	bleopt keymap_vi_mode_name_linewise=LINE
+	bleopt keymap_vi_mode_name_blockwise=BLOCK
 
-  bleopt keymap_vi_mode_string_nmap:=$'\e[1m-- NORMAL --\e[m'
+	bleopt keymap_vi_mode_string_nmap:=$'\e[1m-- NORMAL --\e[m'
+	bleopt keymap_vi_mode_update_prompt=1
 
-  bleopt keymap_vi_mode_update_prompt=1
-
-  ble-bind -m vi_nmap --cursor 1
-  ble-bind -m vi_imap --cursor 5
-  ble-bind -m vi_omap --cursor 4
-  ble-bind -m vi_xmap --cursor 2
-  ble-bind -m vi_smap --cursor 2
-  ble-bind -m vi_cmap --cursor 0
+	ble-bind -m vi_nmap --cursor 1
+	ble-bind -m vi_imap --cursor 5
+	ble-bind -m vi_omap --cursor 4
+	ble-bind -m vi_xmap --cursor 2
+	ble-bind -m vi_smap --cursor 2
+	ble-bind -m vi_cmap --cursor 0
 
 }
 blehook/eval-after-load keymap_vi blerc/vim-load-hook
@@ -124,7 +123,7 @@ ble-face -s varname_empty             fg=$blue1
 ble-face -s varname_export            fg=$purple0,bold
 ble-face -s varname_expr              fg=$blue0,bold
 ble-face -s varname_hash              fg=$aqua1,bold
-ble-face -s varname_new               fg=$green1
+ble-face -s varname_new               fg=$blue1
 ble-face -s varname_number            fg=$yellow1
 ble-face -s varname_readonly          fg=$purple0
 ble-face -s varname_transform         fg=$aqua1,bold

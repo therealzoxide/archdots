@@ -1,4 +1,4 @@
 #!/bin/bash
 
 pkill hyprpaper
-hyprpaper &
+hyprpaper & disown
