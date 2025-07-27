@@ -1,1 +1,1 @@
-require("startup").setup({theme = "miku", disable_statusline = true,})
+require("startup").setup({theme = "miyabi", disable_statusline = true,})
