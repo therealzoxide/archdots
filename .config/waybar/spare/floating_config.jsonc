@@ -107,7 +107,7 @@
     },
 
     "custom/logo": {
-      "format": "[ 󰣇 ]",
+      "format": "󰣇",
       "on-click": "~/.scripts/gruvbox_bemenu.sh",
       "tooltip": false
     }

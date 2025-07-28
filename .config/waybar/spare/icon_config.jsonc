@@ -10,6 +10,7 @@
 		"network",
 		"battery",
 		"memory",
+		"cpu",
 		"wireplumber",
 		"group/system",
 		"clock"
@@ -46,9 +47,9 @@
 
 	"network": {
 		"tooltip": false,
-		"format-wifi": "[ WiFi: {bandwidthDownBytes} ]",
-		"format-ethernet": "[ Eth: {bandwidthDownBytes} ]",
-		"format-disconnected": "[ Disconnected ]",
+		"format-wifi": "[ 󰖩 {bandwidthDownBytes} ]",
+		"format-ethernet": "[ 󰈀 {bandwidthDownBytes} ]",
+		"format-disconnected": "[ 󱚼 ]",
 		"on-click": "nm-connection-editor"
 	},
 
@@ -65,15 +66,19 @@
 	},
 
 	"memory": {
-		"format": "[ Memory: {used} GiB ]",
-		"format-alt": "[ Swap: {swapUsed} GiB ]",
+		"format": "[ 󰆼 {used} GiB ]",
+		"format-alt": "[ 󰾷 {swapUsed} GiB ]",
 		"on-click-right": "foot -e fish -c 'btm'",
 		"tooltip": false
 	},
 
+	"cpu": {
+		"format": "[  {}% ]"
+	},
+
 	"wireplumber": {
 		"on-click": "foot -e fish -c pulsemixer",
-		"format": "[ Volume: {volume}% ]",
+		"format": "[ 󱄠 {volume}% ]",
 		"tooltip": false
 	},
 
@@ -113,7 +118,7 @@
 	},
 
 	"custom/power": {
-		"format": "[ Power ]",
+		"format": "[ 󰐥 ]",
 		"on-click": "~/.scripts/bemenu_power",
 		"tooltip": false
 	},
@@ -122,8 +127,8 @@
 		"tooltip": false,
 		"format": "{icon} ",
 		"format-icons": {
-			"activated": "[ No Sleep ]",
-			"deactivated": "[ Sleep ]"
+			"activated": "[ 󰔡 ]",
+			"deactivated": "[ 󰨙 ]"
 		}
 	},
 
@@ -131,8 +136,8 @@
 
 	"clock": {
 		"interval": 1,
-		"format": "[ Time: {:%T} ]",
-		"format-alt": "[ Date: {:%b %d, %Y} ]",
+		"format": "[ {:%T} ]",
+		"format-alt": "[ {:%b %d, %Y} ]",
 		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
 	}
 }
