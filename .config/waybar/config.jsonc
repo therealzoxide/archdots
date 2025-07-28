@@ -49,7 +49,7 @@
 		"format-wifi": "[ WiFi: {bandwidthDownBytes} ]",
 		"format-ethernet": "[ Eth: {bandwidthDownBytes} ]",
 		"format-disconnected": "[ Disconnected ]",
-		"on-click": "nm-connection-editor"
+		"on-click": "foot -e bash -c impala"
 	},
 
 	"battery": {
@@ -67,12 +67,12 @@
 	"memory": {
 		"format": "[ Memory: {used} GiB ]",
 		"format-alt": "[ Swap: {swapUsed} GiB ]",
-		"on-click-right": "foot -e fish -c 'btm'",
+		"on-click-right": "foot -e bash -c 'btm'",
 		"tooltip": false
 	},
 
 	"wireplumber": {
-		"on-click": "foot -e fish -c pulsemixer",
+		"on-click": "foot -e bash -c pulsemixer",
 		"format": "[ Volume: {volume}% ]",
 		"tooltip": false
 	},
