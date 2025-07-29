@@ -6,5 +6,5 @@ case "$(echo -e "Shutdown\nReboot\nLogout\nSuspend\nLock" | ~/.scripts/gruvbox_p
 		Reboot) exec systemctl reboot;;
 		Logout) exec loginctl terminate-session ${XDG_SESSION_ID-};;
 		Suspend) exec systemctl suspend;;
-		Lock) exec hyprlock;;
+		Lock) exec swaylock;;
 esac

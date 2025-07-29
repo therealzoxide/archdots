@@ -1,23 +1,17 @@
 # dotfiles
 
-First and foremost these are written for me and the repo is only public because it is easier.  
-If you stumble onto this somehow either I shared it with you or I don't know what you're doing here.  
-If it isn't you're on your own, everything in here works on all of my computers.    
-Some of these config files are just edits of defaults, if credit is not listed then credit goes to the author of the program.  
-Commenting is inconsistent, it was either left by other people or likely does not exist.  
-Do whatever you want with these files, I don't care as long as you let others use them however they want too if you share them.  
-    
-I listed the programs I use below both for my own sake and for anyone who may find this, alongside explanations of them:  
+this also includes a few old configs I didnt want to completely delete, feel free to use, future updates to hyprland may break them  
+The following software is used in this setup:  
   
 CORE (needed for desktop function, no particular order, DO NOT SKIP ANY OF THESE UNLESS YOU HAVE AN ALTERNATIVE, YOUR SYSTEM WILL NOT WORK):   
-hyprland  - hyprland  
+sway - sway  
 foot - terminal (used to use kitty but got tired of all text being italic and couldn't figure out why it was like that)   
 waybar - status bar, not absolutely mandatory  
 bemenu - app launcher and power menu (dmenu alternative)  
 j4_dmenu_desktop - lets bemenu search desktop entries instead of path  
 thunar - file manager  
 polkit-gnome - policy kit agent, needed for authentication   
-xdg-desktop-portal-hyprland - the xdg desktop portal for hyprland, mandatory for basic functions such as screenshare and clipboard  
+xdg-desktop-portal-wlr - the xdg desktop portal for wlroots, mandatory for basic functions such as screenshare  
 wl-clipboard - its your clipboard  
   
 UTILITY (recommended to have but will function without, these are my personal choices):  
@@ -34,18 +28,15 @@ impala - TUI for IWD, doesn't work with networkmanager
 pulsemixer - TUI volume mixer, pavucontrol for GUI (pavucontrol has a bit more function)   
 grim - screenshots for wayland, cant see the screen without slurp  
 slurp - selects regions and prints to stdout, allows grim to screenshot  
-hyprshot - wrapper script for grim + slurp, makes life easier  
 nwg-look - applies themes, icons, and fonts to GTK programs, default settings will be used without  
 bottom - resource monitor  
 macchina - ascii art and system specs/details, looks pretty on terminal startup mainly but comes with a few helpful things to see  
-hyprlock - lockscreen, looks nice  
-hypridle - idle daemon, you can use any this is just a part of the hypr ecosystem  
-hyprpaper - wallpaper manager, again just a part of hypr ecosystem, can use others just fine  
+swaylock - lockscreen  
+swayidle - idle daemon  
+swaybg - wallpaper manager, integrates into sway config file, use swww for a more powerful and dynamic one  
 greetd - greeter daemon, my personal choice  
-greetd-tuigreet, tui login screen for greetd, minimal setup, I only have just in case as I use autologin , if you wont use autologin but want tui I suggest ly instead of greetd  
 tumbler - thumbnail plugin for thunar  
 mako - notification daemon for Wayland, dunst and swaync can also work if mako isnt preferred  
-gromit-mpx - for drawing on your screen  
   
 FONTS:  
 ttf-iawriter-nerd - main font used by me  
@@ -57,20 +48,16 @@ noto-fonts-extra - nerd font wasnt covering everything, this ensured no missing 
 Use Vesktop or Webcord instead of the official discord app unless you need the keybinds.  
 They are both wrappers for the website and work much better on Wayland, Vesktop comes with Vencord built in so it will be slightly less stable.  
 If you use a chromium browser remember to go to chrome://flags in the url bar, search "ozone", and set the option in the result to "Wayland", otherwise it may default to using Xorg and cause issues.  
-
+  
 This repo also comes with config files for fish, starship, and rofi, I no longer use these but have no reason to drop the files so they will for now  
-
-Reminder to myself that I use supercell-wx (the app image version because its the up to date one) for weather, hopefully wont be abandoned  
   
 CONFIGURE THE FOLLOWING:  
-edit computerSpecific.conf to fit the current PCs needs (hypr config folder)  
-there are scripts in the ~/.config/hypr and ~/.config/waybar directories, make them executable.  
-edit config.jsonc to display workspaces on the correct monitors, they show on all by default (waybar config folder)  
+edit computerSpecific.conf to fit the current PCs needs (sway config folder)  
+there are scripts in the ~/.scripts, ~/.config/sway and ~/.config/waybar directories, make them executable.  
 configure pacman and paru to your liking.  
 Add the following to /etc/greetd/config.toml:  
-  
 ``[terminal]``  
 ``vt = 1`` 
 ``[default_session]`` 
-``command = "Hyprland"``  
+``command = "sway"``  
 ``user = "(yourname)"``

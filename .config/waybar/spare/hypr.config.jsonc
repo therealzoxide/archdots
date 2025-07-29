@@ -1,8 +1,9 @@
 {
 	"spacing": 2,
 	"modules-left": [
-		"sway/workspaces",
-		"sway/window"
+		"hyprland/workspaces",
+		"custom/layout",
+		"hyprland/window"
 		],
 	"modules-right": [
 		"mpris",
@@ -14,23 +15,24 @@
 		"clock"
 	],
 
-	"sway/workspaces": {
+	"hyprland/workspaces": {
 		"format": "{icon}",
 		"persistent-workspaces": {
-			"1": ["DP-1"],
-			"2": ["DP-1"],
-			"3": ["DP-1"],
-			"4": ["DP-1"],
-			"5": ["DP-1"],
-			"6": ["DP-2"],
-			"7": ["DP-2"],
-			"8": ["DP-2"],
-			"9": ["DP-2"],
-			"10": ["DP-2"]
+			//"*": [1,2,3,4,5,6,7,8,9,10]
+			"DP-1": [1, 2, 3, 4, 5],
+			"DP-2": [6, 7, 8, 9, 10]
 		}
 	},
 
-	"sway/window": {
+	"custom/layout": {
+		"exec": "~/.config/waybar/layout.sh",
+		"on-click": "~/.config/waybar/layout.sh toggle",
+		"interval": 1,
+		"format": "{}",
+		"tooltip": false
+	},
+
+	"hyprland/window": {
 		"separate-outputs": true,
 		"rewrite": {
 			"(.*) - Vivaldi": "Vivaldi"

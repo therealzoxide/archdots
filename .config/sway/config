@@ -1,13 +1,10 @@
-source = ~/.config/hypr/autostart.conf
-source = ~/.config/hypr/definitions.conf
-source = ~/.config/hypr/computerSpecific.conf
-source = ~/.config/hypr/lookFeel.conf
-source = ~/.config/hypr/animations.conf
-source = ~/.config/hypr/keyboardMouse.conf
-source = ~/.config/hypr/binds.conf
-source = ~/.config/hypr/windowRules.conf
-source = ~/.config/hypr/drawing.conf
-
+include ~/.config/sway/config.d/autostart.conf
+include ~/.config/sway/config.d/definitions.conf
+include ~/.config/sway/config.d/computerSpecific.conf
+include ~/.config/sway/config.d/lookFeel.conf
+include ~/.config/sway/config.d/keyboardMouse.conf
+include ~/.config/sway/config.d/binds.conf
+include ~/.config/sway/config.d/windowRules.conf
 # Emotional support miku #
 #⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⣤⣤⣀⣀⡀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 #⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢄⢀⠀⡀⣠⣴⣾⣿⠿⠟⠛⠛⠛⠿⠿⠿⠽⠿⠿⠿⠿⠿⢶⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀

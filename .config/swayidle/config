@@ -1,0 +1,2 @@
+timeout 570 "notify-send 'Screen locking in 30 Seconds'"
+timeout 600 "swaylock -f"
