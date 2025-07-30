@@ -10,3 +10,7 @@ require("transparent").setup({
 	exclude_groups = {},
 	on_clear = function() end,
 })
+require('transparent').clear_prefix('startup')
+require("notify").setup({
+  background_colour = "#000000",
+})
