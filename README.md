@@ -4,7 +4,7 @@ this also includes a few old configs I didnt want to completely delete, feel fre
 The following software is used in this setup:  
   
 CORE (needed for desktop function, no particular order, DO NOT SKIP ANY OF THESE UNLESS YOU HAVE AN ALTERNATIVE, YOUR SYSTEM WILL NOT WORK):   
-sway - sway  
+swayfx - sway with fx  
 foot - terminal (used to use kitty but got tired of all text being italic and couldn't figure out why it was like that)   
 waybar - status bar, not absolutely mandatory  
 bemenu - app launcher and power menu (dmenu alternative)  
