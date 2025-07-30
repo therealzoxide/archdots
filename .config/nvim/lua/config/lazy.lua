@@ -34,11 +34,14 @@ require("lazy").setup({
 
 		{
 			"startup-nvim/startup.nvim",
- 			dependencies = { "nvim-telescope/telescope.nvim",
+ 			dependencies = {
+				"nvim-telescope/telescope.nvim",
 				"nvim-lua/plenary.nvim",
 				"nvim-telescope/telescope-file-browser.nvim"
 			},
 		},
+
+		{ 'xiyaowong/transparent.nvim' }
 	},
 	checker = { enabled = true },
 })

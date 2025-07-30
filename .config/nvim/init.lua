@@ -3,6 +3,7 @@ require("config.colorscheme")
 require("config.lualine")
 require("config.noice")
 require("config.startup")
+require("config.transparency")
 vim.o.number = true
 vim.o.list = true
 vim.o.relativenumber = true
