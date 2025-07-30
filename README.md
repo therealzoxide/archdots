@@ -52,12 +52,13 @@ If you use a chromium browser remember to go to chrome://flags in the url bar, s
 This repo also comes with config files for fish, starship, and rofi, I no longer use these but have no reason to drop the files so they will for now  
   
 CONFIGURE THE FOLLOWING:  
+Run ``:TransparentEnable`` in nvim for transparency  
 edit computerSpecific.conf to fit the current PCs needs (sway config folder)  
 there are scripts in the ~/.scripts, ~/.config/sway and ~/.config/waybar directories, make them executable.  
 configure pacman and paru to your liking.  
 Add the following to /etc/greetd/config.toml:  
 ``[terminal]``  
-``vt = 1`` 
-``[default_session]`` 
+``vt = 1``  
+``[default_session]``  
 ``command = "sway"``  
 ``user = "(yourname)"``
