@@ -6,10 +6,10 @@
 		],
 	"modules-right": [
 		"mpris",
+		"wireplumber",
 		"network",
 		"battery",
 		"memory",
-		"wireplumber",
 		"group/system",
 		"clock"
 	],
@@ -42,11 +42,17 @@
 		"title-len": 30
 	},
 
+	"wireplumber": {
+		"on-click": "foot -e bash -c pulsemixer",
+		"format": "[ Volume: {volume}% ]",
+		"tooltip": false
+	},
+
 	"network": {
 		"tooltip": false,
-		"format-wifi": "[ WiFi: {bandwidthDownBytes} ]",
-		"format-ethernet": "[ Eth: {bandwidthDownBytes} ]",
-		"format-disconnected": "[ Disconnected ]",
+		"format-wifi": "[ {bandwidthDownBytes} ]",
+		"format-ethernet": "[ {bandwidthDownBytes} ]",
+		"format-disconnected": "[ No Internet ]",
 		"on-click": "foot -e bash -c impala"
 	},
 
@@ -63,15 +69,8 @@
 	},
 
 	"memory": {
-		"format": "[ Memory: {used} GiB ]",
-		"format-alt": "[ Swap: {swapUsed} GiB ]",
-		"on-click-right": "foot -e bash -c 'btm'",
-		"tooltip": false
-	},
-
-	"wireplumber": {
-		"on-click": "foot -e bash -c pulsemixer",
-		"format": "[ Volume: {volume}% ]",
+		"format": "[ {used} GiB ]",
+		"on-click": "foot -e bash -c 'btm'",
 		"tooltip": false
 	},
 
@@ -129,8 +128,8 @@
 
 	"clock": {
 		"interval": 1,
-		"format": "[ Time: {:%T} ]",
-		"format-alt": "[ Date: {:%b %d, %Y} ]",
+		"format": "[ {:%T} ]",
+		"format-alt": "[ {:%b %d, %Y} ]",
 		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
 	}
 }
