@@ -18,6 +18,8 @@ separator-color=282828ff
 #########
 # Clear #
 #########
+bs-hl-color=fb4934ff
+caps-lock-bs-hl-color=fb4934ff
 inside-clear-color=282828ff
 line-clear-color=282828ff
 ring-clear-color=83a598ff
