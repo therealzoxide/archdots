@@ -96,8 +96,8 @@ local settings = {
 	},
 
 	colors = {
-		background = "#282828",
-		folded_section = "#b4befe",
+		background = "nil",
+		folded_section = "#83a598",
 	},
 
 	parts = { "header", "body", "footer" },
