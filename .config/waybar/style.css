@@ -43,11 +43,6 @@
 	color: @red1;
 }
 
-#custom-layout {
-	margin-left: -4px;
-	margin-right: 3px;
-}
-
 #tray {
 	padding-right: 10px;
 	padding-left: 10px;
@@ -97,7 +92,7 @@
 	padding-right: 0px;
 	padding-left: 0px;
 	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-bottom: 2px;
 	color: @blue0;
 }
 
