@@ -37,6 +37,7 @@ swaybg - wallpaper manager, integrates into sway config file, use swww for a mor
 greetd - greeter daemon, my personal choice  
 tumbler - thumbnail plugin for thunar  
 mako - notification daemon for Wayland, dunst and swaync can also work if mako isnt preferred  
+autotiling - it auto tiles sway, this conf uses it set to tile in a master layout
   
 FONTS:  
 ttf-iawriter-nerd - main font used by me  
