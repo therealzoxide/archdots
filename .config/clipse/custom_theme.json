@@ -10,7 +10,7 @@
 	"SelectedBorder": "#83A598",
 	"SelectedDescBorder": "#83A598",
 	"TitleFore": "#EBDBB2",
-	"Titleback": "#282828",
+	"Titleback": "nil",
 	"StatusMsg": "#B8BB26",
 	"PinIndicatorColor": "#f73028"
 }
