@@ -1,35 +1,40 @@
 # dotfiles
-
+  
+Please read before using if you somehow found this, the following is a package list intended for Arch  
 this also includes a few old configs I didnt want to completely delete, feel free to use, future updates to hyprland may break them  
 The following software is used in this setup:  
   
 ## CORE  
-## (needed for desktop function, no particular order, DO NOT SKIP ANY OF THESE UNLESS YOU HAVE AN ALTERNATIVE, YOUR SYSTEM WILL NOT WORK):  
-swayfx - sway with fx  
-foot - terminal (used to use kitty but got tired of all text being italic and couldn't figure out why it was like that)   
-waybar - status bar, not absolutely mandatory  
-bemenu - app launcher and power menu (dmenu alternative)  
+#### (Mandatory for basic function):  
+swayfx - sway with fx, can use plain sway but you'll need to edit lookFeel.conf  
+xdg-desktop-portal-wlr - the xdg desktop portal for wlroots, mandatory for basic functions such as screenshare
+foot - simplest wayland terminal  
+bemenu - app launcher and power menu (dmenu clone)  
 j4_dmenu_desktop - lets bemenu search desktop entries instead of path  
-thunar - file manager  
-polkit-gnome - policy kit agent, needed for authentication   
-xdg-desktop-portal-wlr - the xdg desktop portal for wlroots, mandatory for basic functions such as screenshare  
+polkit-gnome - policy kit agent, needed for GUI authentication  
 wl-clipboard - its your clipboard  
   
 ## UTILITY  
-### (recommended to have but will function without, these are my personal choices):  
+#### (Recommended to have but will function without):  
 udiskie - external disk auto mount  
 gvfs - adds trash support  
 gvfs-mtp - compatibility with android file system  
-clipse (aur) - adds clipboard history and management, runs in Kitty  
-paru - AUR helper, aliased to "yay" in my bash config  
-eza - better ls, aliased to "ls, ll la" in my bash config  
-nvim - text editor, vim with better plugin ecosystem  
-xarchiver - allows you to view files inside archives  (can use fileroller instead if preferred)  
-7zip - most versatile archiver  
-impala - TUI for IWD, doesn't work with networkmanager  
-pulsemixer - TUI volume mixer, pavucontrol for GUI (pavucontrol has a bit more function)   
+waybar - status bar, technically works without (also consider swaybar + i3blocks)  
 grim - screenshots for wayland, cant see the screen without slurp  
 slurp - selects regions and prints to stdout, allows grim to screenshot  
+  
+## UTILITY PREFERENCE  
+#### (Easier to replace utilities)  
+paru - AUR helper, aliased to "yay" in my bash config (also consider aurutils)  
+impala - TUI for IWD, doesn't work with networkmanager  
+pulsemixer - TUI volume mixer, pavucontrol for GUI (pavucontrol for GUI)  
+eza - better ls, ~/.bashrc will need edited if you do not use this  
+clipse (aur) - adds clipboard history and management, runs in Kitty  
+thunar - XFCE file manager, Mod4+N to quickly open  
+tumbler - thumbnail support for thunar  
+xarchiver - allows you to view files inside archives  (can use fileroller instead if preferred)  
+7zip - most versatile archiver  
+nvim - text editor, vim but better (consider doom emacs too)  
 nwg-look - applies themes, icons, and fonts to GTK programs, default settings will be used without  
 bottom - resource monitor  
 macchina - ascii art and system specs/details, looks pretty on terminal startup mainly but comes with a few helpful things to see  
@@ -37,9 +42,8 @@ swaylock - lockscreen
 swayidle - idle daemon  
 swaybg - wallpaper manager, integrates into sway config file, use swww for a more powerful and dynamic one  
 greetd - greeter daemon, my personal choice  
-tumbler - thumbnail plugin for thunar  
 mako - notification daemon for Wayland, dunst and swaync can also work if mako isnt preferred  
-autotiling - it auto tiles sway, this conf uses it set to tile in a master layout
+autotiling - it auto tiles sway, this conf uses it set to tile in a master layout  
   
 ## FONTS:  
 ttf-iawriter-nerd - main font used by me  
@@ -48,9 +52,15 @@ noto-fonts - required by many programs anyway
 noto-fonts-emoji - so emojis work  
 noto-fonts-extra - nerd font wasnt covering everything, this ensured no missing characters   
   
+## INFORMATION
 Use Vesktop or Webcord instead of the official discord app unless you need the keybinds.  
 They are both wrappers for the website and work much better on Wayland, Vesktop comes with Vencord built in so it will be slightly less stable.  
 If you use a chromium browser remember to go to chrome://flags in the url bar, search "ozone", and set the option in the result to "Wayland", otherwise it may default to using Xorg and cause issues.  
+Consider using this with i3 and an X.org friendly terminal such as ST, Alacritty or Kirtty if you use an NVIDIA GPU, sway won't work with non-open drivers  
+Unsure if this works with old AMD GPUs  
+This repo will likely change shortly after a stable and high quality awesomewm clone exists wayland and will continue to exist  
+Hyprland configs are unmaintained forever  
+nvim configs will change to using the native plugin manager as soon as it reaches the stable channel  
   
 This repo also comes with config files for fish, starship, and rofi, I no longer use these but have no reason to drop the files so they will for now  
   
