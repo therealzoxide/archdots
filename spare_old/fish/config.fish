@@ -11,13 +11,13 @@ if status is-interactive
 	alias ......='cd ../../..'
 
 	function starship_transient_prompt_func
-	  starship module character
+		starship module character
 	end
 	starship init fish | source
 	enable_transience
 
 	function fish_postexec --on-event fish_postexec
-	    shell_motivation
+		shell_motivation
 	end
 
 end
