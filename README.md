@@ -65,13 +65,13 @@ nvim configs will change to using the native plugin manager as soon as it reache
 This repo also comes with config files for fish, starship, and rofi, I no longer use these but have no reason to drop the files so they will for now  
   
 ## CONFIGURE THE FOLLOWING:  
-Run ``:TransparentEnable`` in nvim for transparency  
+Run `:TransparentEnable` in nvim for transparency  
 edit computerSpecific.conf to fit the current PCs needs (sway config folder)  
 there are scripts in the ~/.scripts, ~/.config/sway and ~/.config/waybar directories, make them executable.  
 configure pacman and paru to your liking.  
 Add the following to /etc/greetd/config.toml:  
-``[terminal]``  
-``vt = 1``  
-``[default_session]``  
-``command = "sway"``  
-``user = "(yourname)"``
+`[terminal]`  
+`vt = 1`  
+`[default_session]`  
+`command = "sway"`  
+`user = "(yourname)"`
