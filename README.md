@@ -3,7 +3,8 @@
 this also includes a few old configs I didnt want to completely delete, feel free to use, future updates to hyprland may break them  
 The following software is used in this setup:  
   
-CORE (needed for desktop function, no particular order, DO NOT SKIP ANY OF THESE UNLESS YOU HAVE AN ALTERNATIVE, YOUR SYSTEM WILL NOT WORK):   
+## CORE  
+## (needed for desktop function, no particular order, DO NOT SKIP ANY OF THESE UNLESS YOU HAVE AN ALTERNATIVE, YOUR SYSTEM WILL NOT WORK):  
 swayfx - sway with fx  
 foot - terminal (used to use kitty but got tired of all text being italic and couldn't figure out why it was like that)   
 waybar - status bar, not absolutely mandatory  
@@ -14,7 +15,8 @@ polkit-gnome - policy kit agent, needed for authentication
 xdg-desktop-portal-wlr - the xdg desktop portal for wlroots, mandatory for basic functions such as screenshare  
 wl-clipboard - its your clipboard  
   
-UTILITY (recommended to have but will function without, these are my personal choices):  
+## UTILITY  
+### (recommended to have but will function without, these are my personal choices):  
 udiskie - external disk auto mount  
 gvfs - adds trash support  
 gvfs-mtp - compatibility with android file system  
@@ -39,7 +41,7 @@ tumbler - thumbnail plugin for thunar
 mako - notification daemon for Wayland, dunst and swaync can also work if mako isnt preferred  
 autotiling - it auto tiles sway, this conf uses it set to tile in a master layout
   
-FONTS:  
+## FONTS:  
 ttf-iawriter-nerd - main font used by me  
 ttf-sarasa-gothic - noto-fonts-cjk shifts the entire waybar when paired with english text, this font doesnt  
 noto-fonts - required by many programs anyway   
@@ -52,7 +54,7 @@ If you use a chromium browser remember to go to chrome://flags in the url bar, s
   
 This repo also comes with config files for fish, starship, and rofi, I no longer use these but have no reason to drop the files so they will for now  
   
-CONFIGURE THE FOLLOWING:  
+## CONFIGURE THE FOLLOWING:  
 Run ``:TransparentEnable`` in nvim for transparency  
 edit computerSpecific.conf to fit the current PCs needs (sway config folder)  
 there are scripts in the ~/.scripts, ~/.config/sway and ~/.config/waybar directories, make them executable.  
