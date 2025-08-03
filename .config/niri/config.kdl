@@ -128,11 +128,11 @@ window-rule {
 //////////////
 spawn-at-startup "swaylock"
 spawn-at-startup "swayidle"
-spawn-at-startup "clipse_start"
+spawn-at-startup "clipse" "-listen"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "udiskie"
 spawn-at-startup "mako"
-spawn-at-startup "./.scripts/swaybg"
+spawn-at-startup "~/.scripts/swaybg"
 spawn-at-startup "waybar"
 spawn-at-startup "xwayland-satellite"
 ///////////
@@ -156,7 +156,7 @@ binds {
 	Mod+Return hotkey-overlay-title="Open foot" { spawn "foot"; }
 	Ctrl+Shift+Space hotkey-overlay-title="bemenu_run" { spawn "~/.scripts/bemenu_run"; }
 	Mod+Shift+E { spawn "~/.scripts/bemenu_power"; }
-	Mod+V { spawn "./.scripts/clipboard"; }
+	Mod+V { spawn "foot" "--title" "clipse" "-e" "clipse"; }
 	Mod+N { spawn "thunar"; }
 	Mod+Shift+P { screenshot; }
 	Mod+P { screenshot-screen; }
