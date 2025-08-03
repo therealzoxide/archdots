@@ -2,7 +2,6 @@
 
 j4-dmenu-desktop --dmenu='bemenu \
 --fn "iMWritingMono Nerd Font 13" \
--c \
 -i \
 --prompt ">" \
 --list 12 \

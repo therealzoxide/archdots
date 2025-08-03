@@ -1,18 +1,20 @@
 # dotfiles
   
 Please read before using if you somehow found this, the following is a package list intended for Arch  
-this also includes a few old configs I didnt want to completely delete, feel free to use, future updates to hyprland may break them  
+this also includes a few old configs I didnt want to completely delete including sway and hyprland, feel free to use, future updates to hyprland may break them  
 The following software is used in this setup:  
   
 ## CORE  
 #### (Mandatory for basic function):  
-swayfx - sway with fx, can use plain sway but you'll need to edit lookFeel.conf  
-xdg-desktop-portal-wlr - the xdg desktop portal for wlroots, mandatory for basic functions such as screenshare
+niri - scrolling window manager  
+xdg-desktop-portal-gnome - used for screenshare in niri  
+xdg-desktop-portal-gtk - used for filepicker in niri  
 foot - simplest wayland terminal  
 bemenu - app launcher and power menu (dmenu clone)  
 j4_dmenu_desktop - lets bemenu search desktop entries instead of path  
 polkit-gnome - policy kit agent, needed for GUI authentication  
 wl-clipboard - its your clipboard  
+xwayland-satellite - niri does not have native xwayland support, you need this to run x11 apps  
   
 ## UTILITY  
 #### (Recommended to have but will function without):  
@@ -42,8 +44,7 @@ swaylock - lockscreen
 swayidle - idle daemon  
 swaybg - wallpaper manager, integrates into sway config file, use swww for a more powerful and dynamic one  
 greetd - greeter daemon, my personal choice  
-mako - notification daemon for Wayland, dunst and swaync can also work if mako isnt preferred  
-autotiling - it auto tiles sway, this conf uses it set to tile in a master layout  
+mako - notification daemon for Wayland, dunst, fnott and swaync can also work if mako isnt preferred  
   
 ## FONTS:  
 ttf-iawriter-nerd - main font used by me  
@@ -56,9 +57,6 @@ noto-fonts-extra - nerd font wasnt covering everything, this ensured no missing 
 Use Vesktop or Webcord instead of the official discord app unless you need the keybinds.  
 They are both wrappers for the website and work much better on Wayland, Vesktop comes with Vencord built in so it will be slightly less stable.  
 If you use a chromium browser remember to go to chrome://flags in the url bar, search "ozone", and set the option in the result to "Wayland", otherwise it may default to using Xorg and cause issues.  
-Consider using this with i3 and an X.org friendly terminal such as ST, Alacritty or Kirtty if you use an NVIDIA GPU, sway won't work with non-open drivers  
-Unsure if this works with old AMD GPUs  
-This repo will likely change shortly after a stable and high quality awesomewm clone exists wayland and will continue to exist  
 Hyprland configs are unmaintained forever  
 nvim configs will change to using the native plugin manager as soon as it reaches the stable channel  
   
@@ -66,12 +64,12 @@ This repo also comes with config files for fish, starship, and rofi, I no longer
   
 ## CONFIGURE THE FOLLOWING:  
 Run `:TransparentEnable` in nvim for transparency  
-edit computerSpecific.conf to fit the current PCs needs (sway config folder)  
-there are scripts in the ~/.scripts, ~/.config/sway and ~/.config/waybar directories, make them executable.  
+edit output section in config.kdl (niri) to fit your monitors  
+there are scripts in the ~/.scripts and ~/.config/waybar directory, make them executable.  
 configure pacman and paru to your liking.  
 Add the following to /etc/greetd/config.toml:  
 `[terminal]`  
 `vt = 1`  
 `[default_session]`  
-`command = "sway"`  
+`command = "niri"`  
 `user = "(yourname)"`

@@ -1,8 +1,8 @@
 {
 	"spacing": 2,
 	"modules-left": [
-		"niri/workspaces",
-		"niri/window"
+		"sway/workspaces",
+		"sway/window"
 		],
 	"modules-right": [
 		"mpris",
@@ -14,11 +14,23 @@
 		"clock"
 	],
 
-	"niri/workspaces": {
-		"format": "{icon}"
+	"sway/workspaces": {
+		"format": "{icon}",
+		"persistent-workspaces": {
+			"1": ["DP-1"],
+			"2": ["DP-1"],
+			"3": ["DP-1"],
+			"4": ["DP-1"],
+			"5": ["DP-1"],
+			"6": ["DP-2"],
+			"7": ["DP-2"],
+			"8": ["DP-2"],
+			"9": ["DP-2"],
+			"10": ["DP-2"]
+		}
 	},
 
-	"niri/window": {
+	"sway/window": {
 		"separate-outputs": true,
 		"rewrite": {
 			"(.*) - Vivaldi": "Vivaldi"

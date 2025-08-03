@@ -29,7 +29,7 @@
 	color: @blue0;
 }
 
-#workspaces button.visible {
+#workspaces button.active {
 	color: @bg0;
 	background-color: @blue0;
 }
