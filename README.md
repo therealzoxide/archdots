@@ -71,5 +71,5 @@ Add the following to /etc/greetd/config.toml:
 `[terminal]`  
 `vt = 1`  
 `[default_session]`  
-`command = "niri"`  
+`command = "niri-session"`  
 `user = "(yourname)"`
