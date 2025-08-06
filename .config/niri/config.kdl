@@ -166,7 +166,7 @@ binds {
 	Mod+P { screenshot-screen; }
 	Mod+Ctrl+Shift+P { screenshot-window; }
 	Mod+Shift+S { spawn "~/.scripts/record.sh"; }
-	Mod+Shift+D { spawn "makoctl dismiss"; }
+	Mod+Shift+D { spawn "makoctl" "dismiss"; }
 	Mod+Ctrl+Shift+W { spawn "~/.scripts/wayfix.sh"; }
 
 	Mod+Equal allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05+"; }
