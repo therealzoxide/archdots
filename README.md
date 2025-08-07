@@ -11,7 +11,7 @@ xdg-desktop-portal-gnome - used for screenshare in niri
 xdg-desktop-portal-gtk - used for filepicker in niri  
 foot - simplest wayland terminal  
 bemenu - app launcher and power menu (dmenu clone)  
-j4_dmenu_desktop - lets bemenu search desktop entries instead of path  
+j4-dmenu-desktop - lets bemenu search desktop entries instead of path  
 polkit-gnome - policy kit agent, needed for GUI authentication  
 wl-clipboard - its your clipboard  
 xwayland-satellite - niri does not have native xwayland support, you need this to run x11 apps  
@@ -22,8 +22,6 @@ udiskie - external disk auto mount
 gvfs - adds trash support  
 gvfs-mtp - compatibility with android file system  
 waybar - status bar, technically works without (also consider swaybar + i3blocks)  
-grim - screenshots for wayland, cant see the screen without slurp  
-slurp - selects regions and prints to stdout, allows grim to screenshot  
   
 ## UTILITY PREFERENCE  
 #### (Easier to replace utilities)  
