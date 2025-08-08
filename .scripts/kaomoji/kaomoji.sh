@@ -143,6 +143,7 @@ _clipper() {
 _picker() {
 	bemenu \
 		-i \
+		-n \
 		--fn "iMWritingMono Nerd Font 13" \
 		--prompt ">" \
 		--list 20 \

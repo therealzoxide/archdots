@@ -2,7 +2,10 @@
 
 bemenu \
 	--fn "iMWritingMono Nerd Font 13" \
-	-c --prompt "Power:" --list 20 --wrap \
+	-n \
+	--prompt "Power:" \
+	--list 20 \
+	--wrap \
 	--width-factor 0.08 \
 	--center \
 	--border 1 \
