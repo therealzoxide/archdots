@@ -158,8 +158,9 @@ binds {
 	Mod+Q repeat=false { close-window; }
 	Mod+Shift+Slash { show-hotkey-overlay; }
 	Mod+Return hotkey-overlay-title="Open foot" { spawn "foot"; }
-	Ctrl+Shift+Space hotkey-overlay-title="bemenu_run" { spawn "~/.scripts/bemenu_run"; }
-	Mod+Shift+E { spawn "~/.scripts/bemenu_power"; }
+	Ctrl+Shift+Space hotkey-overlay-title="bemenu_run" { spawn "~/.scripts/bemenu/bemenu_run"; }
+	Mod+Shift+E { spawn "~/.scripts/bemenu/bemenu_power"; }
+	Mod+Shift+B { spawn "~/.scripts/kaomoji/kaomoji.sh"; }
 	Mod+V { spawn "foot" "--title" "clipse" "-e" "clipse"; }
 	Mod+N { spawn "thunar"; }
 	Mod+Shift+P { screenshot; }

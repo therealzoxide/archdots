@@ -29,5 +29,5 @@ j4-dmenu-desktop --dmenu='bemenu \
 --fbf "#83a598" \
 --scb "#282828" \
 --scf "#83a598"' \
---usage-log ~/.scripts/bemenu_hist
+--usage-log ~/.scripts/bemenu/bemenu_hist
 
