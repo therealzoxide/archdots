@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-version=0.1
+version=0.2
 
 base_dir="$HOME/.scripts/kaomoji"
 kaomoji_list=$base_dir/list
@@ -94,8 +94,6 @@ gather_emojis() {
 	local result
 	if [ -n "$kaomoji_list" ] && [ -f "$kaomoji_list" ]; then
 		result=$(cat "$kaomoji_list")
-	elif [ -n "$kaomoji_list" ] && curl -fsSI "$kaomoji_list" >/dev/null 2>&1; then
-		result=$(curl -sSL "$kaomoji_list")
 	else
 		result=$(echo "No results found")
 	fi
