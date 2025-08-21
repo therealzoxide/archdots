@@ -150,6 +150,11 @@ prefer-no-csd
 environment {
     DISPLAY ":0"
 }
+gestures {
+	hot-corners {
+		off
+	}
+}
 ////////////
 // BINDS //
 //////////
