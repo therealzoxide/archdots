@@ -1,4 +1,4 @@
-@import "latte.css";
+@import "gruvbox_dark.css";
 
 * {
 	font-family: iMWritingMono Nerd Font Propo, Sarasa Fixed J Regular, Symbols Nerd Font Regular;
@@ -7,43 +7,40 @@
 }
 
 #waybar {
-	background: transparent;
-	color: @blue;
+	background: @bg0;
+	color: @blue0;
 }
 
 #workspaces {
-	background-color: @base;
-	border-radius: 6px;
+	background-color: @bg0;
 	margin-right: 7px;
-	margin-left: 7px;
-	margin-top: 7px;
 }
 
 #workspaces button {
-	color: @yellow;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	color: @yellow0;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
-	border-radius: 6px;
+	border-radius: 0px;
 }
 
 #workspaces button.empty {
-	color: @blue;
+	color: @blue0;
 }
 
 #workspaces button.active {
-	color: @base;
-	background-color: @blue;
+	color: @bg0;
+	background-color: @blue0;
 }
 
 #workspaces button.urgent {
-	color: @base;
-	background-color: @red;
+	color: @bg0;
+	background-color: @red0;
 }
 
 #battery.warning:not(.charging) {
-	color: @red;
+	color: @red1;
 }
 
 #tray {
@@ -58,20 +55,20 @@
 }
 
 #idle_inhibitor {
-	color: @blue;
+	color: @blue0;
 	padding-right: 0px;
 	margin-right: -6px;
 }
 
 #custom-logo {
-	color: @blue;
-	background-color: @base;
+	color: @blue0;
+	background-color: @bg0;
 	padding-right: 0px;
 	padding-left: 0px;
 }
 
 #clock {
-	color: @blue;
+	color: @blue0;
 	padding-top: 0px;
 	padding-bottom: 1px;
 	margin-right: 4px;
@@ -89,27 +86,20 @@
 #custom-power,
 #custom-dnd,
 #custom-logo,
-#tray,
-#window
+#tray
 {
-	margin-top: 7px;
-	background-color: @base;
-	padding-right: 6px;
-	padding-left: 6px;
-	padding-top: 6px;
-	padding-bottom: 6px;
-	color: @blue;
-	border-radius: 6px;
-}
-
-window#waybar.empty #window {
-	background-color: transparent;
+	background-color: @bg0;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	color: @blue0;
 }
 
 tooltip {
-	color: @blue;
-	background-color: @base;
+	color: @blue0;
+	background-color: @bg0;
 	padding: 11px;
-	border: 1px solid @blue;
+	border: 1px solid @blue0;
 	border-radius: 0px;
 }

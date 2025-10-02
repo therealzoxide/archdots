@@ -5,34 +5,32 @@ require('transparent').clear_prefix('lualine')
 local lualine = require('lualine')
 
 local colors = {
-	bg0_hard 		= "#1d2021",
-	bg0 				= "#282828",
-	bg1 				= "#32302f",
-	bg2 				= "#3c3836",
-	bg3 				= "#504945",
-	bg4 				= "#7c6f64",
-
-	gray				= "#665c54",
-	fg0 				= "#fbf1c7",
-	fg1 				= "#ebdbb2",
-	fg2 				= "#d5c4a1",
-	fg3 				= "#bdae93",
-	fg4 				= "#a89984",
-
-	red0 				= "#fb4934",
-	green0			= "#b8bb26",
-	yellow0			= "#fabd2f",
-	blue0				= "#83a598",
-	purple0			= "#d3869b",
-	aqua0				= "#8ec07c",
-	orange0			= "#fe8019",
-	red1 				= "#cc241d",
-	green1 			= "#98971a",
-	yellow1 		= "#d79921",
-	blue1 			= "#458588",
-	purple1 		= "#b16286",
-	aqua1 			= "#689d6a",
-	orange1 		= "#d65d0e",
+	rosewater = "#dc8a78",
+	flamingo = "#dd7878",
+	pink = "#ea76cb",
+	mauve = "#8839ef",
+	red = "#d20f39",
+	maroon = "#e64553",
+	peach = "#fe640b",
+	yellow = "#df8e1d",
+	green = "#40a02b",
+	teal = "#179299",
+	sky = "#04a5e5",
+	sapphire = "#209fb5",
+	blue = "#1e66f5",
+	lavender = "#7287fd",
+	text = "#4c4f69",
+	subtext1 = "#5c5f77",
+	subtext0 = "#6c6f85",
+	overlay2 = "#7c7f93",
+	overlay1 = "#8c8fa1",
+	overlay0 = "#9ca0b0",
+	surface2 = "#acb0be",
+	surface1 = "#bcc0cc",
+	surface0 = "#ccd0da",
+	base = "#eff1f5",
+	mantle = "#e6e9ef",
+	crust = "#dce0e8",
 }
 
 local conditions = {
@@ -54,8 +52,8 @@ local config = {
 		component_separators = '',
 		section_separators = '',
 		theme = {
-			normal = { c = { fg = colors.fg1, bg = nil } },
-			inactive = { c = { fg = colors.fg1, bg = nil } },
+			normal = { c = { fg = colors.text, bg = nil } },
+			inactive = { c = { fg = colors.text, bg = nil } },
 		},
 	},
 	sections = {
@@ -88,7 +86,7 @@ ins_left {
 	function()
 		return '▊'
 	end,
-	color = { fg = colors.blue0 },
+	color = { fg = colors.blue },
 	padding = { left = 0, right = 1 },
 }
 
@@ -109,7 +107,7 @@ ins_left {
 		}
 		return mode_name[mode] or mode:upper()
 		end,
-	color = { fg = colors.blue0 },
+	color = { fg = colors.blue },
 	padding = { right = 1 },
 }
 
@@ -121,21 +119,21 @@ ins_left {
 ins_left {
 	'filename',
 	cond = conditions.buffer_not_empty,
-	color = { fg = colors.blue0, gui = 'bold' },
+	color = { fg = colors.blue, gui = 'bold' },
 }
 
 ins_left { 'location' }
 
-ins_left { 'progress', color = { fg = colors.blue0, gui = 'bold' } }
+ins_left { 'progress', color = { fg = colors.blue, gui = 'bold' } }
 
 ins_left {
 	'diagnostics',
 	sources = { 'nvim_diagnostic' },
 	symbols = { error = ' ', warn = ' ', info = ' ' },
 	diagnostics_color = {
-		error = { fg = colors.red1 },
-		warn = { fg = colors.yellow0 },
-		info = { fg = colors.blue0 },
+		error = { fg = colors.red },
+		warn = { fg = colors.yellow },
+		info = { fg = colors.blue },
 	},
 }
 
@@ -143,20 +141,20 @@ ins_right {
 	'o:encoding',
 	fmt = string.upper,
 	cond = conditions.hide_in_width,
-	color = { fg = colors.blue0, gui = 'bold' },
+	color = { fg = colors.blue, gui = 'bold' },
 }
 
 ins_right {
 	'fileformat',
 	fmt = string.upper,
 	icons_enabled = false,
-	color = { fg = colors.blue0, gui = 'bold' },
+	color = { fg = colors.blue, gui = 'bold' },
 }
 
 ins_right {
 	'branch',
 	icon = '',
-	color = { fg = colors.blue0, gui = 'bold' },
+	color = { fg = colors.blue, gui = 'bold' },
 }
 
 ins_right {
@@ -165,7 +163,7 @@ ins_right {
 	diff_color = {
 		added = { fg = colors.green0 },
 		modified = { fg = colors.orange0 },
-		removed = { fg = colors.blue0 },
+		removed = { fg = colors.blue },
 	},
 	cond = conditions.hide_in_width,
 }
@@ -174,7 +172,7 @@ ins_right {
 	function()
 		return '▊'
 	end,
-	color = { fg = colors.blue0 },
+	color = { fg = colors.blue },
 	padding = { left = 1 },
 }
 

@@ -5,9 +5,9 @@ hexcolor_bold() {
 	printf '\[\e[1;38;2;%d;%d;%dm\]' $((16#${hex:0:2})) $((16#${hex:2:2})) $((16#${hex:4:2}))
 }
 
-yellow=$(hexcolor_bold "#fabd2f")
-blue=$(hexcolor_bold "#83a598")
-green=$(hexcolor_bold "#b8bb26")
+yellow=$(hexcolor_bold "#df8e1d")
+blue=$(hexcolor_bold "#1e66f5")
+green=$(hexcolor_bold "#40a02b")
 reset='\[\e[0m\]'
 
 git_status_symbols() {

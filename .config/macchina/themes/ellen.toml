@@ -2,8 +2,8 @@ hide_ascii      = false
 spacing         = 1
 padding         = 0
 separator       = ">>"
-key_color       = "#8ec07c"
-separator_color = "#fabd2f"
+key_color       = "#8839ef"
+separator_color = "#df8e1d"
 
 [box]
 title           = " Sharj "
@@ -15,7 +15,7 @@ x               = 1
 y               = 1
 
 [custom_ascii]
-color           = "#83a598"
+color           = "#1e66f5"
 path = "~/.config/macchina/themes/ellen.txt"
 
 [keys]

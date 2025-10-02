@@ -1,16 +1,16 @@
 {
 	"useCustomTheme": true,
-	"DimmedDesc": "#928374",
-	"DimmedTitle": "#928374",
-	"FilteredMatch": "#B8BB26",
-	"NormalDesc": "#A89984",
-	"NormalTitle": "#D3869B",
-	"SelectedDesc": "#8EC07C",
-	"SelectedTitle": "#8EC07C",
-	"SelectedBorder": "#83A598",
-	"SelectedDescBorder": "#83A598",
-	"TitleFore": "#EBDBB2",
+	"DimmedDesc": "#7c7f93",
+	"DimmedTitle": "#5c5f77",
+	"FilteredMatch": "#40a02b",
+	"NormalDesc": "#4c4f69",
+	"NormalTitle": "#1e66f5",
+	"SelectedDesc": "#4c4f69",
+	"SelectedTitle": "#8839ef",
+	"SelectedBorder": "#1e66f5",
+	"SelectedDescBorder": "#1e66f5",
+	"TitleFore": "#4c4f59",
 	"Titleback": "nil",
-	"StatusMsg": "#B8BB26",
-	"PinIndicatorColor": "#f73028"
+	"StatusMsg": "#df8e1d",
+	"PinIndicatorColor": "#e64553"
 }

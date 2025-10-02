@@ -1,6 +1,6 @@
 #!/bin/bash
 
-case "$(echo -e "Shutdown\nReboot\nLogout\nSuspend\nLock" | ~/.scripts/bemenu/gruvbox_power.sh \
+case "$(echo -e "Shutdown\nReboot\nLogout\nSuspend\nLock" | ~/.scripts/bemenu/latte_power.sh \
 	"Power:" -l 5)" in
 		Shutdown) exec systemctl poweroff;;
 		Reboot) exec systemctl reboot;;

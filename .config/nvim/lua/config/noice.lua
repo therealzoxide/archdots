@@ -49,9 +49,9 @@ require("noice").setup({
 	},
 })
 
-vim.api.nvim_set_hl(0, "NoiceCmdlinePopup", { fg = "#83a598" })
-vim.api.nvim_set_hl(0, "NoiceCmdlineIcon", { fg = "#689d6a" })
-vim.api.nvim_set_hl(0, "NoiceCmdline", { fg = "#8ec07c" })
-vim.api.nvim_set_hl(0, "NoicePopup", { fg = "#83a598" })
-vim.api.nvim_set_hl(0, "NoicePopupBorder", { fg = "#83a598" })
-vim.api.nvim_set_hl(0, "NoiceCmdlinePopupBorder", { fg = "#83a598" })
+vim.api.nvim_set_hl(0, "NoiceCmdlinePopup", { fg = "#1e66f5" })
+vim.api.nvim_set_hl(0, "NoiceCmdlineIcon", { fg = "#8893ef" })
+vim.api.nvim_set_hl(0, "NoiceCmdline", { fg = "#179299" })
+vim.api.nvim_set_hl(0, "NoicePopup", { fg = "#1e66f5" })
+vim.api.nvim_set_hl(0, "NoicePopupBorder", { fg = "#1e66f5" })
+vim.api.nvim_set_hl(0, "NoiceCmdlinePopupBorder", { fg = "#1e66f5" })

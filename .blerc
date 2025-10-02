@@ -1,6 +1,6 @@
 # -*- mode: sh; mode: sh-bash -*-
 
-source ~/.scripts/bash/gruvbox_dark
+source ~/.scripts/bash/latte
 
 ##################
 # Basic settings #
@@ -21,7 +21,7 @@ function hexcolor_bold {
 	printf '\e[1;38;2;%d;%d;%dm' "$((16#${hex:0:2}))" "$((16#${hex:2:2}))" "$((16#${hex:4:2}))"
 }
 
-local blue=$(hexcolor_bold $blue0)
+local blue=$(hexcolor_bold $blue)
 local reset=$'\e[0m'
 
 bleopt prompt_ps1_final="${blue}>>${reset} "
@@ -63,75 +63,78 @@ blehook/eval-after-load keymap_vi blerc/vim-load-hook
 # Colors #
 ##########
 
-ble-face -s region                    fg=$red0
-ble-face -s region_insert             fg=$aqua1
-ble-face -s region_match              fg=$yellow0
-ble-face -s region_target             fg=$blue0
-ble-face -s disabled                  fg=$fg3
-ble-face -s overwrite_mode            fg=$orange1
+ble-face -s region                    fg=$red
+ble-face -s region_insert             fg=$teal
+ble-face -s region_match              fg=$yellow
+ble-face -s region_target             fg=$blue
+ble-face -s disabled                  fg=$overlay0
+ble-face -s overwrite_mode            fg=$peach
 
 ble-face -s syntax_default            none
-ble-face -s syntax_command            fg=$purple1
-ble-face -s syntax_quoted             fg=$aqua1
-ble-face -s syntax_quotation          fg=$aqua1,bold
-ble-face -s syntax_escape             fg=$purple0
-ble-face -s syntax_expr               fg=$blue0
-ble-face -s syntax_error              fg=$red0
-ble-face -s syntax_varname            fg=$orange1
+ble-face -s syntax_command            fg=$mauve
+ble-face -s syntax_quoted             fg=$green
+ble-face -s syntax_quotation          fg=$green,bold
+ble-face -s syntax_escape             fg=$mauve
+ble-face -s syntax_expr               fg=$blue
+ble-face -s syntax_error              fg=$red
+ble-face -s syntax_varname            fg=$peach
 ble-face -s syntax_delimiter          bold
-ble-face -s syntax_param_expansion    fg=$orange1
-ble-face -s syntax_history_expansion  fg=$yellow1
-ble-face -s syntax_function_name      fg=$blue0,bold
-ble-face -s syntax_comment            fg=$fg4
-ble-face -s syntax_glob               fg=$purple0,bold
-ble-face -s syntax_brace              fg=$blue1,bold
-ble-face -s syntax_tilde              fg=$blue0,bold
-ble-face -s syntax_document           fg=$orange0
-ble-face -s syntax_document_begin     fg=$orange0,bold
+ble-face -s syntax_param_expansion    fg=$peach
+ble-face -s syntax_history_expansion  fg=$yellow
+ble-face -s syntax_function_name      fg=$blue,bold
+ble-face -s syntax_comment            fg=$subtext0
+ble-face -s syntax_glob               fg=$mauve,bold
+ble-face -s syntax_brace              fg=$lavender,bold
+ble-face -s syntax_tilde              fg=$blue,bold
+ble-face -s syntax_document           fg=$peach
+ble-face -s syntax_document_begin     fg=$peach,bold
 
-ble-face -s command_builtin_dot       fg=$blue1,bold
-ble-face -s command_builtin           fg=$blue0
-ble-face -s command_alias             fg=$aqua1
-ble-face -s command_function          fg=$blue0
-ble-face -s command_file              fg=$blue1
-ble-face -s command_keyword           fg=$blue1
-ble-face -s command_jobs              fg=$blue1,bold
-ble-face -s command_directory         fg=$blue0,underline
-ble-face -s command_suffix            fg=$yellow1
-ble-face -s command_suffix_new        fg=$blue0
+ble-face -s command_builtin_dot       fg=$lavender,bold
+ble-face -s command_builtin           fg=$blue
+ble-face -s command_alias             fg=$teal
+ble-face -s command_function          fg=$blue
+ble-face -s command_file              fg=$sapphire
+ble-face -s command_keyword           fg=$mauve
+ble-face -s command_jobs              fg=$lavender,bold
+ble-face -s command_directory         fg=$blue,underline
+ble-face -s command_suffix            fg=$yellow
+ble-face -s command_suffix_new        fg=$sky
 
-ble-face -s argument_option           fg=$aqua1
+ble-face -s argument_option           fg=$teal
 
-ble-face -s filename_directory        fg=$blue1,underline
-ble-face -s filename_directory_sticky fg=$yellow1,underline
-ble-face -s filename_link             fg=$aqua0,underline
-ble-face -s filename_orphan           fg=$red1,underline
-ble-face -s filename_setuid           fg=$yellow0,underline
-ble-face -s filename_setgid           fg=$yellow0,underline
-ble-face -s filename_executable       fg=$blue0,underline
+ble-face -s filename_directory        fg=$blue,underline
+ble-face -s filename_directory_sticky fg=$yellow,underline
+ble-face -s filename_link             fg=$sky,underline
+ble-face -s filename_orphan           fg=$maroon,underline
+ble-face -s filename_setuid           fg=$yellow,underline
+ble-face -s filename_setgid           fg=$yellow,underline
+ble-face -s filename_executable       fg=$green,underline
 ble-face -s filename_other            underline
-ble-face -s filename_socket           fg=$aqua0,underline
-ble-face -s filename_pipe             fg=$blue1,underline
-ble-face -s filename_character        fg=$orange1,underline
-ble-face -s filename_block            fg=$yellow1,underline
-ble-face -s filename_warning          fg=$red0,underline
-ble-face -s filename_url              fg=$blue1,underline
+ble-face -s filename_socket           fg=$teal,underline
+ble-face -s filename_pipe             fg=$lavender,underline
+ble-face -s filename_character        fg=$peach,underline
+ble-face -s filename_block            fg=$yellow,underline
+ble-face -s filename_warning          fg=$red,underline
+ble-face -s filename_url              fg=$sapphire,underline
 ble-face -s filename_ls_colors        underline
 
-ble-face -s varname_array             fg=$orange1,bold
-ble-face -s varname_empty             fg=$blue1
-ble-face -s varname_export            fg=$purple0,bold
-ble-face -s varname_expr              fg=$blue0,bold
-ble-face -s varname_hash              fg=$aqua1,bold
-ble-face -s varname_new               fg=$blue1
-ble-face -s varname_number            fg=$yellow1
-ble-face -s varname_readonly          fg=$purple0
-ble-face -s varname_transform         fg=$aqua1,bold
-ble-face -s varname_unset             fg=$orange0
+ble-face -s varname_array             fg=$peach,bold
+ble-face -s varname_empty             fg=$lavender
+ble-face -s varname_export            fg=$mauve,bold
 
-ble-face -s cmdinfo_cd_cdpath         fg=$aqua1
+ble-face -s varname_expr              fg=$blue,bold
+ble-face -s varname_hash              fg=$teal,bold
+ble-face -s varname_new               fg=$lavender
+ble-face -s varname_number            fg=$yellow
+ble-face -s varname_readonly          fg=$mauve
+ble-face -s varname_transform         fg=$teal,bold
+ble-face -s varname_unset             fg=$peach
 
-ble-face auto_complete="fg=$yellow0,underline,italic"
+ble-face -s cmdinfo_cd_cdpath         fg=$teal
+
+ble-face -s cmdinfo_cd_cdpath         fg=$teal
+
+ble-face auto_complete="fg=$yellow,underline,italic"
 ble-face menu_filter_fixed='bold'
-ble-face menu_filter_input="fg=$purple1"
+ble-face menu_filter_input="fg=$mauve"
 

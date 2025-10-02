@@ -1,0 +1,31 @@
+#!/bin/bash
+
+bemenu \
+	--fn "iMWritingMono Nerd Font 13" \
+	-n \
+	--prompt "Power:" \
+	--list 20 \
+	--wrap \
+	--width-factor 0.08 \
+	--center \
+	--border 1 \
+	--no-spacing \
+	--nb "#eff1f5" \
+	--nf "#1e66f5" \
+	--hb "#1e66f5" \
+	--hf "#eff1f5" \
+	--sb "#eff1f5" \
+	--sf "#df8e1d" \
+	--fb "#eff1f5" \
+	--ff "#1e66f5" \
+	--ab "#eff1f5" \
+	--af "#1e66f5" \
+	--cb "#1e66f5" \
+	--cf "#eff1f5" \
+	--bdr "#1e66f5" \
+	--tb "#eff1f5" \
+	--tf "#1e66f5" \
+	--fbb "#eff1f5" \
+	--fbf "#1e66f5" \
+	--scb "#eff1f5" \
+	--scf "#1e66f5"
