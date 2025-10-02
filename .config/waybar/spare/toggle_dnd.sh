@@ -6,7 +6,7 @@ if [ "$1" = "toggle" ]; then
 fi
 
 if makoctl mode | grep -q hide; then
-  echo ""
+  echo "[ DND: On ]"
 else
-  echo ""
+  echo "[ DND: Off ]"
 fi

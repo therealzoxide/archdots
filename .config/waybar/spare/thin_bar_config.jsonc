@@ -32,15 +32,15 @@
 
 	"wireplumber": {
 		"on-click": "foot -e bash -c pulsemixer",
-		"format": " {volume}%",
+		"format": "[ Volume: {volume}% ]",
 		"tooltip": false
 	},
 
 	"network": {
 		"tooltip": false,
-		"format-wifi": " {bandwidthDownBytes}",
-		"format-ethernet": " {bandwidthDownBytes}",
-		"format-disconnected": "",
+		"format-wifi": "[ {bandwidthDownBytes} ]",
+		"format-ethernet": "[ {bandwidthDownBytes} ]",
+		"format-disconnected": "[ No Internet ]",
 		"on-click": "foot -e bash -c impala"
 	},
 
@@ -49,13 +49,15 @@
 			"warning": 30,
 			"critical": 15
 		},
-		"format": " {capacity}%",
-		"format-charging": " {capacity}%",
-		"format-alt": "Remaining: {time}"
+		"format": "[ Draining: {capacity}% ]",
+		"format-full": "[ Full: {capacity}% ]",
+		"format-charging": "[ Charging: {capacity}% ]",
+		"format-plugged": "[ Charged: {capacity}% ]",
+		"format-alt": "[ Remaining: {time} ]"
 	},
 
 	"memory": {
-		"format": " {used}",
+		"format": "[ {used} GiB ]",
 		"on-click": "foot -e bash -c 'btm'",
 		"tooltip": false
 	},
@@ -78,7 +80,7 @@
 		// DRAWER START
 
 	"custom/logo": {
-		"format": "󰣇",
+		"format": "[ 󰣇 ]",
 		"on-click": "~/.scripts/bemenu_run",
 		"tooltip": false
 	},
@@ -96,7 +98,7 @@
 	},
 
 	"custom/power": {
-		"format": "",
+		"format": "[ Power ]",
 		"on-click": "~/.scripts/bemenu_power",
 		"tooltip": false
 	},
@@ -105,8 +107,8 @@
 		"tooltip": false,
 		"format": "{icon} ",
 		"format-icons": {
-			"activated": " ",
-			"deactivated": " "
+			"activated": "[ No Sleep ]",
+			"deactivated": "[ Sleep ]"
 		}
 	},
 
@@ -114,8 +116,8 @@
 
 	"clock": {
 		"interval": 1,
-		"format": "{:%T}",
-		"format-alt": "{:%b %d, %Y}",
+		"format": "[ {:%T} ]",
+		"format-alt": "[ {:%b %d, %Y} ]",
 		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
 	}
 }

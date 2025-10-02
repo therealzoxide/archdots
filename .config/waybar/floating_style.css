@@ -1,0 +1,109 @@
+@import "latte.css";
+
+* {
+  font-family: iMWritingMono Nerd Font, Sarasa Fixed J Regular, Symbols Nerd Font Regular;
+  font-size: 13px;
+  min-height: 0;
+}
+
+#waybar {
+  background: @transparent;
+  color: @sky;
+  margin: 7px 0px;
+}
+
+#workspaces {
+  background-color: @base;
+  margin-top: 7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding-right: 0px;
+  border: 1px solid @sky;
+}
+
+#workspaces button {
+  color: @lavender;
+  padding: 0.5rem;
+  border-radius: 0px;
+}
+
+#workspaces button.empty {
+  color: @sky;
+}
+
+#workspaces button.visible {
+  color: @base;
+  background-color: @sky;
+}
+
+#workspaces button.urgent {
+   color: @base;
+   background-color: @red;
+}
+
+#tray,
+#battery,
+#wireplumber,
+#idle_inhibitor,
+#network,
+#memory,
+#clock,
+#custom-power,
+#custom-dnd,
+#custom-logo,
+#tray
+{
+  background-color: @base;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 7px;
+  padding-bottom: 9px;
+  margin-top: 7px;
+  margin-right: 5px;
+  color: @sky;
+  border: 1px solid @sky;
+}
+
+#clock {
+  color: @sky;
+  border: 1px solid @sky;
+  padding-top: 7px;
+  padding-bottom: 9px;
+  margin-left: 7px;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+  border: 1px solid @red;
+}
+
+#idle_inhibitor {
+	color: @sky;
+  border: 1px solid @sky;
+  padding-right: 0px;
+}
+
+#tray {
+  border: 1px solid @sky;
+  margin-right: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#custom-logo {
+  border: 1px solid @sky;
+  color: @sky;
+  background-color: @base;
+  margin-right: 7px;
+  padding-right: 13;
+  padding-left: 11px;
+}
+
+tooltip {
+  color: @sky;
+  background-color: @base;
+  border-radius: 0;
+  border: 1px solid @sky;
+  padding: 11px;
+  margin-top: 7px;
+}

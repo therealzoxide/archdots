@@ -60,22 +60,26 @@ input {
 /////////////
 // OUTPUT //
 ///////////
-output "DP-1" {
+output "eDP-1" {
+	position x=0 y=0
+	scale 1.0
+}
+output "HDMI-A-1" {
 	mode "1920x1080@180.003"
 	scale 1.0
-	position x=0 y=0
+	position x=1920 y=0
 	focus-at-startup
 }
-output "DP-2" {
-	mode "1920x1080@144"
-	scale 1.0
-	position x=1920 y=0
-}
+//output "DP-2" {
+//	mode "1920x1080@144"
+//	scale 1.0
+//	position x=1920 y=0
+//}
 /////////////
 // LAYOUT //
 ///////////
 overview {
-	backdrop-color "#282828"
+	backdrop-color "#eff1f5"
 	workspace-shadow {
 		off
 	}
@@ -102,9 +106,9 @@ layout {
 	}
 	border {
 		width 1
-		active-color "#83a598"
-		inactive-color "#fabd2f"
-		urgent-color "#fb4934"
+		active-color "#1e66f5"
+		inactive-color "#df8e1d"
+		urgent-color "#d20f39"
 	}
 	struts {
 		left 7
@@ -114,6 +118,10 @@ layout {
 ////////////
 // RULES //
 //////////
+window-rule {
+	geometry-corner-radius 16
+	clip-to-geometry true
+}
 window-rule {
 	match title="clipse"
 	open-floating true
