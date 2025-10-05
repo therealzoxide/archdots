@@ -1,3 +1,3 @@
 #!/bin/sh
 
-swaybg -o DP-1 -i ~/Pictures/wallpapers/miyabi1.jpg -o DP-2 -i ~/Pictures/wallpapers/ellen1.jpg &
+swaybg -i ~/Pictures/wallpapers/miyabi1.jpg &

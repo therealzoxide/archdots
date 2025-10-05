@@ -1,0 +1,10 @@
+#!/bin/bash
+
+case "$(echo -e "Shutdown\nReboot\nLogout\nSuspend\nLock" | fuzzel -d \
+	"Power:" -l 5)" in
+		Shutdown) exec systemctl poweroff;;
+		Reboot) exec systemctl reboot;;
+		Logout) exec loginctl terminate-session ${XDG_SESSION_ID-};;
+		Suspend) exec systemctl suspend;;
+		Lock) exec swaylock;;
+esac
