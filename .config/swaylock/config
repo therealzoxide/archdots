@@ -1,42 +1,41 @@
-image=DP-1:~/Pictures/wallpapers/frieren3.jpg
-image=DP-2:~/Pictures/wallpapers/frieren4.jpg
+image=eDP-1:~/Pictures/wallpapers/frieren3.jpg
 font=iMWritingMono Nerd Font Mono
 font-size=13
 ###########
 # Default #
 ###########
-inside-color=282828ff
-inside-caps-lock-color=fabd2fff
-line-color=282828ff
-ring-color=282828ff
-text-color=83a598ff
-key-hl-color=83a598ff
-layout-bg-color=282828ff
-layout-border-color=83a598ff
-layout-text-color=83a598ff
-separator-color=282828ff
+inside-color=eff1f5ff
+inside-caps-lock-color=df8e1dff
+line-color=eff1f5ff
+ring-color=eff1f5ff
+text-color=1e66f5ff
+key-hl-color=1e66f5ff
+layout-bg-color=eff1f5ff
+layout-border-color=1e66f5ff
+layout-text-color=1e66f5ff
+separator-color=eff1f5ff
 #########
 # Clear #
 #########
-bs-hl-color=fb4934ff
-caps-lock-bs-hl-color=fb4934ff
-inside-clear-color=282828ff
-line-clear-color=282828ff
-ring-clear-color=83a598ff
-text-clear-color=83a598ff
+bs-hl-color=d20f39ff
+caps-lock-bs-hl-color=d20f39ff
+inside-clear-color=eff1f5ff
+line-clear-color=eff1f5ff
+ring-clear-color=1e66f5ff
+text-clear-color=1e66f5ff
 ##########
 # Verify #
 ##########
-inside-ver-color=282828ff
-line-ver-color=282828ff
-ring-ver-color=fabd2fff
-text-ver-color=fabd2fff
+inside-ver-color=eff1f5ff
+line-ver-color=eff1f5ff
+ring-ver-color=df8e1dff
+text-ver-color=df8e1dff
 ###########
 # Failure #
 ###########
-inside-wrong-color=282828ff
-line-wrong-color=282828ff
-ring-wrong-color=fb4934ff
-text-wrong-color=fb4934ff
+inside-wrong-color=eff1f5ff
+line-wrong-color=eff1f5ff
+ring-wrong-color=d20f39ff
+text-wrong-color=d20f39ff
 
 

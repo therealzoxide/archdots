@@ -97,7 +97,7 @@
 
 	"custom/power": {
 		"format": "",
-		"on-click": "~/.scripts/bemenu_power",
+		"on-click": "~/.scripts/power",
 		"tooltip": false
 	},
 
