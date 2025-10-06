@@ -10,8 +10,7 @@ niri - scrolling window manager
 xdg-desktop-portal-gnome - used for screenshare in niri  
 xdg-desktop-portal-gtk - used for filepicker in niri  
 foot - simplest wayland terminal  
-bemenu - app launcher and power menu (dmenu clone)  
-j4-dmenu-desktop - lets bemenu search desktop entries instead of path  
+fuzzel - app launcher and power menu  
 polkit-gnome - policy kit agent, needed for GUI authentication  
 wl-clipboard - its your clipboard  
 xwayland-satellite - niri does not have native xwayland support, you need this to run x11 apps  
