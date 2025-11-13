@@ -61,6 +61,7 @@ input {
 // OUTPUT //
 ///////////
 output "DP-1" {
+	focus-at-startup
 	mode "1920x1080@180.003"
 	position x=0 y=0
 	scale 1.0
