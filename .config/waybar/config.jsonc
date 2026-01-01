@@ -26,8 +26,8 @@
 	},
 
 	"mpris": {
-		"format": "[ {artist} | {title} ]",
-		"title-len": 30
+		"format": " {artist} | {title}",
+		"format-paused": " {artist} | {title}",
 	},
 
 	"wireplumber": {
