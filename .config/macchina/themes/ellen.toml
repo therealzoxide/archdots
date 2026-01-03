@@ -2,7 +2,7 @@ hide_ascii      = false
 spacing         = 1
 padding         = 0
 separator       = ">>"
-key_color       = "#8839ef"
+key_color       = "#ea76cb"
 separator_color = "#df8e1d"
 
 [box]
@@ -15,7 +15,7 @@ x               = 1
 y               = 1
 
 [custom_ascii]
-color           = "#1e66f5"
+color           = "#04a5e5"
 path = "~/.config/macchina/themes/ellen.txt"
 
 [keys]

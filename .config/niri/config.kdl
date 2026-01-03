@@ -103,8 +103,8 @@ layout {
 	}
 	border {
 		width 1
-		active-color "#1e66f5"
-		inactive-color "#df8e1d"
+		active-color "#04a5e5"
+		inactive-color "#ea76cb"
 		urgent-color "#d20f39"
 	}
 	struts {

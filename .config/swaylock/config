@@ -6,14 +6,14 @@ font-size=13
 # Default #
 ###########
 inside-color=eff1f5ff
-inside-caps-lock-color=df8e1dff
+inside-caps-lock-color=ea76cbff
 line-color=eff1f5ff
 ring-color=eff1f5ff
-text-color=1e66f5ff
-key-hl-color=1e66f5ff
+text-color=04a5e5ff
+key-hl-color=04a5e5ff
 layout-bg-color=eff1f5ff
-layout-border-color=1e66f5ff
-layout-text-color=1e66f5ff
+layout-border-color=04a5e5ff
+layout-text-color=04a5e5ff
 separator-color=eff1f5ff
 #########
 # Clear #
@@ -29,8 +29,8 @@ text-clear-color=1e66f5ff
 ##########
 inside-ver-color=eff1f5ff
 line-ver-color=eff1f5ff
-ring-ver-color=df8e1dff
-text-ver-color=df8e1dff
+ring-ver-color=ea76cbff
+text-ver-color=ea76cbff
 ###########
 # Failure #
 ###########
