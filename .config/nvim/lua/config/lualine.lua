@@ -52,8 +52,8 @@ local config = {
 		component_separators = '',
 		section_separators = '',
 		theme = {
-			normal = { c = { fg = colors.text, bg = nil } },
-			inactive = { c = { fg = colors.text, bg = nil } },
+			normal = { c = { fg = colors.pink, bg = nil } },
+			inactive = { c = { fg = colors.pink, bg = nil } },
 		},
 	},
 	sections = {
@@ -84,9 +84,9 @@ end
 
 ins_left {
 	function()
-		return '▊'
+		return ' '
 	end,
-	color = { fg = colors.blue },
+	color = { fg = colors.sky },
 	padding = { left = 0, right = 1 },
 }
 
@@ -107,7 +107,7 @@ ins_left {
 		}
 		return mode_name[mode] or mode:upper()
 		end,
-	color = { fg = colors.blue },
+	color = { fg = colors.sky },
 	padding = { right = 1 },
 }
 
@@ -119,12 +119,12 @@ ins_left {
 ins_left {
 	'filename',
 	cond = conditions.buffer_not_empty,
-	color = { fg = colors.blue, gui = 'bold' },
+	color = { fg = colors.sky, gui = 'bold' },
 }
 
 ins_left { 'location' }
 
-ins_left { 'progress', color = { fg = colors.blue, gui = 'bold' } }
+ins_left { 'progress', color = { fg = colors.sky, gui = 'bold' } }
 
 ins_left {
 	'diagnostics',
@@ -133,7 +133,7 @@ ins_left {
 	diagnostics_color = {
 		error = { fg = colors.red },
 		warn = { fg = colors.yellow },
-		info = { fg = colors.blue },
+		info = { fg = colors.sky },
 	},
 }
 
@@ -141,20 +141,20 @@ ins_right {
 	'o:encoding',
 	fmt = string.upper,
 	cond = conditions.hide_in_width,
-	color = { fg = colors.blue, gui = 'bold' },
+	color = { fg = colors.sky, gui = 'bold' },
 }
 
 ins_right {
 	'fileformat',
 	fmt = string.upper,
 	icons_enabled = false,
-	color = { fg = colors.blue, gui = 'bold' },
+	color = { fg = colors.sky, gui = 'bold' },
 }
 
 ins_right {
 	'branch',
 	icon = '',
-	color = { fg = colors.blue, gui = 'bold' },
+	color = { fg = colors.sky, gui = 'bold' },
 }
 
 ins_right {
@@ -163,16 +163,16 @@ ins_right {
 	diff_color = {
 		added = { fg = colors.green0 },
 		modified = { fg = colors.orange0 },
-		removed = { fg = colors.blue },
+		removed = { fg = colors.sky },
 	},
 	cond = conditions.hide_in_width,
 }
 
 ins_right {
 	function()
-		return '▊'
+		return ''
 	end,
-	color = { fg = colors.blue },
+	color = { fg = colors.sky },
 	padding = { left = 1 },
 }
 
