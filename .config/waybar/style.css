@@ -129,6 +129,7 @@ window#waybar.empty #window {
 	margin-right: 14px;
 }
 
+#tray menu,
 tooltip {
 	color: @sky;
 	background-color: @base;
