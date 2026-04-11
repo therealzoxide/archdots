@@ -1,7 +1,6 @@
 -- Edit of: Eviline config for lualine
 -- Author: shadmansaleh
 -- Credit: glepnir
-require('transparent').clear_prefix('lualine')
 local lualine = require('lualine')
 
 local colors = {
