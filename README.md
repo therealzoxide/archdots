@@ -29,8 +29,6 @@ impala - TUI for IWD, doesn't work with networkmanager
 pulsemixer - TUI volume mixer, pavucontrol for GUI (pavucontrol for GUI)  
 eza - better ls, ~/.bashrc will need edited if you do not use this  
 clipse (aur) - adds clipboard history and management, runs in Kitty  
-thunar - XFCE file manager, Mod4+N to quickly open  
-tumbler - thumbnail support for thunar  
 xarchiver - allows you to view files inside archives  (can use fileroller instead if preferred)  
 7zip - most versatile archiver  
 nvim - text editor, vim but better (consider doom emacs too)  

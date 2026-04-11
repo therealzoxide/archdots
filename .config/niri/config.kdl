@@ -172,7 +172,7 @@ binds {
 	Mod+Shift+E { spawn "~/.scripts/power"; }
 	Mod+Shift+B { spawn "~/.scripts/kaomoji/kaomoji.sh"; }
 	Mod+V { spawn "foot" "--title" "clipse" "-e" "clipse"; }
-	Mod+N { spawn "thunar"; }
+	Mod+N { spawn "nautilus"; }
 	Mod+Shift+P { screenshot; }
 	Mod+P { screenshot-screen; }
 	Mod+Ctrl+Shift+P { screenshot-window; }
