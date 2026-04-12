@@ -179,6 +179,7 @@ binds {
 	Mod+Shift+Slash { show-hotkey-overlay; }
 	Mod+Return hotkey-overlay-title="Open foot" { spawn "foot"; }
 	Ctrl+Shift+Space hotkey-overlay-title="launcher" { spawn-sh "qs ipc call launcher toggle"; }
+	Mod+Shift+E { spawn-sh "qs ipc call sessionMenu toggle"; }
 	Mod+Shift+B { spawn-sh "qs ipc call plugin:kaomoji toggle"; }
 	Mod+V { spawn "foot" "--title" "clipse" "-e" "clipse"; }
 	Mod+N { spawn "nautilus"; }
