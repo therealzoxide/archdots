@@ -199,6 +199,9 @@
                         },
                         {
                             "id": "plugin:privacy-indicator"
+                        },
+                        {
+                            "id": "plugin:catwalk"
                         }
                     ]
                 }
@@ -275,6 +278,9 @@
                     "usePadding": false
                 },
                 {
+                    "id": "plugin:catwalk"
+                },
+                {
                     "colorizeIcons": false,
                     "hideMode": "hidden",
                     "id": "ActiveWindow",
@@ -284,6 +290,14 @@
                     "showText": true,
                     "textColor": "none",
                     "useFixedWidth": false
+                }
+            ],
+            "right": [
+                {
+                    "colorName": "primary",
+                    "hideWhenIdle": false,
+                    "id": "AudioVisualizer",
+                    "width": 200
                 },
                 {
                     "compactMode": false,
@@ -301,14 +315,6 @@
                     "useFixedWidth": false,
                     "visualizerType": "linear"
                 },
-                {
-                    "colorName": "primary",
-                    "hideWhenIdle": false,
-                    "id": "AudioVisualizer",
-                    "width": 200
-                }
-            ],
-            "right": [
                 {
                     "blacklist": [
                     ],
@@ -512,11 +518,11 @@
                         "hideWhenIdle": false,
                         "id": "AudioVisualizer",
                         "roundedCorners": true,
-                        "scale": 3.2825185925832634,
+                        "scale": 3.1278942269159864,
                         "showBackground": true,
                         "visualizerType": "linear",
                         "width": 320,
-                        "x": 20,
+                        "x": 40,
                         "y": 1660
                     },
                     {
@@ -562,6 +568,7 @@
         ],
         "onlySameOutput": true,
         "pinnedApps": [
+            "helium"
         ],
         "pinnedStatic": true,
         "position": "bottom",
@@ -576,7 +583,7 @@
         "animationDisabled": false,
         "animationSpeed": 1,
         "autoStartAuth": false,
-        "avatarImage": "/home/ayaya/Pictures/Wallpapers/chisataki1.jpg",
+        "avatarImage": "/home/ayaya/Pictures/Wallpapers/Horizontal/chisataki1.jpg",
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
         "clockStyle": "analog",
@@ -615,7 +622,7 @@
         "language": "",
         "lockOnSuspend": true,
         "lockScreenAnimations": true,
-        "lockScreenBlur": 0,
+        "lockScreenBlur": 0.5,
         "lockScreenCountdownDuration": 10000,
         "lockScreenMonitors": [
         ],
@@ -701,7 +708,7 @@
         "disableWallpaper": false
     },
     "notifications": {
-        "backgroundOpacity": 1,
+        "backgroundOpacity": 0.8,
         "clearDismissed": true,
         "criticalUrgencyDuration": 15,
         "density": "default",
@@ -864,7 +871,7 @@
     "wallpaper": {
         "automationEnabled": false,
         "directory": "/home/ayaya/Pictures/Wallpapers",
-        "enableMultiMonitorDirectories": false,
+        "enableMultiMonitorDirectories": true,
         "enabled": true,
         "favorites": [
             {
@@ -901,6 +908,16 @@
         "hideWallpaperFilenames": false,
         "linkLightAndDarkWallpapers": true,
         "monitorDirectories": [
+            {
+                "directory": "/home/ayaya/Pictures/Wallpapers/Vertical",
+                "name": "DP-2",
+                "wallpaper": ""
+            },
+            {
+                "directory": "/home/ayaya/Pictures/Wallpapers/Horizontal",
+                "name": "DP-1",
+                "wallpaper": ""
+            }
         ],
         "overviewBlur": 0.4,
         "overviewEnabled": true,
