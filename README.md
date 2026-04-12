@@ -24,6 +24,13 @@ udiskie - external disk auto mount
 gvfs - adds trash support  
 gvfs-mtp - compatibility with android file system  
 ddcutil  
+cliphist  
+cava  
+wlsunset  
+xdg-desktop-portal  
+python3  
+evolution-data-server  
+power-profiles-daemon  
   
 ## UTILITY PREFERENCE  
 #### (Easier to replace utilities)  
@@ -36,12 +43,6 @@ nvim - text editor, vim but better (consider doom emacs too)
 nwg-look - applies themes, icons, and fonts to GTK programs, default settings will be used without  
 bottom - resource monitor  
 macchina - ascii art and system specs/details, looks pretty on terminal startup mainly but comes with a few helpful things to see  
-cliphist  
-cava  
-wlsunset  
-xdg-desktop-portal  
-python3  
-evolution-data-server  
   
 ## FONTS:  
 ttf-iawriter-nerd - main font used by me  
