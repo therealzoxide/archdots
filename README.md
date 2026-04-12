@@ -10,23 +10,24 @@ niri - scrolling window manager
 xdg-desktop-portal-gnome - used for screenshare in niri  
 xdg-desktop-portal-gtk - used for filepicker in niri  
 foot - simplest wayland terminal  
-fuzzel - app launcher and power menu  
-polkit-gnome - policy kit agent, needed for GUI authentication  
 wl-clipboard - its your clipboard  
 xwayland-satellite - niri does not have native xwayland support, you need this to run x11 apps  
+noctalia-qs  
+brightnessctl  
+git  
+imagemagick  
+python  
   
 ## UTILITY  
 #### (Recommended to have but will function without):  
 udiskie - external disk auto mount  
 gvfs - adds trash support  
 gvfs-mtp - compatibility with android file system  
-waybar - status bar, technically works without (also consider swaybar + i3blocks)  
+ddcutil  
   
 ## UTILITY PREFERENCE  
 #### (Easier to replace utilities)  
 paru - AUR helper, aliased to "yay" in my bash config (also consider aurutils)  
-impala - TUI for IWD, doesn't work with networkmanager  
-pulsemixer - TUI volume mixer, pavucontrol for GUI (pavucontrol for GUI)  
 eza - better ls, ~/.bashrc will need edited if you do not use this  
 clipse (aur) - adds clipboard history and management, runs in Kitty  
 xarchiver - allows you to view files inside archives  (can use fileroller instead if preferred)  
@@ -35,11 +36,12 @@ nvim - text editor, vim but better (consider doom emacs too)
 nwg-look - applies themes, icons, and fonts to GTK programs, default settings will be used without  
 bottom - resource monitor  
 macchina - ascii art and system specs/details, looks pretty on terminal startup mainly but comes with a few helpful things to see  
-swaylock - lockscreen  
-swayidle - idle daemon  
-swaybg - wallpaper manager, integrates into sway config file, use swww for a more powerful and dynamic one  
-greetd - greeter daemon, my personal choice  
-mako - notification daemon for Wayland, dunst, fnott and swaync can also work if mako isnt preferred  
+cliphist  
+cava  
+wlsunset  
+xdg-desktop-portal  
+python3  
+evolution-data-server  
   
 ## FONTS:  
 ttf-iawriter-nerd - main font used by me  
@@ -55,16 +57,10 @@ If you use a chromium browser remember to go to chrome://flags in the url bar, s
 Hyprland configs are unmaintained forever  
 nvim configs will change to using the native plugin manager as soon as it reaches the stable channel  
   
-This repo also comes with config files for fish, starship, and rofi, I no longer use these but have no reason to drop the files so they will for now  
+This repo also comes with config files for fish, swaybg, swaylock, swayidle, fuzzel, waybar, starship, and rofi, I no longer use these but have no reason to drop the files so they will for now  
   
 ## CONFIGURE THE FOLLOWING:  
-Run `:TransparentEnable` in nvim for transparency  
-edit output section in config.kdl (niri) to fit your monitors  
-there are scripts in the ~/.scripts and ~/.config/waybar directory, make them executable.  
+
+there are scripts in the ~/.scripts directory, make them executable.  
 configure pacman and paru to your liking.  
-Add the following to /etc/greetd/config.toml:  
-`[terminal]`  
-`vt = 1`  
-`[default_session]`  
-`command = "niri-session"`  
-`user = "(yourname)"`
+
