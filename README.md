@@ -1,5 +1,7 @@
 # dotfiles
   
+this is hardly even mine anymore, its just wallpapers and a couple of configs to go with noctalia  
+  
 Please read before using if you somehow found this, the following is a package list intended for Arch  
 this also includes a few old configs I didnt want to completely delete including sway and hyprland, feel free to use, future updates to hyprland may break them  
 The following software is used in this setup:  
@@ -12,7 +14,7 @@ xdg-desktop-portal-gtk - used for filepicker in niri
 foot - simplest wayland terminal  
 wl-clipboard - its your clipboard  
 xwayland-satellite - niri does not have native xwayland support, you need this to run x11 apps  
-noctalia-qs  
+noctalia-shell (aur)  
 brightnessctl  
 git  
 imagemagick  
