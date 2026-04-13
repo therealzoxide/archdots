@@ -291,12 +291,6 @@
                     "showText": true,
                     "textColor": "none",
                     "useFixedWidth": false
-                },
-                {
-                    "displayMode": "onhover",
-                    "iconColor": "none",
-                    "id": "Network",
-                    "textColor": "none"
                 }
             ],
             "right": [
