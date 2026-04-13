@@ -1,10 +1,11 @@
 {
     "general" : {
         "anti_aliasing_enabled" : true,
+        "auto_navigate_to_wsr88d_only" : true,
         "center_on_radar_selection" : false,
         "clock_format" : "12-hour",
         "custom_style_draw_layer" : "Minor road outline",
-        "custom_style_url" : "https://api.maptiler.com/maps/0197c3b6-66c9-7c8f-924b-c7d18b56b486/style.json",
+        "custom_style_url" : "https://api.maptiler.com/maps/0199a365-6bf6-777d-aced-0f82e7003470/style.json",
         "debug_enabled" : false,
         "default_alert_action" : "go",
         "default_radar_site" : "KINX",
@@ -24,6 +25,9 @@
         "nmea_source" : "",
         "positioning_plugin" : "default",
         "process_module_warnings_enabled" : true,
+        "screen_capture_folder" : "/home/ayaya/Pictures/Supercell Wx",
+        "screen_capture_name" : "{site}_{product}_{timestamp:%Y%m%dT%H%M%SZ}_{lat}_{lon}_{zoom}_{width}x{height}",
+        "screen_capture_on_refresh" : false,
         "show_map_attribution" : true,
         "show_map_center" : false,
         "show_map_logo" : false,
@@ -65,8 +69,12 @@
         "map_rotate_counterclockwise" : "Q",
         "map_zoom_in" : "=",
         "map_zoom_out" : "-",
+        "product_category_last" : "Ctrl+[",
+        "product_category_next" : "Ctrl+]",
         "product_tilt_decrease" : "[",
         "product_tilt_increase" : "]",
+        "screen_capture_copy" : "Ctrl+T",
+        "screen_capture_save_image" : "Ctrl+S",
         "select_l2_ref" : "F1",
         "select_l2_vel" : "F2",
         "select_l2_sw" : "F3",
@@ -89,35 +97,71 @@
         "timeline_step_back" : "Left",
         "timeline_play" : "Space",
         "timeline_step_next" : "Right",
-        "timeline_step_end" : "Ctrl+Right"
+        "timeline_step_end" : "Ctrl+Right",
+        "toggle_full_screen" : "F11"
     },
     "maps" : [
         {
             "map_style" : "Custom",
             "radar_site" : "KLSX",
-            "radar_product_group" : "L3",
-            "radar_product" : "N0B",
+            "radar_product_group" : "L2",
+            "radar_product" : "REF",
             "smoothing_enabled" : false
         },
         {
             "map_style" : "Custom",
             "radar_site" : "KLSX",
-            "radar_product_group" : "L3",
-            "radar_product" : "N0G",
+            "radar_product_group" : "L2",
+            "radar_product" : "VEL",
             "smoothing_enabled" : false
         },
         {
             "map_style" : "Custom",
             "radar_site" : "KLSX",
-            "radar_product_group" : "L3",
-            "radar_product" : "N0C",
+            "radar_product_group" : "L2",
+            "radar_product" : "RHO",
             "smoothing_enabled" : false
         },
         {
             "map_style" : "Custom",
             "radar_site" : "KLSX",
+            "radar_product_group" : "L2",
+            "radar_product" : "ZDR",
+            "smoothing_enabled" : false
+        },
+        {
+            "map_style" : "?",
+            "radar_site" : "KLSX",
             "radar_product_group" : "L3",
-            "radar_product" : "N0X",
+            "radar_product" : "DVL",
+            "smoothing_enabled" : false
+        },
+        {
+            "map_style" : "?",
+            "radar_site" : "KLSX",
+            "radar_product_group" : "L3",
+            "radar_product" : "EET",
+            "smoothing_enabled" : false
+        },
+        {
+            "map_style" : "?",
+            "radar_site" : "KLSX",
+            "radar_product_group" : "L3",
+            "radar_product" : "N0S",
+            "smoothing_enabled" : false
+        },
+        {
+            "map_style" : "?",
+            "radar_site" : "KLSX",
+            "radar_product_group" : "L3",
+            "radar_product" : "N0H",
+            "smoothing_enabled" : false
+        },
+        {
+            "map_style" : "?",
+            "radar_site" : "KLSX",
+            "radar_product_group" : "L3",
+            "radar_product" : "N0K",
             "smoothing_enabled" : false
         }
     ],
@@ -286,6 +330,43 @@
                 }
             }
         },
+        "radar_site_status" : {
+            "Up" : {
+                "button" : {
+                    "button_color" : "#ff1e66f5",
+                    "hover_color" : "#ff209fb5",
+                    "active_color" : "#ff40a02b"
+                }
+            },
+            "Warning" : {
+                "button" : {
+                    "button_color" : "#ffdf8e1d",
+                    "hover_color" : "#ffdc8a78",
+                    "active_color" : "#ffdd7878"
+                }
+            },
+            "Down" : {
+                "button" : {
+                    "button_color" : "#ffd20f39",
+                    "hover_color" : "#ffe64553",
+                    "active_color" : "#fffe640b"
+                }
+            },
+            "HighLatency" : {
+                "button" : {
+                    "button_color" : "#66fa8342",
+                    "hover_color" : "#ff964e27",
+                    "active_color" : "#ff963b09"
+                }
+            },
+            "?" : {
+                "button" : {
+                    "button_color" : "#664296fa",
+                    "hover_color" : "#ff4296fa",
+                    "active_color" : "#ff4296fa"
+                }
+            }
+        },
         "BR" : "/home/ayaya/.local/share/Supercell Wx/tables/Apocs_BR.pal",
         "BV" : "/home/ayaya/.local/share/Supercell Wx/tables/Force Velo.pal",
         "SW" : ":/res/palettes/wct/SW.pal",
@@ -349,8 +430,8 @@
         "level3_products_expanded" : true,
         "map_settings_expanded" : true,
         "timeline_expanded" : false,
-        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADaAAADzfwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsAAAAAFgAAA80AAABbAP///wAAAAEAAAEGAAADzfwCAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AAAAABYAAAPNAAAAjAD///8AAAdwAAADzQAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
-        "main_ui_geometry" : "AdnQywADAAAAAAeIAAAAMwAADvcAAAQvAAAHiAAAADMAAA73AAAELwAAAAEAAAAAB4AAAAeIAAAAMwAADvcAAAQv"
+        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADaAAAD3fwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsAAAAAFgAAA90AAABbAP///wAAAAEAAAEGAAADzfwCAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AAAAABYAAAPNAAAAigD///8AAAc4AAAD9AAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
+        "main_ui_geometry" : "AdnQywADAAAAAAABAAAAGQAABzgAAAQ8AAAAAQAAABkAAAc4AAAEPAAAAAEAAAAAB4AAAAABAAAAGQAABzgAAAQ8"
     },
     "unit" : {
         "accumulation_units" : "inches",

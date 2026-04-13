@@ -36,7 +36,7 @@
         "name" : "https://placefiles.supercellwx.net/wxfanatic/day1hailprob.php"
     },
     {
-        "enabled" : true,
+        "enabled" : false,
         "thresholded" : false,
         "title" : "Down Radar Site Status",
         "name" : "https://placefiles.supercellwx.net/wxfanatic/downRadarStatus.txt"
