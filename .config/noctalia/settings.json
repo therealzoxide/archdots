@@ -25,7 +25,7 @@
             "steam",
             "modrinth-app"
         ],
-        "position": "center",
+        "position": "follow_bar",
         "screenshotAnnotationTool": "",
         "showCategories": true,
         "showIconBackground": false,
@@ -49,11 +49,11 @@
         "autoHideDelay": 500,
         "autoShowDelay": 150,
         "backgroundOpacity": 0.93,
-        "barType": "floating",
+        "barType": "simple",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
         "contentPadding": 2,
-        "density": "default",
+        "density": "comfortable",
         "displayMode": "always_visible",
         "enableExclusionZoneInset": true,
         "fontScale": 1,
@@ -72,14 +72,14 @@
         "mouseWheelAction": "volume",
         "mouseWheelWrap": true,
         "outerCorners": true,
-        "position": "top",
+        "position": "left",
         "reverseScroll": false,
         "rightClickAction": "controlCenter",
         "rightClickCommand": "",
         "rightClickFollowMouse": true,
         "screenOverrides": [
             {
-                "density": "default",
+                "density": "compact",
                 "enabled": true,
                 "name": "DP-2",
                 "position": "top",
@@ -97,8 +97,8 @@
                             "hideUnoccupied": false,
                             "iconScale": 0.8,
                             "id": "Workspace",
-                            "labelMode": "index",
-                            "occupiedColor": "secondary",
+                            "labelMode": "none",
+                            "occupiedColor": "primary",
                             "pillSize": 0.6,
                             "showApplications": false,
                             "showApplicationsHover": false,
@@ -139,10 +139,10 @@
                             "showAlbumArt": true,
                             "showArtistFirst": true,
                             "showProgressRing": true,
-                            "showVisualizer": false,
+                            "showVisualizer": true,
                             "textColor": "none",
                             "useFixedWidth": false,
-                            "visualizerType": "linear"
+                            "visualizerType": "mirrored"
                         }
                     ],
                     "right": [
@@ -190,18 +190,15 @@
                         },
                         {
                             "colorizeDistroLogo": false,
-                            "colorizeSystemIcon": "none",
+                            "colorizeSystemIcon": "primary",
                             "customIconPath": "",
-                            "enableColorization": false,
+                            "enableColorization": true,
                             "icon": "noctalia",
                             "id": "ControlCenter",
-                            "useDistroLogo": false
+                            "useDistroLogo": true
                         },
                         {
                             "id": "plugin:privacy-indicator"
-                        },
-                        {
-                            "id": "plugin:catwalk"
                         }
                     ]
                 }
@@ -218,7 +215,7 @@
                     "characterCount": 2,
                     "colorizeIcons": false,
                     "emptyColor": "secondary",
-                    "enableScrollWheel": true,
+                    "enableScrollWheel": false,
                     "focusedColor": "primary",
                     "followFocusedScreen": false,
                     "fontWeight": "bold",
@@ -226,8 +223,8 @@
                     "hideUnoccupied": false,
                     "iconScale": 0.8,
                     "id": "Workspace",
-                    "labelMode": "index",
-                    "occupiedColor": "secondary",
+                    "labelMode": "none",
+                    "occupiedColor": "primary",
                     "pillSize": 0.6,
                     "showApplications": false,
                     "showApplicationsHover": false,
@@ -250,7 +247,7 @@
                     "clockColor": "none",
                     "customFont": "",
                     "formatHorizontal": "HH:mm ddd, MMM dd",
-                    "formatVertical": "HH mm - dd MM",
+                    "formatVertical": "HH mm - yy dd MM",
                     "id": "Clock",
                     "tooltipFormat": "HH:mm ddd, MMM dd",
                     "useCustomFont": false
@@ -278,6 +275,10 @@
                     "usePadding": false
                 },
                 {
+                    "defaultSettings": {
+                        "hideBackground": false,
+                        "minimumThreshold": 10
+                    },
                     "id": "plugin:catwalk"
                 },
                 {
@@ -290,12 +291,18 @@
                     "showText": true,
                     "textColor": "none",
                     "useFixedWidth": false
+                },
+                {
+                    "displayMode": "onhover",
+                    "iconColor": "none",
+                    "id": "Network",
+                    "textColor": "none"
                 }
             ],
             "right": [
                 {
                     "colorName": "primary",
-                    "hideWhenIdle": false,
+                    "hideWhenIdle": true,
                     "id": "AudioVisualizer",
                     "width": 200
                 },
@@ -359,12 +366,12 @@
                 },
                 {
                     "colorizeDistroLogo": false,
-                    "colorizeSystemIcon": "none",
+                    "colorizeSystemIcon": "primary",
                     "customIconPath": "",
-                    "enableColorization": false,
+                    "enableColorization": true,
                     "icon": "noctalia",
                     "id": "ControlCenter",
-                    "useDistroLogo": false
+                    "useDistroLogo": true
                 },
                 {
                     "defaultSettings": {
@@ -476,72 +483,22 @@
         }
     },
     "desktopWidgets": {
-        "enabled": true,
-        "gridSnap": true,
+        "enabled": false,
+        "gridSnap": false,
         "gridSnapScale": false,
         "monitorWidgets": [
             {
                 "name": "DP-1",
                 "widgets": [
-                    {
-                        "clockColor": "none",
-                        "clockStyle": "digital",
-                        "customFont": "",
-                        "format": "HH:mm\\nd MMMM yyyy",
-                        "id": "Clock",
-                        "roundedCorners": true,
-                        "scale": 1.262108279255451,
-                        "showBackground": true,
-                        "useCustomFont": false,
-                        "x": 1700,
-                        "y": 720
-                    },
-                    {
-                        "diskPath": "/",
-                        "id": "SystemStat",
-                        "layout": "bottom",
-                        "roundedCorners": true,
-                        "scale": 1.0283026854865556,
-                        "showBackground": true,
-                        "statType": "CPU",
-                        "x": 1640,
-                        "y": 940
-                    }
                 ]
             },
             {
                 "name": "DP-2",
                 "widgets": [
-                    {
-                        "colorName": "primary",
-                        "height": 72,
-                        "hideWhenIdle": false,
-                        "id": "AudioVisualizer",
-                        "roundedCorners": true,
-                        "scale": 3.1278942269159864,
-                        "showBackground": true,
-                        "visualizerType": "linear",
-                        "width": 320,
-                        "x": 40,
-                        "y": 1660
-                    },
-                    {
-                        "clockColor": "none",
-                        "clockStyle": "digital",
-                        "customFont": "",
-                        "format": "HH:mm\\nd MMMM yyyy",
-                        "id": "Clock",
-                        "roundedCorners": true,
-                        "scale": 1,
-                        "showBackground": true,
-                        "useCustomFont": false,
-                        "x": 900,
-                        "y": 1460
-                    }
                 ]
             }
         ],
-        "overviewEnabled": false
+        "overviewEnabled": true
     },
     "dock": {
         "animationSpeed": 1,
@@ -550,7 +507,7 @@
         "deadOpacity": 0.6,
         "displayMode": "auto_hide",
         "dockType": "floating",
-        "enabled": true,
+        "enabled": false,
         "floatingRatio": 1,
         "groupApps": false,
         "groupClickAction": "cycle",
@@ -583,12 +540,12 @@
         "animationDisabled": false,
         "animationSpeed": 1,
         "autoStartAuth": false,
-        "avatarImage": "/home/ayaya/Pictures/Wallpapers/Horizontal/chisataki1.jpg",
+        "avatarImage": "/home/ayaya/Pictures/Wallpapers/128286066_p0_master1200.jpg",
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
         "clockStyle": "analog",
         "compactLockScreen": false,
-        "dimmerOpacity": 0.2,
+        "dimmerOpacity": 0.3,
         "enableBlurBehind": true,
         "enableLockScreenCountdown": true,
         "enableLockScreenMediaControls": false,
@@ -869,7 +826,7 @@
         "translucentWidgets": false
     },
     "wallpaper": {
-        "automationEnabled": false,
+        "automationEnabled": true,
         "directory": "/home/ayaya/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": true,
         "enabled": true,
@@ -947,7 +904,7 @@
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
         "wallhavenPurity": "100",
-        "wallhavenQuery": "yuyuko",
+        "wallhavenQuery": "shiroko",
         "wallhavenRatios": "",
         "wallhavenResolutionHeight": "",
         "wallhavenResolutionMode": "atleast",
