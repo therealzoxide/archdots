@@ -1,0 +1,1172 @@
+[2026-06-12 14:44:49.674] [129978] [info] [scwx::qt::manager::log_manager] Removing old log file: supercell-wx.81792.log
+[2026-06-12 14:44:49.674] [129978] [info] [scwx::main] Supercell Wx v0.6.0.1510 (4761bb9761)
+[2026-06-12 14:44:49.674] [129978] [info] [scwx::main] Qt version 6.11.0
+[2026-06-12 14:44:49.674] [129978] [info] [scwx::main] Running on Arch Linux
+[2026-06-12 14:44:49.760] [129978] [info] [scwx::qt::config::radar_site] Loading radar sites from ":/res/config/radar_sites.json"...
+[2026-06-12 14:44:49.764] [129978] [debug] [scwx::qt::config::county_database] Loading database
+[2026-06-12 14:44:49.769] [129978] [debug] [scwx::qt::manager::task_manager] Initialize
+[2026-06-12 14:44:49.806] [130009] [info] [scwx::network::ntp_client] Using NTP server: time.nist.gov
+[2026-06-12 14:44:49.839] [130009] [debug] [scwx::network::ntp_client] Time offset updated: -0d 00:00:00.008045048
+[2026-06-12 14:44:49.839] [130010] [debug] [scwx::provider::nws_api_provider] GetRadarStations
+[2026-06-12 14:44:49.839] [129978] [info] [scwx::qt::manager::settings_manager] Loading settings
+[2026-06-12 14:44:49.841] [129978] [debug] [scwx::qt::settings::product_settings] Key product.thresholds is not present, resetting to defaults
+[2026-06-12 14:44:49.841] [129978] [debug] [scwx::qt::settings::settings_variable] map_annotation_state is not present, setting to default: 
+[2026-06-12 14:44:49.841] [129978] [debug] [scwx::qt::settings::settings_variable] map_pane_splitter_state is not present, setting to default: 
+[2026-06-12 14:44:49.841] [129978] [debug] [scwx::qt::settings::settings_variable] map_pane_popout_state is not present, setting to default: 
+[2026-06-12 14:44:49.841] [129978] [debug] [scwx::qt::settings::settings_variable] map_pane_view_link_state is not present, setting to default: 
+[2026-06-12 14:44:49.841] [129978] [debug] [scwx::qt::settings::settings_variable] panes_match_map_style is not present, setting to default: true
+[2026-06-12 14:44:49.841] [129978] [debug] [scwx::qt::manager::settings_manager] Validating settings
+[2026-06-12 14:44:49.849] [129978] [debug] [scwx::qt::manager::font_manager] LoadFontResource: iMWritingMono Nerd Font:Regular
+[2026-06-12 14:44:49.851] [129978] [debug] [scwx::qt::manager::font_manager] Found matching font: iMWritingMono Nerd Font:Regular (/usr/share/fonts/TTF/iMWritingMonoNerdFont-Regular.ttf) 0
+[2026-06-12 14:44:49.854] [129978] [debug] [scwx::qt::types::imgui_font] Creating Font: iMWritingMonoNerdFont-Regular.ttf
+[2026-06-12 14:44:49.855] [129978] [debug] [scwx::qt::manager::font_manager] LoadFontResource: Inconsolata:Regular
+[2026-06-12 14:44:49.857] [129978] [debug] [scwx::qt::manager::font_manager] Found matching font: Inconsolata:Regular (/home/ayaya/.cache/Supercell Wx/fonts/Inconsolata-Regular.ttf) 0
+[2026-06-12 14:44:49.857] [129978] [debug] [scwx::qt::types::imgui_font] Creating Font: Inconsolata-Regular.ttf
+[2026-06-12 14:44:49.857] [129978] [debug] [scwx::qt::manager::font_manager] LoadFontResource: Roboto Flex:Regular
+[2026-06-12 14:44:49.858] [129978] [debug] [scwx::qt::manager::font_manager] Found matching font: Roboto Flex:Regular (/home/ayaya/.cache/Supercell Wx/fonts/RobotoFlex-Regular.ttf) 0
+[2026-06-12 14:44:49.858] [129978] [debug] [scwx::qt::types::imgui_font] Creating Font: RobotoFlex-Regular.ttf
+[2026-06-12 14:44:49.858] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/icons/flaticon/cardinal-point-24.png
+[2026-06-12 14:44:49.859] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/icons/flaticon/compass-24.png
+[2026-06-12 14:44:49.859] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/crosshairs-24.png
+[2026-06-12 14:44:49.859] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/cursor-17.png
+[2026-06-12 14:44:49.859] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:49.861] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/icons/font-awesome-6/briefcase-solid.svg
+[2026-06-12 14:44:49.861] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/icons/font-awesome-6/building-columns-solid.svg
+[2026-06-12 14:44:49.861] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/icons/font-awesome-6/building-solid.svg
+[2026-06-12 14:44:49.861] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/icons/font-awesome-6/caravan-solid.svg
+[2026-06-12 14:44:49.861] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/icons/font-awesome-6/location-crosshairs-solid.svg
+[2026-06-12 14:44:49.861] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/icons/font-awesome-6/house-solid-white.svg
+[2026-06-12 14:44:49.862] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/location-marker.svg
+[2026-06-12 14:44:49.862] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/icons/font-awesome-6/location-pin.svg
+[2026-06-12 14:44:49.862] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/icons/font-awesome-6/star-solid-white.svg
+[2026-06-12 14:44:49.862] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/icons/font-awesome-6/tent-solid.svg
+[2026-06-12 14:44:49.862] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/mapbox-logo.svg
+[2026-06-12 14:44:49.862] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/maptiler-logo.svg
+[2026-06-12 14:44:49.863] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :res/textures/images/openfreemap-logo.jpg
+[2026-06-12 14:44:49.863] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/lines/default-1x7.png
+[2026-06-12 14:44:49.863] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/lines/test-pattern.png
+[2026-06-12 14:44:49.863] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:49.865] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:49.865] [129978] [info] [scwx::qt::main::theme] Loaded palette file '/home/ayaya/.local/share/Supercell Wx/theme.conf'
+[2026-06-12 14:44:49.885] [129978] [info] [qt] [qt.multimedia.ffmpeg] Using Qt multimedia with FFmpeg version 7.1.3 LGPL version 2.1 or later
+[2026-06-12 14:44:49.915] [130028] [debug] [scwx::qt::manager::media_manager] Creating QMediaDevices
+[2026-06-12 14:44:49.915] [130028] [debug] [scwx::qt::manager::media_manager] Creating QMediaPlayer
+[2026-06-12 14:44:49.916] [129978] [debug] [scwx::qt::manager::thread_manager] Creating thread: position_manager
+[2026-06-12 14:44:49.916] [130028] [debug] [scwx::qt::manager::media_manager] Creating QAudioOutput
+[2026-06-12 14:44:49.917] [129978] [debug] [scwx::qt::manager::position_manager] Available sources: geoclue2, nmea
+[2026-06-12 14:44:49.917] [130029] [warning] [qt] [qt.positioning.geoclue2] Neither desktopId plugin parameter nor QGuiApplication::desktopFileName has been set. Please consider setting one of the two.
+[2026-06-12 14:44:49.917] [130029] [debug] [scwx::qt::manager::position_manager] Using position source: geoclue2
+[2026-06-12 14:44:49.918] [130029] [warning] [qt] [qt.positioning.geoclue2] Already stopped
+[2026-06-12 14:44:49.919] [130028] [debug] [scwx::qt::manager::media_manager] Audio device: USB Audio Speakers
+[2026-06-12 14:44:49.935] [129978] [info] [scwx::qt::model::layer_model] Reading layer settings
+[2026-06-12 14:44:49.936] [129978] [info] [scwx::qt::model::radar_site_model] Reading presets
+[2026-06-12 14:44:49.955] [129978] [debug] [scwx::qt::map::alert_layer] Initializing handler
+[2026-06-12 14:44:49.960] [129978] [debug] [scwx::qt::manager::radar_product_manager] UpdateAvailableProducts()
+[2026-06-12 14:44:49.960] [130048] [debug] [scwx::provider::aws_level3_data_provider] ListProducts()
+[2026-06-12 14:44:49.962] [130049] [debug] [scwx::provider::aws_level3_data_provider] ListProducts()
+[2026-06-12 14:44:49.973] [130050] [debug] [scwx::provider::aws_level3_data_provider] ListProducts()
+[2026-06-12 14:44:49.973] [130051] [debug] [scwx::provider::aws_level3_data_provider] ListProducts()
+[2026-06-12 14:44:50.091] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, REF
+[2026-06-12 14:44:50.092] [130053] [debug] [scwx::provider::aws_nexrad_data_provider] Refresh()
+[2026-06-12 14:44:50.092] [130053] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: 2026/06/11/KINX/
+[2026-06-12 14:44:50.093] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, VEL
+[2026-06-12 14:44:50.094] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, RHO
+[2026-06-12 14:44:50.096] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, ZDR
+[2026-06-12 14:44:50.098] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:50.098] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:50.098] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:50.098] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:50.098] [129978] [debug] [scwx::qt::manager::timeline_manager] SetRadarSite: KINX
+[2026-06-12 14:44:50.098] [129978] [debug] [scwx::qt::manager::timeline_manager] Time updated: Live
+[2026-06-12 14:44:50.098] [129978] [debug] [scwx::qt::manager::alert_manager] SetRadarSite: KINX
+[2026-06-12 14:44:50.098] [129978] [debug] [scwx::qt::manager::placefile_manager] SetRadarSite: KINX
+[2026-06-12 14:44:50.098] [129978] [debug] [scwx::qt::main::application] Application initialization finished
+[2026-06-12 14:44:50.098] [130033] [debug] [scwx::qt::manager::text_event_manager] Start Refresh
+[2026-06-12 14:44:50.098] [130034] [info] [scwx::qt::manager::placefile_manager] Reading placefile settings
+[2026-06-12 14:44:50.098] [130035] [info] [scwx::qt::manager::marker_manager] Reading location marker settings
+[2026-06-12 14:44:50.098] [130035] [debug] [scwx::qt::manager::marker_manager] 0 location marker entries
+[2026-06-12 14:44:50.098] [130035] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:50.099] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: http://placefilenation.com/Placefiles/spcday1.php
+[2026-06-12 14:44:50.099] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: http://placefilenation.com/Placefiles/spcday2.php
+[2026-06-12 14:44:50.099] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: http://placefilenation.com/Placefiles/spcday3.php
+[2026-06-12 14:44:50.099] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: https://placefiles.supercellwx.net/wxfanatic/day1tornadoprob.php
+[2026-06-12 14:44:50.099] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: https://placefiles.supercellwx.net/wxfanatic/day1windprob.php
+[2026-06-12 14:44:50.099] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: https://placefiles.supercellwx.net/wxfanatic/day1hailprob.php
+[2026-06-12 14:44:50.100] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: https://placefiles.supercellwx.net/wxfanatic/downRadarStatus.txt
+[2026-06-12 14:44:50.100] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: http://placefilenation.com/Placefiles/mcd.php
+[2026-06-12 14:44:50.100] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: http://placefilenation.com/Placefiles/mping_300min.php
+[2026-06-12 14:44:50.100] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: http://placefilenation.com/Placefiles/mping_30min.php
+[2026-06-12 14:44:50.100] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: https://placefilenation.com/Placefiles/gusts.php
+[2026-06-12 14:44:50.100] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: https://www.spotternetwork.org/feeds/gr-all-no.txt
+[2026-06-12 14:44:50.100] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: https://placefiles.supercellwx.net/wxfanatic/alarmRadarStatus.txt
+[2026-06-12 14:44:50.100] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: http://placefiles.redteamwx.com/WG.php
+[2026-06-12 14:44:50.100] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: https://www.freelightning.com/placefiles/SPC_Mesoscale_Discussions.php
+[2026-06-12 14:44:50.100] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: https://www.freelightning.com/hub/placefile.php?request=10306|10557|107118581|10259|10303|10689|0|254292|1
+[2026-06-12 14:44:50.100] [130034] [info] [scwx::qt::manager::placefile_manager] AddUrl: https://www.freelightning.com/hub/placefile.php?request=10521|10816|107118581|10219|10321|10379|0|254292|2
+[2026-06-12 14:44:50.101] [130035] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:50.110] [129978] [debug] [scwx::qt::map::map_widget] initializeGL()
+[2026-06-12 14:44:50.112] [129978] [info] [scwx::qt::gl::gl_context] GLAD initialization complete: OpenGL 4.6
+[2026-06-12 14:44:50.112] [129978] [info] [scwx::qt::gl::gl_context] OpenGL Version: 4.6 (Compatibility Profile) Mesa 26.1.2-arch1.1
+[2026-06-12 14:44:50.112] [129978] [info] [scwx::qt::gl::gl_context] OpenGL Vendor: AMD
+[2026-06-12 14:44:50.112] [129978] [info] [scwx::qt::gl::gl_context] OpenGL Renderer: AMD Radeon RX 6800 (radeonsi, navi21, ACO, DRM 3.64, 7.0.5-arch1-1)
+[2026-06-12 14:44:50.112] [129978] [debug] [scwx::qt::map::map_widget] Resetting map
+[2026-06-12 14:44:50.118] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:50.123] [130158] [info] [qt] [mbgl] {unknown}[General]: GPU Identifier: AMD Radeon RX 6800 (radeonsi, navi21, ACO, DRM 3.64, 7.0.5-arch1-1)
+[2026-06-12 14:44:50.133] [129978] [debug] [scwx::qt::map::map_widget] initializeGL()
+[2026-06-12 14:44:50.133] [129978] [debug] [scwx::qt::map::map_widget] Resetting map
+[2026-06-12 14:44:50.133] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:50.135] [129978] [debug] [scwx::qt::map::map_widget] initializeGL()
+[2026-06-12 14:44:50.135] [129978] [debug] [scwx::qt::map::map_widget] Resetting map
+[2026-06-12 14:44:50.135] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:50.138] [129978] [debug] [scwx::qt::map::map_widget] initializeGL()
+[2026-06-12 14:44:50.138] [129978] [debug] [scwx::qt::map::map_widget] Resetting map
+[2026-06-12 14:44:50.138] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:50.146] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:50.150] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:50.150] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:50.153] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:50.154] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:50.154] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:50.157] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:50.157] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:50.158] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:50.160] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:50.161] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:50.162] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:50.166] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:50.172] [129978] [debug] [scwx::qt::gl::shader_program] Load()
+[2026-06-12 14:44:50.172] [129978] [debug] [scwx::qt::gl::shader_program] Loading vertex shader: :/gl/geo_texture2d.vert
+[2026-06-12 14:44:50.172] [129978] [debug] [scwx::qt::gl::shader_program] Loading geometry shader: :/gl/threshold.geom
+[2026-06-12 14:44:50.172] [129978] [debug] [scwx::qt::gl::shader_program] Loading fragment shader: :/gl/color.frag
+[2026-06-12 14:44:50.174] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:50.174] [129978] [debug] [scwx::qt::gl::shader_program] Load()
+[2026-06-12 14:44:50.174] [129978] [debug] [scwx::qt::gl::shader_program] Loading vertex shader: :/gl/texture1d.vert
+[2026-06-12 14:44:50.174] [129978] [debug] [scwx::qt::gl::shader_program] Loading fragment shader: :/gl/texture1d.frag
+[2026-06-12 14:44:50.174] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:50.174] [129978] [debug] [scwx::qt::gl::shader_program] Load()
+[2026-06-12 14:44:50.174] [129978] [debug] [scwx::qt::gl::shader_program] Loading vertex shader: :/gl/radar.vert
+[2026-06-12 14:44:50.174] [129978] [debug] [scwx::qt::gl::shader_program] Loading fragment shader: :/gl/radar.frag
+[2026-06-12 14:44:50.175] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:50.175] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:50.175] [129978] [debug] [scwx::qt::gl::shader_program] Load()
+[2026-06-12 14:44:50.175] [129978] [debug] [scwx::qt::gl::shader_program] Loading vertex shader: :/gl/color.vert
+[2026-06-12 14:44:50.175] [129978] [debug] [scwx::qt::gl::shader_program] Loading fragment shader: :/gl/color.frag
+[2026-06-12 14:44:50.176] [129978] [debug] [scwx::qt::gl::shader_program] Load()
+[2026-06-12 14:44:50.176] [129978] [debug] [scwx::qt::gl::shader_program] Loading vertex shader: :/gl/geo_texture2d.vert
+[2026-06-12 14:44:50.176] [129978] [debug] [scwx::qt::gl::shader_program] Loading geometry shader: :/gl/threshold.geom
+[2026-06-12 14:44:50.176] [129978] [debug] [scwx::qt::gl::shader_program] Loading fragment shader: :/gl/texture2d_array.frag
+[2026-06-12 14:44:50.178] [129978] [debug] [scwx::qt::gl::shader_program] Load()
+[2026-06-12 14:44:50.178] [129978] [debug] [scwx::qt::gl::shader_program] Loading vertex shader: :/gl/texture2d_array.vert
+[2026-06-12 14:44:50.178] [129978] [debug] [scwx::qt::gl::shader_program] Loading geometry shader: :/gl/threshold.geom
+[2026-06-12 14:44:50.178] [129978] [debug] [scwx::qt::gl::shader_program] Loading fragment shader: :/gl/texture2d_array.frag
+[2026-06-12 14:44:50.180] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:50.180] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:50.181] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.010000s
+[2026-06-12 14:44:50.182] [129978] [debug] [scwx::qt::gl::shader_program] Load()
+[2026-06-12 14:44:50.182] [129978] [debug] [scwx::qt::gl::shader_program] Loading vertex shader: :/gl/annotation_geo.vert
+[2026-06-12 14:44:50.182] [129978] [debug] [scwx::qt::gl::shader_program] Loading fragment shader: :/gl/annotation_stroke.frag
+[2026-06-12 14:44:50.183] [129978] [debug] [scwx::qt::map::alert_layer] Initialize: Tornado
+[2026-06-12 14:44:50.188] [129978] [debug] [scwx::qt::map::alert_layer] Initialize: Severe Thunderstorm
+[2026-06-12 14:44:50.188] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:50.188] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:50.193] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:50.193] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:50.194] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:50.194] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:50.194] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:50.195] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:50.195] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:50.195] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:50.195] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:50.195] [129978] [debug] [scwx::qt::map::alert_layer] Initialize: Marine
+[2026-06-12 14:44:50.199] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:50.200] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:50.200] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:50.200] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:50.200] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:50.200] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:50.201] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:50.201] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:50.201] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:50.201] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:50.201] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:50.205] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:50.205] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:50.205] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:50.205] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:50.206] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:50.207] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:50.207] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:50.207] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:50.207] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:50.207] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:50.272] [130057] [debug] [scwx::provider::aws_nexrad_data_provider] Refresh()
+[2026-06-12 14:44:50.272] [130057] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_NST_2026_06_11_
+[2026-06-12 14:44:50.345] [130057] [debug] [scwx::provider::aws_nexrad_data_provider] Found 47 objects
+[2026-06-12 14:44:50.345] [130057] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_NST_2026_06_12_
+[2026-06-12 14:44:50.355] [130053] [debug] [scwx::provider::aws_nexrad_data_provider] Found 209 objects
+[2026-06-12 14:44:50.355] [130053] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: 2026/06/12/KINX/
+[2026-06-12 14:44:50.437] [130053] [debug] [scwx::provider::aws_nexrad_data_provider] Found 226 objects
+[2026-06-12 14:44:50.437] [130053] [debug] [scwx::provider::aws_nexrad_data_provider] FindLatestKey()
+[2026-06-12 14:44:50.446] [130050] [debug] [scwx::provider::aws_nexrad_data_provider] FindKey: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:50.481] [130057] [debug] [scwx::provider::aws_nexrad_data_provider] Found 200 objects
+[2026-06-12 14:44:50.481] [130057] [debug] [scwx::provider::aws_nexrad_data_provider] FindLatestKey()
+[2026-06-12 14:44:50.492] [129978] [debug] [scwx::qt::view::overlay_product_view] Load Product: NST, 2026-06-12 18:39:02 UTC, true
+[2026-06-12 14:44:50.492] [129978] [debug] [scwx::qt::view::overlay_product_view] Load Product: NST, 2026-06-12 18:39:02 UTC, true
+[2026-06-12 14:44:50.492] [129978] [debug] [scwx::qt::view::overlay_product_view] Load Product: NST, 2026-06-12 18:39:02 UTC, true
+[2026-06-12 14:44:50.492] [129978] [debug] [scwx::qt::view::overlay_product_view] Load Product: NST, 2026-06-12 18:39:02 UTC, true
+[2026-06-12 14:44:50.492] [130047] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 18:39:02 UTC
+[2026-06-12 14:44:50.492] [130064] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 18:39:02 UTC
+[2026-06-12 14:44:50.492] [130068] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 18:39:02 UTC
+[2026-06-12 14:44:50.492] [130072] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 18:39:02 UTC
+[2026-06-12 14:44:50.658] [130229] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: 2026/06/12/KINX/
+[2026-06-12 14:44:50.809] [130050] [debug] [scwx::wsr88d::ar2v_file] Loading Data
+[2026-06-12 14:44:50.809] [130050] [debug] [scwx::wsr88d::ar2v_file] Filename:  AR2V0006.
+[2026-06-12 14:44:50.809] [130050] [debug] [scwx::wsr88d::ar2v_file] Extension: 135
+[2026-06-12 14:44:50.809] [130050] [debug] [scwx::wsr88d::ar2v_file] Date:      20617 (2026-06-12)
+[2026-06-12 14:44:50.809] [130050] [debug] [scwx::wsr88d::ar2v_file] Time:      70554477 (19:35:54.477000000)
+[2026-06-12 14:44:50.809] [130050] [debug] [scwx::wsr88d::ar2v_file] ICAO:      KINX
+[2026-06-12 14:44:50.863] [130230] [debug] [scwx::wsr88d::ar2v_file] Loading Data
+[2026-06-12 14:44:50.863] [130230] [debug] [scwx::wsr88d::ar2v_file] Filename:  AR2V0006.
+[2026-06-12 14:44:50.863] [130230] [debug] [scwx::wsr88d::ar2v_file] Extension: 136
+[2026-06-12 14:44:50.863] [130230] [debug] [scwx::wsr88d::ar2v_file] Date:      20617 (2026-06-12)
+[2026-06-12 14:44:50.863] [130230] [debug] [scwx::wsr88d::ar2v_file] Time:      71068150 (19:44:28.150000000)
+[2026-06-12 14:44:50.863] [130230] [debug] [scwx::wsr88d::ar2v_file] ICAO:      KINX
+[2026-06-12 14:44:50.924] [130229] [debug] [scwx::provider::aws_nexrad_data_provider] Found 226 objects
+[2026-06-12 14:44:50.924] [130229] [debug] [scwx::provider::aws_nexrad_data_provider] FindKey: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:51.298] [130229] [debug] [scwx::wsr88d::ar2v_file] Loading Data
+[2026-06-12 14:44:51.298] [130229] [debug] [scwx::wsr88d::ar2v_file] Filename:  AR2V0006.
+[2026-06-12 14:44:51.298] [130229] [debug] [scwx::wsr88d::ar2v_file] Extension: 135
+[2026-06-12 14:44:51.298] [130229] [debug] [scwx::wsr88d::ar2v_file] Date:      20617 (2026-06-12)
+[2026-06-12 14:44:51.298] [130229] [debug] [scwx::wsr88d::ar2v_file] Time:      70554477 (19:35:54.477000000)
+[2026-06-12 14:44:51.298] [130229] [debug] [scwx::wsr88d::ar2v_file] ICAO:      KINX
+[2026-06-12 14:44:51.373] [130050] [debug] [scwx::qt::manager::radar_product_manager] Initialize()
+[2026-06-12 14:44:51.373] [130049] [debug] [scwx::qt::manager::radar_product_manager] Level 2 product previously loaded, loading from cache
+[2026-06-12 14:44:51.373] [130051] [debug] [scwx::qt::manager::radar_product_manager] Level 2 product previously loaded, loading from cache
+[2026-06-12 14:44:51.373] [130050] [debug] [scwx::provider::aws_nexrad_data_provider] FindKey: 2026-06-12 18:39:02 UTC
+[2026-06-12 14:44:51.373] [130048] [debug] [scwx::qt::manager::radar_product_manager] Level 2 product previously loaded, loading from cache
+[2026-06-12 14:44:51.449] [130050] [debug] [scwx::wsr88d::level3_file] Loading Data
+[2026-06-12 14:44:51.449] [130050] [debug] [scwx::wsr88d::level3_file] Data Type: SD
+[2026-06-12 14:44:51.449] [130050] [debug] [scwx::wsr88d::level3_file] ICAO:      KTSA
+[2026-06-12 14:44:51.449] [130050] [debug] [scwx::wsr88d::level3_file] Date/Time: 121839
+[2026-06-12 14:44:51.449] [130050] [debug] [scwx::wsr88d::level3_file] Category:  NST
+[2026-06-12 14:44:51.449] [130050] [debug] [scwx::wsr88d::level3_file] Site ID:   INX
+[2026-06-12 14:44:51.449] [130050] [debug] [scwx::wsr88d::rpg::level3_message_factory] Found Message 58
+[2026-06-12 14:44:51.449] [130050] [debug] [scwx::wsr88d::rpg::graphic_product_message] Loading Blocks
+[2026-06-12 14:44:51.449] [130050] [debug] [scwx::wsr88d::rpg::graphic_product_message] Graphic alphanumeric block valid: true
+[2026-06-12 14:44:51.449] [130050] [debug] [scwx::wsr88d::rpg::graphic_product_message] Tabular alphanumeric block valid: true
+[2026-06-12 14:44:51.449] [130050] [debug] [scwx::wsr88d::rpg::storm_tracking_information_message] No storm text present
+[2026-06-12 14:44:51.449] [130049] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product previously loaded, loading from cache
+[2026-06-12 14:44:51.449] [130051] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product previously loaded, loading from cache
+[2026-06-12 14:44:51.449] [130048] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product previously loaded, loading from cache
+[2026-06-12 14:44:51.879] [130055] [debug] [scwx::provider::aws_level2_chunks_data_provider] Refresh() in 1.780000s
+[2026-06-12 14:44:51.880] [130045] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:51.880] [130045] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:51.886] [130062] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:51.886] [130062] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:51.887] [130066] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:51.887] [130066] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:51.893] [130070] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:51.893] [130070] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:51.941] [130045] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.070000s
+[2026-06-12 14:44:51.972] [130045] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.030000s
+[2026-06-12 14:44:51.972] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:51.976] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:51.976] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:51.976] [129978] [debug] [scwx::qt::map::radar_product_layer] CFP moments buffered in 0.000000s
+[2026-06-12 14:44:51.977] [130076] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:51.977] [130076] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:51.980] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:51.986] [130066] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.100000s
+[2026-06-12 14:44:51.988] [130062] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.100000s
+[2026-06-12 14:44:52.000] [130062] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:44:52.002] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:52.006] [130070] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.110000s
+[2026-06-12 14:44:52.010] [130066] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.020000s
+[2026-06-12 14:44:52.011] [130080] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:52.011] [130080] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:52.016] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:52.020] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:52.020] [130070] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:44:52.022] [130081] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:52.022] [130081] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:52.023] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.010000s
+[2026-06-12 14:44:52.023] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:52.029] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:52.042] [130076] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.070000s
+[2026-06-12 14:44:52.074] [130080] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.070000s
+[2026-06-12 14:44:52.077] [130076] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.030000s
+[2026-06-12 14:44:52.078] [130076] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:52.078] [130076] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:52.087] [130081] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.060000s
+[2026-06-12 14:44:52.087] [130080] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:44:52.088] [130080] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:52.088] [130080] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:52.111] [130081] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.030000s
+[2026-06-12 14:44:52.112] [130081] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:52.112] [130081] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:52.133] [130076] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.060000s
+[2026-06-12 14:44:52.157] [130076] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.020000s
+[2026-06-12 14:44:52.158] [130076] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:52.158] [130076] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:52.159] [130080] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.070000s
+[2026-06-12 14:44:52.169] [130080] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:44:52.170] [130080] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:52.170] [130080] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:52.176] [130081] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.060000s
+[2026-06-12 14:44:52.195] [130081] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.020000s
+[2026-06-12 14:44:52.196] [130081] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:52.196] [130081] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:52.228] [130076] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.070000s
+[2026-06-12 14:44:52.235] [130080] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.070000s
+[2026-06-12 14:44:52.245] [130076] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.020000s
+[2026-06-12 14:44:52.249] [130080] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:44:52.252] [130081] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.060000s
+[2026-06-12 14:44:52.253] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:52.257] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:52.258] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:52.260] [130081] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.000000s
+[2026-06-12 14:44:52.262] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:52.263] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:52.263] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:52.263] [129978] [debug] [scwx::qt::map::radar_product_layer] CFP moments buffered in 0.000000s
+[2026-06-12 14:44:52.267] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:52.268] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:52.268] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:52.268] [129978] [debug] [scwx::qt::map::radar_product_layer] CFP moments buffered in 0.000000s
+[2026-06-12 14:44:52.269] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:52.270] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:52.270] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:52.271] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:52.274] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.010000s
+[2026-06-12 14:44:52.275] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:52.849] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260609_19.txt
+[2026-06-12 14:44:52.866] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260609_20.txt
+[2026-06-12 14:44:52.874] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260609_21.txt
+[2026-06-12 14:44:52.967] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260609_22.txt
+[2026-06-12 14:44:53.001] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260609_23.txt
+[2026-06-12 14:44:53.035] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_00.txt
+[2026-06-12 14:44:53.114] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_01.txt
+[2026-06-12 14:44:53.144] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_02.txt
+[2026-06-12 14:44:53.166] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_03.txt
+[2026-06-12 14:44:53.186] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_04.txt
+[2026-06-12 14:44:53.197] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_05.txt
+[2026-06-12 14:44:53.249] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_06.txt
+[2026-06-12 14:44:53.259] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_07.txt
+[2026-06-12 14:44:53.275] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_08.txt
+[2026-06-12 14:44:53.281] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_09.txt
+[2026-06-12 14:44:53.383] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_10.txt
+[2026-06-12 14:44:53.413] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_11.txt
+[2026-06-12 14:44:53.509] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_12.txt
+[2026-06-12 14:44:53.515] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_13.txt
+[2026-06-12 14:44:53.518] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_14.txt
+[2026-06-12 14:44:53.522] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_15.txt
+[2026-06-12 14:44:53.550] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_16.txt
+[2026-06-12 14:44:53.646] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_17.txt
+[2026-06-12 14:44:53.663] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_18.txt
+[2026-06-12 14:44:53.706] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_19.txt
+[2026-06-12 14:44:53.734] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_20.txt
+[2026-06-12 14:44:53.813] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_21.txt
+[2026-06-12 14:44:53.863] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_22.txt
+[2026-06-12 14:44:53.968] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260610_23.txt
+[2026-06-12 14:44:54.024] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_00.txt
+[2026-06-12 14:44:54.087] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_01.txt
+[2026-06-12 14:44:54.132] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_02.txt
+[2026-06-12 14:44:54.158] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_03.txt
+[2026-06-12 14:44:54.173] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_04.txt
+[2026-06-12 14:44:54.188] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_05.txt
+[2026-06-12 14:44:54.197] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_06.txt
+[2026-06-12 14:44:54.203] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_07.txt
+[2026-06-12 14:44:54.208] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_08.txt
+[2026-06-12 14:44:54.219] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_09.txt
+[2026-06-12 14:44:54.231] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_10.txt
+[2026-06-12 14:44:54.252] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_11.txt
+[2026-06-12 14:44:54.276] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_12.txt
+[2026-06-12 14:44:54.286] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_13.txt
+[2026-06-12 14:44:54.380] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_14.txt
+[2026-06-12 14:44:54.394] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_15.txt
+[2026-06-12 14:44:54.525] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_16.txt
+[2026-06-12 14:44:54.532] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_17.txt
+[2026-06-12 14:44:54.536] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_18.txt
+[2026-06-12 14:44:54.546] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_19.txt
+[2026-06-12 14:44:54.567] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_20.txt
+[2026-06-12 14:44:54.603] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_21.txt
+[2026-06-12 14:44:54.673] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_22.txt
+[2026-06-12 14:44:54.733] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260611_23.txt
+[2026-06-12 14:44:54.792] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_00.txt
+[2026-06-12 14:44:54.851] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_01.txt
+[2026-06-12 14:44:54.918] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_02.txt
+[2026-06-12 14:44:54.966] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_03.txt
+[2026-06-12 14:44:54.997] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_04.txt
+[2026-06-12 14:44:55.022] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_05.txt
+[2026-06-12 14:44:55.031] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_06.txt
+[2026-06-12 14:44:55.035] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_07.txt
+[2026-06-12 14:44:55.037] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_08.txt
+[2026-06-12 14:44:55.039] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_09.txt
+[2026-06-12 14:44:55.081] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_11.txt
+[2026-06-12 14:44:55.092] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_12.txt
+[2026-06-12 14:44:55.094] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_13.txt
+[2026-06-12 14:44:55.096] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_14.txt
+[2026-06-12 14:44:55.214] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_15.txt
+[2026-06-12 14:44:55.229] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_16.txt
+[2026-06-12 14:44:55.231] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_17.txt
+[2026-06-12 14:44:55.234] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_18.txt
+[2026-06-12 14:44:55.248] [130054] [debug] [scwx::provider::aws_level2_chunks_data_provider] Refresh() in 0.240000s
+[2026-06-12 14:44:55.249] [130076] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:55.249] [130076] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:55.251] [130080] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:55.251] [130080] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:55.251] [130081] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:55.251] [130081] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:55.311] [130076] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.060000s
+[2026-06-12 14:44:55.323] [130081] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.080000s
+[2026-06-12 14:44:55.326] [130080] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.080000s
+[2026-06-12 14:44:55.335] [130076] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.030000s
+[2026-06-12 14:44:55.337] [130081] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:44:55.337] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:55.340] [130080] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:44:55.342] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.010000s
+[2026-06-12 14:44:55.342] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:55.343] [129978] [debug] [scwx::qt::map::radar_product_layer] CFP moments buffered in 0.000000s
+[2026-06-12 14:44:55.346] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:55.346] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:55.347] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:55.348] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:55.349] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:55.349] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:55.357] [130033] [debug] [scwx::provider::warnings_provider] Loading file: warnings_20260612_19.txt
+[2026-06-12 14:44:59.000] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, REF
+[2026-06-12 14:44:59.000] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, VEL
+[2026-06-12 14:44:59.000] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, RHO
+[2026-06-12 14:44:59.000] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, ZDR
+[2026-06-12 14:44:59.000] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L3, DVL
+[2026-06-12 14:44:59.001] [130076] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:59.001] [130076] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:59.002] [130081] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:59.002] [130081] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:59.003] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L3, EET
+[2026-06-12 14:44:59.004] [130446] [debug] [scwx::qt::view::level3_product_view] UpdateColorTable()
+[2026-06-12 14:44:59.004] [130460] [debug] [scwx::provider::aws_nexrad_data_provider] Refresh()
+[2026-06-12 14:44:59.004] [130460] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_DVL_2026_06_11_
+[2026-06-12 14:44:59.004] [130080] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:44:59.004] [130080] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:44:59.004] [130443] [debug] [scwx::qt::view::level3_product_view] UpdateColorTable()
+[2026-06-12 14:44:59.005] [130446] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: EET, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.005] [130443] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: DVL, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.005] [130446] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.005] [130443] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.005] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L3, N0S
+[2026-06-12 14:44:59.005] [130049] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, DVL, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.005] [130049] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_DVL_2026_06_11_
+[2026-06-12 14:44:59.005] [130048] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, EET, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.005] [130048] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_EET_2026_06_11_
+[2026-06-12 14:44:59.006] [130463] [debug] [scwx::provider::aws_nexrad_data_provider] Refresh()
+[2026-06-12 14:44:59.006] [130463] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_EET_2026_06_11_
+[2026-06-12 14:44:59.007] [130206] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_EET_2026_06_12_
+[2026-06-12 14:44:59.008] [130209] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_DVL_2026_06_12_
+[2026-06-12 14:44:59.008] [130449] [debug] [scwx::qt::view::level3_product_view] UpdateColorTable()
+[2026-06-12 14:44:59.008] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L3, N0H
+[2026-06-12 14:44:59.009] [130449] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: N0S, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.009] [130470] [debug] [scwx::provider::aws_nexrad_data_provider] Refresh()
+[2026-06-12 14:44:59.009] [130449] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.009] [130051] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, N0S, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.009] [130470] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0S_2026_06_11_
+[2026-06-12 14:44:59.009] [130051] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0S_2026_06_11_
+[2026-06-12 14:44:59.010] [130452] [debug] [scwx::qt::view::level3_product_view] UpdateColorTable()
+[2026-06-12 14:44:59.011] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L3, N0K
+[2026-06-12 14:44:59.011] [130452] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: N0H, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.011] [130452] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.011] [130477] [debug] [scwx::provider::aws_nexrad_data_provider] Refresh()
+[2026-06-12 14:44:59.011] [130477] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0H_2026_06_11_
+[2026-06-12 14:44:59.011] [130050] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, N0H, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.011] [130050] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0H_2026_06_11_
+[2026-06-12 14:44:59.012] [130203] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0S_2026_06_12_
+[2026-06-12 14:44:59.013] [130455] [debug] [scwx::qt::view::level3_product_view] UpdateColorTable()
+[2026-06-12 14:44:59.013] [130198] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0H_2026_06_12_
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.014] [130455] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: N0K, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.014] [130455] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Selecting radar site: KINX
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L3, DVL
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Selecting radar site: KINX
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L3, EET
+[2026-06-12 14:44:59.014] [130458] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: DVL, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.014] [130458] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.014] [130458] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: DVL, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.014] [130458] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Selecting radar site: KINX
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L3, N0S
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Selecting radar site: KINX
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L3, N0H
+[2026-06-12 14:44:59.014] [130468] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: N0S, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.014] [130468] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.014] [130461] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: EET, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.014] [130461] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.014] [130468] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: N0S, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.014] [130468] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::map::map_widget] Selecting radar site: KINX
+[2026-06-12 14:44:59.014] [130461] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: EET, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.014] [130461] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.014] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L3, N0K
+[2026-06-12 14:44:59.014] [130475] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: N0H, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.014] [130475] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.014] [130475] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: N0H, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.014] [130475] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.014] [130481] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: N0K, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.014] [130481] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.014] [130481] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product times need populated: N0K, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.014] [130481] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.017] [129978] [debug] [scwx::qt::map::map_widget] initializeGL()
+[2026-06-12 14:44:59.017] [129978] [debug] [scwx::qt::map::map_widget] Resetting map
+[2026-06-12 14:44:59.018] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.021] [129978] [debug] [scwx::qt::map::map_widget] initializeGL()
+[2026-06-12 14:44:59.021] [129978] [debug] [scwx::qt::map::map_widget] Resetting map
+[2026-06-12 14:44:59.021] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.024] [129978] [debug] [scwx::qt::map::map_widget] initializeGL()
+[2026-06-12 14:44:59.024] [129978] [debug] [scwx::qt::map::map_widget] Resetting map
+[2026-06-12 14:44:59.024] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.028] [129978] [debug] [scwx::qt::map::map_widget] initializeGL()
+[2026-06-12 14:44:59.028] [129978] [debug] [scwx::qt::map::map_widget] Resetting map
+[2026-06-12 14:44:59.028] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.031] [129978] [debug] [scwx::qt::map::map_widget] initializeGL()
+[2026-06-12 14:44:59.031] [129978] [debug] [scwx::qt::map::map_widget] Resetting map
+[2026-06-12 14:44:59.031] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:44:59.055] [130076] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.060000s
+[2026-06-12 14:44:59.070] [130076] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:44:59.074] [130081] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.070000s
+[2026-06-12 14:44:59.093] [130081] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.020000s
+[2026-06-12 14:44:59.094] [130080] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.090000s
+[2026-06-12 14:44:59.101] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.103] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.103] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.104] [130080] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:44:59.107] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.108] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.108] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.108] [129978] [debug] [scwx::qt::map::radar_product_layer] CFP moments buffered in 0.000000s
+[2026-06-12 14:44:59.114] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.115] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.115] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.129] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:59.130] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:59.131] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:59.133] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:59.134] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:59.135] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:59.142] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:44:59.142] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:59.142] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.145] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.145] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.145] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.145] [129978] [debug] [scwx::qt::map::alert_layer] Deinitialize: Marine
+[2026-06-12 14:44:59.147] [129978] [debug] [scwx::qt::map::alert_layer] Initialize: Marine
+[2026-06-12 14:44:59.153] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:44:59.154] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:59.154] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:59.154] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:44:59.154] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:59.154] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:44:59.154] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:59.154] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:44:59.154] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:59.154] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:59.154] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:59.156] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:59.163] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:44:59.163] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:59.163] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.167] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.168] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.168] [129978] [debug] [scwx::qt::map::radar_product_layer] CFP moments buffered in 0.000000s
+[2026-06-12 14:44:59.168] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.169] [129978] [debug] [scwx::qt::map::alert_layer] Deinitialize: Severe Thunderstorm
+[2026-06-12 14:44:59.176] [129978] [debug] [scwx::qt::map::alert_layer] Initialize: Severe Thunderstorm
+[2026-06-12 14:44:59.220] [129978] [debug] [scwx::qt::map::alert_layer] Deinitialize: Tornado
+[2026-06-12 14:44:59.221] [129978] [debug] [scwx::qt::map::alert_layer] Initialize: Tornado
+[2026-06-12 14:44:59.227] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:44:59.227] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:59.227] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:59.227] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:44:59.227] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:59.227] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:44:59.227] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:59.227] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:44:59.227] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:59.227] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:59.228] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:59.229] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:59.236] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:59.237] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:59.237] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:59.240] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:59.240] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:59.240] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:59.243] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:59.243] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:59.243] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:59.246] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:59.246] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:59.247] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:59.249] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:59.250] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:59.250] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:59.252] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:59.253] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:59.253] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:59.255] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:44:59.256] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:44:59.256] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:44:59.259] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:59.259] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:59.259] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:59.259] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:59.260] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:59.261] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:59.261] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:59.261] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:59.261] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.261] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.261] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.261] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.261] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.266] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.267] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:59.271] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:59.271] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:59.271] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:59.271] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:59.271] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:59.272] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.010000s
+[2026-06-12 14:44:59.272] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:59.272] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:59.272] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.272] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.272] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.272] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.272] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:59.276] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:59.276] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:59.276] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:59.276] [130460] [debug] [scwx::provider::aws_nexrad_data_provider] Found 184 objects
+[2026-06-12 14:44:59.276] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:59.276] [130460] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_DVL_2026_06_12_
+[2026-06-12 14:44:59.276] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:59.277] [130048] [debug] [scwx::provider::aws_nexrad_data_provider] Found 184 objects
+[2026-06-12 14:44:59.277] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:59.277] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:59.277] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:59.277] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.277] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.277] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.277] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.277] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:59.277] [130463] [debug] [scwx::provider::aws_nexrad_data_provider] Found 184 objects
+[2026-06-12 14:44:59.277] [130463] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_EET_2026_06_12_
+[2026-06-12 14:44:59.281] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:59.281] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:59.281] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:59.281] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:59.282] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:59.282] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:59.282] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:59.282] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:59.282] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.282] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.282] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.282] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.282] [130051] [debug] [scwx::provider::aws_nexrad_data_provider] Found 185 objects
+[2026-06-12 14:44:59.282] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:59.283] [130203] [debug] [scwx::provider::aws_nexrad_data_provider] Found 207 objects
+[2026-06-12 14:44:59.283] [130482] [debug] [scwx::provider::aws_nexrad_data_provider] Refresh()
+[2026-06-12 14:44:59.283] [130051] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, N0K, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.283] [130203] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0K_2026_06_12_
+[2026-06-12 14:44:59.283] [130482] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0K_2026_06_11_
+[2026-06-12 14:44:59.283] [130051] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0K_2026_06_11_
+[2026-06-12 14:44:59.287] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:44:59.287] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:59.287] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.293] [130470] [debug] [scwx::provider::aws_nexrad_data_provider] Found 185 objects
+[2026-06-12 14:44:59.293] [130470] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0S_2026_06_12_
+[2026-06-12 14:44:59.299] [130049] [debug] [scwx::provider::aws_nexrad_data_provider] Found 184 objects
+[2026-06-12 14:44:59.303] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.020000s
+[2026-06-12 14:44:59.303] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.303] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.304] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:44:59.304] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:59.304] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:59.304] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:44:59.304] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:59.305] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:44:59.305] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:59.305] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:44:59.305] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:59.305] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:59.305] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:59.305] [130206] [debug] [scwx::provider::aws_nexrad_data_provider] Found 207 objects
+[2026-06-12 14:44:59.305] [130048] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, DVL, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.305] [130210] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_DVL_2026_06_12_
+[2026-06-12 14:44:59.307] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:59.309] [130209] [debug] [scwx::provider::aws_nexrad_data_provider] Found 207 objects
+[2026-06-12 14:44:59.309] [130049] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, DVL, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.310] [130049] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, N0S, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.310] [130049] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, EET, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.310] [130049] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, N0S, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.310] [130049] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, EET, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.310] [130049] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, N0H, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.310] [130049] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0H_2026_06_11_
+[2026-06-12 14:44:59.310] [130205] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0H_2026_06_12_
+[2026-06-12 14:44:59.311] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:44:59.311] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:44:59.311] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.312] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.010000s
+[2026-06-12 14:44:59.312] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.312] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.312] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:44:59.312] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:44:59.312] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:44:59.313] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:44:59.313] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:44:59.313] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:44:59.313] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:44:59.313] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:44:59.313] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:44:59.313] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:44:59.313] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:44:59.314] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:44:59.326] [130468] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.326] [130458] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.326] [130468] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.326] [130461] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.326] [130458] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.326] [130461] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.326] [130468] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.326] [130468] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.326] [130458] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.326] [130461] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.326] [130458] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.326] [130461] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.326] [130461] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.326] [130461] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.326] [130468] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.326] [130468] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.356] [130460] [debug] [scwx::provider::aws_nexrad_data_provider] Found 207 objects
+[2026-06-12 14:44:59.356] [130460] [debug] [scwx::provider::aws_nexrad_data_provider] FindLatestKey()
+[2026-06-12 14:44:59.362] [130477] [debug] [scwx::provider::aws_nexrad_data_provider] Found 407 objects
+[2026-06-12 14:44:59.363] [130477] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0H_2026_06_12_
+[2026-06-12 14:44:59.368] [130050] [debug] [scwx::provider::aws_nexrad_data_provider] Found 407 objects
+[2026-06-12 14:44:59.371] [130444] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.385] [130470] [debug] [scwx::provider::aws_nexrad_data_provider] Found 207 objects
+[2026-06-12 14:44:59.385] [130470] [debug] [scwx::provider::aws_nexrad_data_provider] FindLatestKey()
+[2026-06-12 14:44:59.409] [130463] [debug] [scwx::provider::aws_nexrad_data_provider] Found 207 objects
+[2026-06-12 14:44:59.409] [130463] [debug] [scwx::provider::aws_nexrad_data_provider] FindLatestKey()
+[2026-06-12 14:44:59.414] [130198] [debug] [scwx::provider::aws_nexrad_data_provider] Found 615 objects
+[2026-06-12 14:44:59.414] [130050] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, N0H, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.415] [130050] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, N0K, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.415] [130050] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0K_2026_06_11_
+[2026-06-12 14:44:59.415] [130212] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0K_2026_06_12_
+[2026-06-12 14:44:59.416] [130475] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:40:37 UTC
+[2026-06-12 14:44:59.416] [130475] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.417] [130475] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:40:37 UTC
+[2026-06-12 14:44:59.417] [130475] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.420] [130210] [debug] [scwx::provider::aws_nexrad_data_provider] Found 207 objects
+[2026-06-12 14:44:59.421] [130048] [debug] [scwx::qt::manager::radar_product_manager] Populating product times: L3, N0K, 1970-01-01 00:00:00 UTC
+[2026-06-12 14:44:59.421] [130048] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0K_2026_06_11_
+[2026-06-12 14:44:59.421] [130210] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0K_2026_06_12_
+[2026-06-12 14:44:59.519] [130477] [debug] [scwx::provider::aws_nexrad_data_provider] Found 615 objects
+[2026-06-12 14:44:59.520] [130477] [debug] [scwx::provider::aws_nexrad_data_provider] FindLatestKey()
+[2026-06-12 14:44:59.525] [130453] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:40:37 UTC
+[2026-06-12 14:44:59.572] [130051] [debug] [scwx::provider::aws_nexrad_data_provider] Found 407 objects
+[2026-06-12 14:44:59.600] [130482] [debug] [scwx::provider::aws_nexrad_data_provider] Found 407 objects
+[2026-06-12 14:44:59.600] [130482] [debug] [scwx::provider::aws_nexrad_data_provider] ListObjects: INX_N0K_2026_06_12_
+[2026-06-12 14:44:59.602] [130049] [debug] [scwx::provider::aws_nexrad_data_provider] Found 407 objects
+[2026-06-12 14:44:59.659] [130205] [debug] [scwx::provider::aws_nexrad_data_provider] Found 615 objects
+[2026-06-12 14:44:59.660] [130049] [debug] [scwx::provider::aws_nexrad_data_provider] FindKey: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.685] [130203] [debug] [scwx::provider::aws_nexrad_data_provider] Found 615 objects
+[2026-06-12 14:44:59.691] [130481] [debug] [scwx::qt::manager::radar_product_manager] LoadLevel3Data: 2026-06-12 19:40:37 UTC
+[2026-06-12 14:44:59.691] [130481] [debug] [scwx::qt::view::level3_radial_view] Level 3 data not found
+[2026-06-12 14:44:59.708] [130050] [debug] [scwx::provider::aws_nexrad_data_provider] Found 407 objects
+[2026-06-12 14:44:59.731] [130048] [debug] [scwx::provider::aws_nexrad_data_provider] Found 407 objects
+[2026-06-12 14:44:59.746] [130049] [debug] [scwx::wsr88d::level3_file] Loading Data
+[2026-06-12 14:44:59.746] [130049] [debug] [scwx::wsr88d::level3_file] Data Type: SD
+[2026-06-12 14:44:59.746] [130049] [debug] [scwx::wsr88d::level3_file] ICAO:      KTSA
+[2026-06-12 14:44:59.746] [130049] [debug] [scwx::wsr88d::level3_file] Date/Time: 121935
+[2026-06-12 14:44:59.746] [130049] [debug] [scwx::wsr88d::level3_file] Category:  N0S
+[2026-06-12 14:44:59.746] [130049] [debug] [scwx::wsr88d::level3_file] Site ID:   INX
+[2026-06-12 14:44:59.746] [130049] [debug] [scwx::wsr88d::rpg::level3_message_factory] Found Message 56
+[2026-06-12 14:44:59.746] [130049] [debug] [scwx::wsr88d::rpg::graphic_product_message] Loading Blocks
+[2026-06-12 14:44:59.747] [130049] [debug] [scwx::wsr88d::rpg::graphic_product_message] Product symbology block valid: true
+[2026-06-12 14:44:59.747] [130051] [debug] [scwx::provider::aws_nexrad_data_provider] FindKey: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.752] [130468] [debug] [scwx::qt::view::level3_radial_view] Computing Sweep
+[2026-06-12 14:44:59.759] [130468] [debug] [scwx::qt::manager::radar_product_manager] Coordinates (1 degree) calculated in 0.000000s
+[2026-06-12 14:44:59.761] [130468] [debug] [scwx::qt::view::level3_radial_view] Vertices calculated in 0.000000s
+[2026-06-12 14:44:59.761] [130468] [debug] [scwx::qt::view::level3_product_view] UpdateColorTable()
+[2026-06-12 14:44:59.763] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.763] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.764] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.764] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.770] [130212] [debug] [scwx::provider::aws_nexrad_data_provider] Found 615 objects
+[2026-06-12 14:44:59.788] [130210] [debug] [scwx::provider::aws_nexrad_data_provider] Found 615 objects
+[2026-06-12 14:44:59.790] [130482] [debug] [scwx::provider::aws_nexrad_data_provider] Found 615 objects
+[2026-06-12 14:44:59.790] [130482] [debug] [scwx::provider::aws_nexrad_data_provider] FindLatestKey()
+[2026-06-12 14:44:59.824] [130051] [debug] [scwx::wsr88d::level3_file] Loading Data
+[2026-06-12 14:44:59.824] [130051] [debug] [scwx::wsr88d::level3_file] Data Type: SD
+[2026-06-12 14:44:59.824] [130051] [debug] [scwx::wsr88d::level3_file] ICAO:      KTSA
+[2026-06-12 14:44:59.824] [130051] [debug] [scwx::wsr88d::level3_file] Date/Time: 121935
+[2026-06-12 14:44:59.824] [130051] [debug] [scwx::wsr88d::level3_file] Category:  DVL
+[2026-06-12 14:44:59.824] [130051] [debug] [scwx::wsr88d::level3_file] Site ID:   INX
+[2026-06-12 14:44:59.824] [130051] [debug] [scwx::wsr88d::rpg::level3_message_factory] Found Message 134
+[2026-06-12 14:44:59.825] [130051] [debug] [scwx::wsr88d::rpg::graphic_product_message] Loading Blocks
+[2026-06-12 14:44:59.825] [130051] [debug] [scwx::wsr88d::rpg::graphic_product_message] Product symbology block valid: true
+[2026-06-12 14:44:59.825] [130049] [debug] [scwx::provider::aws_nexrad_data_provider] FindKey: 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.830] [130458] [debug] [scwx::qt::view::level3_radial_view] Computing Sweep
+[2026-06-12 14:44:59.832] [130458] [debug] [scwx::qt::view::level3_radial_view] Vertices calculated in 0.010000s
+[2026-06-12 14:44:59.832] [130458] [debug] [scwx::qt::view::level3_product_view] UpdateColorTable()
+[2026-06-12 14:44:59.836] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.836] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.836] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.836] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:44:59.935] [130049] [debug] [scwx::wsr88d::level3_file] Loading Data
+[2026-06-12 14:44:59.935] [130049] [debug] [scwx::wsr88d::level3_file] Data Type: SD
+[2026-06-12 14:44:59.935] [130049] [debug] [scwx::wsr88d::level3_file] ICAO:      KTSA
+[2026-06-12 14:44:59.935] [130049] [debug] [scwx::wsr88d::level3_file] Date/Time: 121935
+[2026-06-12 14:44:59.935] [130049] [debug] [scwx::wsr88d::level3_file] Category:  EET
+[2026-06-12 14:44:59.935] [130049] [debug] [scwx::wsr88d::level3_file] Site ID:   INX
+[2026-06-12 14:44:59.935] [130049] [debug] [scwx::wsr88d::rpg::level3_message_factory] Found Message 135
+[2026-06-12 14:44:59.935] [130049] [debug] [scwx::wsr88d::rpg::graphic_product_message] Loading Blocks
+[2026-06-12 14:44:59.935] [130049] [debug] [scwx::wsr88d::rpg::graphic_product_message] Product symbology block valid: true
+[2026-06-12 14:44:59.935] [130050] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product previously loaded, loading from cache
+[2026-06-12 14:44:59.935] [130050] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product previously loaded, loading from cache
+[2026-06-12 14:44:59.935] [130050] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product previously loaded, loading from cache
+[2026-06-12 14:44:59.935] [130050] [debug] [scwx::provider::aws_nexrad_data_provider] FindKey: 2026-06-12 19:40:37 UTC
+[2026-06-12 14:44:59.935] [129978] [debug] [scwx::qt::map::map_widget] SelectRadarProduct: KINX, L3, DVL, 2026-06-12 19:35:54 UTC
+[2026-06-12 14:44:59.936] [130461] [debug] [scwx::qt::view::level3_radial_view] Computing Sweep
+[2026-06-12 14:44:59.937] [130461] [debug] [scwx::qt::view::level3_radial_view] Vertices calculated in 0.000000s
+[2026-06-12 14:44:59.937] [130461] [debug] [scwx::qt::view::level3_product_view] UpdateColorTable()
+[2026-06-12 14:44:59.941] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:44:59.941] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:44:59.941] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:44:59.941] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:00.012] [130050] [debug] [scwx::wsr88d::level3_file] Loading Data
+[2026-06-12 14:45:00.012] [130050] [debug] [scwx::wsr88d::level3_file] Data Type: SD
+[2026-06-12 14:45:00.012] [130050] [debug] [scwx::wsr88d::level3_file] ICAO:      KTSA
+[2026-06-12 14:45:00.012] [130050] [debug] [scwx::wsr88d::level3_file] Date/Time: 121940
+[2026-06-12 14:45:00.012] [130050] [debug] [scwx::wsr88d::level3_file] Category:  N0H
+[2026-06-12 14:45:00.012] [130050] [debug] [scwx::wsr88d::level3_file] Site ID:   INX
+[2026-06-12 14:45:00.012] [130050] [debug] [scwx::wsr88d::rpg::level3_message_factory] Found Message 165
+[2026-06-12 14:45:00.014] [130050] [debug] [scwx::wsr88d::rpg::graphic_product_message] Loading Blocks
+[2026-06-12 14:45:00.014] [130050] [debug] [scwx::wsr88d::rpg::graphic_product_message] Product symbology block valid: true
+[2026-06-12 14:45:00.014] [130050] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product previously loaded, loading from cache
+[2026-06-12 14:45:00.014] [130050] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product previously loaded, loading from cache
+[2026-06-12 14:45:00.014] [130048] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product previously loaded, loading from cache
+[2026-06-12 14:45:00.014] [130051] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product previously loaded, loading from cache
+[2026-06-12 14:45:00.014] [130049] [debug] [scwx::qt::manager::radar_product_manager] Level 3 product previously loaded, loading from cache
+[2026-06-12 14:45:00.014] [130050] [debug] [scwx::provider::aws_nexrad_data_provider] FindKey: 2026-06-12 19:40:37 UTC
+[2026-06-12 14:45:00.019] [129978] [debug] [scwx::qt::map::map_widget] SelectRadarProduct: KINX, L3, N0H, 2026-06-12 19:40:37 UTC
+[2026-06-12 14:45:00.019] [130475] [debug] [scwx::qt::view::level3_radial_view] Computing Sweep
+[2026-06-12 14:45:00.024] [130475] [debug] [scwx::qt::view::level3_radial_view] Vertices calculated in 0.010000s
+[2026-06-12 14:45:00.024] [130475] [debug] [scwx::qt::view::level3_product_view] UpdateColorTable()
+[2026-06-12 14:45:00.025] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:45:00.025] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:00.026] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:00.026] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:00.086] [130050] [debug] [scwx::wsr88d::level3_file] Loading Data
+[2026-06-12 14:45:00.086] [130050] [debug] [scwx::wsr88d::level3_file] Data Type: SD
+[2026-06-12 14:45:00.086] [130050] [debug] [scwx::wsr88d::level3_file] ICAO:      KTSA
+[2026-06-12 14:45:00.086] [130050] [debug] [scwx::wsr88d::level3_file] Date/Time: 121940
+[2026-06-12 14:45:00.086] [130050] [debug] [scwx::wsr88d::level3_file] Category:  N0K
+[2026-06-12 14:45:00.086] [130050] [debug] [scwx::wsr88d::level3_file] Site ID:   INX
+[2026-06-12 14:45:00.086] [130050] [debug] [scwx::wsr88d::rpg::level3_message_factory] Found Message 163
+[2026-06-12 14:45:00.088] [130050] [debug] [scwx::wsr88d::rpg::graphic_product_message] Loading Blocks
+[2026-06-12 14:45:00.088] [130050] [debug] [scwx::wsr88d::rpg::graphic_product_message] Product symbology block valid: true
+[2026-06-12 14:45:00.091] [130481] [debug] [scwx::qt::view::level3_radial_view] Computing Sweep
+[2026-06-12 14:45:00.095] [130481] [debug] [scwx::qt::view::level3_radial_view] Vertices calculated in 0.010000s
+[2026-06-12 14:45:00.095] [130481] [debug] [scwx::qt::view::level3_product_view] UpdateColorTable()
+[2026-06-12 14:45:00.097] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:45:00.097] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:00.098] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:00.098] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:03.287] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:03.287] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:03.287] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:03.287] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:03.287] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:03.290] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:03.290] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:03.290] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:03.290] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:03.290] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:03.292] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:03.292] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:03.292] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:03.293] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:03.293] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:03.295] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:03.295] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:03.295] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:03.295] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:03.295] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:03.298] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:03.298] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:03.298] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:03.298] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:03.298] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:03.300] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, REF
+[2026-06-12 14:45:03.300] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, VEL
+[2026-06-12 14:45:03.300] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, RHO
+[2026-06-12 14:45:03.300] [129978] [debug] [scwx::qt::main::main_window] Selecting radar product: L2, ZDR
+[2026-06-12 14:45:03.300] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:45:03.300] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:45:03.300] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:45:03.300] [129978] [debug] [scwx::qt::map::map_widget] Updating style: Custom
+[2026-06-12 14:45:03.301] [130081] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:03.301] [130081] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:03.301] [130080] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:03.301] [130080] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:03.305] [130076] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:03.305] [130076] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:03.360] [130081] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.060000s
+[2026-06-12 14:45:03.371] [130081] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:45:03.376] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:03.376] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:03.377] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:03.383] [130076] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.080000s
+[2026-06-12 14:45:03.384] [130080] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.080000s
+[2026-06-12 14:45:03.398] [130080] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:45:03.399] [130076] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:45:03.403] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:03.403] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:03.403] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:03.405] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:03.405] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:03.406] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:03.406] [129978] [debug] [scwx::qt::map::radar_product_layer] CFP moments buffered in 0.000000s
+[2026-06-12 14:45:03.458] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:45:03.459] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:45:03.460] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:45:03.464] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:03.464] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:45:03.464] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:03.468] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:03.469] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:03.469] [129978] [debug] [scwx::qt::map::radar_product_layer] CFP moments buffered in 0.000000s
+[2026-06-12 14:45:03.469] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:45:03.469] [129978] [debug] [scwx::qt::map::alert_layer] Deinitialize: Severe Thunderstorm
+[2026-06-12 14:45:03.477] [129978] [debug] [scwx::qt::map::alert_layer] Initialize: Severe Thunderstorm
+[2026-06-12 14:45:03.522] [129978] [debug] [scwx::qt::map::alert_layer] Deinitialize: Tornado
+[2026-06-12 14:45:03.523] [129978] [debug] [scwx::qt::map::alert_layer] Initialize: Tornado
+[2026-06-12 14:45:03.529] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:03.529] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:45:03.529] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:45:03.529] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:03.530] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:45:03.530] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:03.530] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:45:03.530] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:03.530] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:45:03.530] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:45:03.530] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:45:03.531] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.010000s
+[2026-06-12 14:45:03.542] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:45:03.543] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:45:03.543] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:45:03.546] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:45:03.546] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:45:03.547] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:45:03.549] [130158] [warning] [qt] [mbgl] {unknown}[ParseStyle]: source must have tiles
+[2026-06-12 14:45:03.550] [129978] [debug] [scwx::qt::map::map_widget] Add Layers
+[2026-06-12 14:45:03.550] [129978] [debug] [scwx::qt::map::radar_range_layer] Add()
+[2026-06-12 14:45:03.558] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:03.558] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:45:03.558] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:03.559] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:03.559] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:03.559] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:45:03.559] [129978] [debug] [scwx::qt::map::alert_layer] Deinitialize: Marine
+[2026-06-12 14:45:03.560] [129978] [debug] [scwx::qt::map::alert_layer] Initialize: Marine
+[2026-06-12 14:45:03.567] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:03.567] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:45:03.567] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:45:03.567] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:03.567] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:45:03.567] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:03.567] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:45:03.567] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:03.567] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:45:03.567] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:45:03.568] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:45:03.569] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:45:03.572] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:03.572] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:45:03.572] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:03.576] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:03.576] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:03.576] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:45:03.577] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:03.577] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:45:03.577] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:45:03.577] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:03.577] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:45:03.577] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:03.577] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:45:03.578] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:03.578] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:45:03.578] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:45:03.578] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:45:03.579] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:45:03.583] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:03.583] [129978] [debug] [scwx::qt::map::radar_product_layer] Initialize()
+[2026-06-12 14:45:03.583] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:03.583] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:03.584] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:03.584] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateColorTable()
+[2026-06-12 14:45:03.584] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:03.584] [129978] [debug] [scwx::qt::map::marker_layer] Initialize()
+[2026-06-12 14:45:03.584] [129978] [debug] [scwx::qt::map::marker_layer] ReloadMarkers()
+[2026-06-12 14:45:03.584] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:03.585] [129978] [debug] [scwx::qt::map::radar_site_layer] Initialize()
+[2026-06-12 14:45:03.585] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:03.585] [129978] [debug] [scwx::qt::map::color_table_layer] Initialize()
+[2026-06-12 14:45:03.585] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:03.585] [129978] [debug] [scwx::qt::map::overlay_layer] Initialize()
+[2026-06-12 14:45:03.585] [129978] [debug] [scwx::qt::util::texture_atlas] Loading image: :/res/textures/images/dot.svg
+[2026-06-12 14:45:03.585] [129978] [debug] [scwx::qt::util::texture_atlas] Building 2048x2048 texture atlas
+[2026-06-12 14:45:03.586] [129978] [debug] [scwx::qt::util::texture_atlas] Texture atlas built in 0.000000s
+[2026-06-12 14:45:15.688] [130055] [debug] [scwx::provider::aws_level2_chunks_data_provider] Refresh() in 0.440000s
+[2026-06-12 14:45:15.688] [130076] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:15.688] [130076] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:15.689] [130080] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:15.689] [130080] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:15.693] [130081] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:15.693] [130081] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:15.747] [130076] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.060000s
+[2026-06-12 14:45:15.765] [130081] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.070000s
+[2026-06-12 14:45:15.766] [130080] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.080000s
+[2026-06-12 14:45:15.775] [130076] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.030000s
+[2026-06-12 14:45:15.780] [130081] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:45:15.780] [130080] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:45:15.781] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:15.784] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.010000s
+[2026-06-12 14:45:15.786] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:15.787] [129978] [debug] [scwx::qt::map::radar_product_layer] CFP moments buffered in 0.000000s
+[2026-06-12 14:45:15.791] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:15.791] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.010000s
+[2026-06-12 14:45:15.792] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:15.794] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:15.794] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:15.794] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:20.211] [130054] [debug] [scwx::provider::aws_level2_chunks_data_provider] Refresh() in 0.200000s
+[2026-06-12 14:45:20.212] [130076] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:20.212] [130076] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:20.215] [130081] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:20.215] [130081] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:20.219] [130080] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:20.219] [130080] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:20.273] [130076] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.060000s
+[2026-06-12 14:45:20.288] [130081] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.070000s
+[2026-06-12 14:45:20.290] [130080] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.070000s
+[2026-06-12 14:45:20.301] [130076] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.020000s
+[2026-06-12 14:45:20.305] [130080] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.020000s
+[2026-06-12 14:45:20.305] [130081] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.020000s
+[2026-06-12 14:45:20.306] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:20.310] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:20.310] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:20.311] [129978] [debug] [scwx::qt::map::radar_product_layer] CFP moments buffered in 0.000000s
+[2026-06-12 14:45:20.314] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:20.315] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:20.315] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:20.316] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:20.317] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:20.318] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:31.945] [129978] [info] [scwx::qt::ui::settings_dialog] Discarding settings changes
+[2026-06-12 14:45:32.442] [130055] [debug] [scwx::provider::aws_level2_chunks_data_provider] Refresh() in 0.440000s
+[2026-06-12 14:45:32.444] [130076] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:32.444] [130076] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:32.445] [130080] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:32.445] [130080] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:32.445] [130081] [debug] [scwx::qt::view::level2_product_view] Computing Sweep
+[2026-06-12 14:45:32.445] [130081] [debug] [scwx::qt::view::level2_product_view] ComputeCoordinates()
+[2026-06-12 14:45:32.500] [130076] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.050000s
+[2026-06-12 14:45:32.516] [130076] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.020000s
+[2026-06-12 14:45:32.525] [130080] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.080000s
+[2026-06-12 14:45:32.525] [130081] [debug] [scwx::qt::view::level2_product_view] Coordinates calculated in 0.080000s
+[2026-06-12 14:45:32.536] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:32.540] [130081] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:45:32.540] [130080] [debug] [scwx::qt::view::level2_product_view] Vertices calculated in 0.010000s
+[2026-06-12 14:45:32.553] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.020000s
+[2026-06-12 14:45:32.553] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:32.554] [129978] [debug] [scwx::qt::map::radar_product_layer] CFP moments buffered in 0.000000s
+[2026-06-12 14:45:32.560] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:32.561] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:32.562] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.010000s
+[2026-06-12 14:45:32.562] [129978] [debug] [scwx::qt::map::radar_product_layer] UpdateSweep()
+[2026-06-12 14:45:32.563] [129978] [debug] [scwx::qt::map::radar_product_layer] Vertices buffered in 0.000000s
+[2026-06-12 14:45:32.563] [129978] [debug] [scwx::qt::map::radar_product_layer] Data moments buffered in 0.000000s
+[2026-06-12 14:45:39.295] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:39.295] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:39.295] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:39.295] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:39.295] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:39.302] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:39.302] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:39.302] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:39.302] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:39.302] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:39.308] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:39.308] [129978] [debug] [scwx::qt::map::alert_layer] Deinitialize: Marine
+[2026-06-12 14:45:39.309] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:39.309] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:39.310] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:39.310] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:39.315] [129978] [debug] [scwx::qt::map::marker_layer] Deinitialize()
+[2026-06-12 14:45:39.315] [129978] [debug] [scwx::qt::map::radar_site_layer] Deinitialize()
+[2026-06-12 14:45:39.315] [129978] [debug] [scwx::qt::map::color_table_layer] Deinitialize()
+[2026-06-12 14:45:39.315] [129978] [debug] [scwx::qt::map::overlay_layer] Deinitialize()
+[2026-06-12 14:45:39.315] [129978] [debug] [scwx::qt::map::radar_product_layer] Deinitialize()
+[2026-06-12 14:45:39.315] [129978] [debug] [scwx::qt::map::alert_layer] Deinitialize: Tornado
+[2026-06-12 14:45:39.317] [129978] [debug] [scwx::qt::map::alert_layer] Deinitialize: Severe Thunderstorm
+[2026-06-12 14:45:39.360] [129978] [debug] [scwx::qt::manager::radar_product_manager] Disabling refresh: KINX, L2
+[2026-06-12 14:45:39.360] [129978] [debug] [scwx::qt::manager::radar_product_manager] Disabling refresh: KINX, L2
+[2026-06-12 14:45:39.360] [129978] [debug] [scwx::qt::manager::radar_product_manager] Disabling refresh: KINX, L3, N0K
+[2026-06-12 14:45:39.360] [129978] [debug] [scwx::qt::manager::radar_product_manager] Disabling refresh: KINX, L3, N0S
+[2026-06-12 14:45:39.360] [129978] [debug] [scwx::qt::manager::radar_product_manager] Disabling refresh: KINX, L3, N0H
+[2026-06-12 14:45:39.360] [130055] [debug] [scwx::qt::manager::radar_product_manager] [KINX, L2] Data refresh timer cancelled
+[2026-06-12 14:45:39.360] [130482] [debug] [scwx::qt::manager::radar_product_manager] [KINX, L3, N0K] Data refresh timer cancelled
+[2026-06-12 14:45:39.360] [130470] [debug] [scwx::qt::manager::radar_product_manager] [KINX, L3, N0S] Data refresh timer cancelled
+[2026-06-12 14:45:39.360] [129978] [debug] [scwx::qt::manager::radar_product_manager] Disabling refresh: KINX, L3, EET
+[2026-06-12 14:45:39.360] [130477] [debug] [scwx::qt::manager::radar_product_manager] [KINX, L3, N0H] Data refresh timer cancelled
+[2026-06-12 14:45:39.360] [129978] [debug] [scwx::qt::manager::radar_product_manager] Disabling refresh: KINX, L3, DVL
+[2026-06-12 14:45:39.360] [130463] [debug] [scwx::qt::manager::radar_product_manager] [KINX, L3, EET] Data refresh timer cancelled
+[2026-06-12 14:45:39.360] [130053] [debug] [scwx::qt::manager::radar_product_manager] [KINX, L2] Data refresh timer cancelled
+[2026-06-12 14:45:39.360] [129978] [debug] [scwx::qt::manager::radar_product_manager] Disabling refresh: KINX, L3, N0B
+[2026-06-12 14:45:39.360] [129978] [debug] [scwx::qt::manager::radar_product_manager] Disabling refresh: KINX, L3, NST
+[2026-06-12 14:45:39.360] [130460] [debug] [scwx::qt::manager::radar_product_manager] [KINX, L3, DVL] Data refresh timer cancelled
+[2026-06-12 14:45:39.360] [130057] [debug] [scwx::qt::manager::radar_product_manager] [KINX, L3, NST] Data refresh timer cancelled
+[2026-06-12 14:45:39.411] [129996] [debug] [scwx::qt::model::alert_proxy_model] Alert update timer cancelled
+[2026-06-12 14:45:39.413] [129978] [info] [scwx::qt::manager::marker_manager] Saving location marker settings
+[2026-06-12 14:45:39.413] [129978] [info] [scwx::qt::model::layer_model] Saving layer settings
+[2026-06-12 14:45:39.413] [129978] [info] [scwx::qt::manager::placefile_manager] Saving placefile settings
+[2026-06-12 14:45:39.414] [129978] [info] [scwx::qt::model::radar_site_model] Saving presets
+[2026-06-12 14:45:39.417] [129978] [debug] [scwx::qt::manager::thread_manager] Stopping threads
+[2026-06-12 14:45:39.417] [129978] [info] [scwx::qt::manager::settings_manager] Saving settings
+[2026-06-12 14:45:39.418] [129978] [debug] [scwx::qt::manager::task_manager] Shutdown
+[2026-06-12 14:45:39.418] [130009] [debug] [scwx::network::ntp_client] Poll timer cancelled

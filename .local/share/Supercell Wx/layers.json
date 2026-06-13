@@ -421,7 +421,7 @@
         "movable" : true,
         "displayed" : [
             false,
-            false,
+            true,
             false,
             false,
             false,

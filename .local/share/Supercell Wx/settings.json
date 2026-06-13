@@ -20,7 +20,7 @@
         "loop_time" : 10,
         "map_provider" : "maptiler",
         "mapbox_api_key" : "?",
-        "maptiler_api_key" : "?",
+        "maptiler_api_key" : "Scd8Ulee3TH0WdTklMId",
         "nmea_baud_rate" : 9600,
         "nmea_source" : "",
         "positioning_plugin" : "default",
@@ -51,6 +51,7 @@
         "alert_county" : "",
         "alert_wfo" : "",
         "ignore_missing_codecs" : false,
+        "master_volume" : 100,
         "FF_enabled" : false,
         "SV_enabled" : true,
         "SQ_enabled" : false,
@@ -399,7 +400,10 @@
     "product" : {
         "show_smoothed_range_folding" : false,
         "sti_forecast_enabled" : true,
-        "sti_past_enabled" : true
+        "sti_past_enabled" : true,
+        "thresholds" : {
+
+        }
     },
     "text" : {
         "fonts" : {
@@ -428,10 +432,16 @@
         "level2_products_expanded" : true,
         "level2_settings_expanded" : false,
         "level3_products_expanded" : true,
+        "level3_settings_expanded" : true,
         "map_settings_expanded" : true,
         "timeline_expanded" : false,
-        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADaAAAD3fwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsAAAAAFgAAA90AAABbAP///wAAAAEAAAEGAAADzfwCAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AAAAABYAAAPNAAAAigD///8AAAc4AAAD9AAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
-        "main_ui_geometry" : "AdnQywADAAAAAAABAAAAGQAABzgAAAQ8AAAAAQAAABkAAAc4AAAEPAAAAAEAAAAAB4AAAAABAAAAGQAABzgAAAQ8"
+        "main_ui_state" : "AAAA/wAAAAD9AAAAAgAAAAAAAADaAAAD9PwCAAAAAfsAAAAgAHIAYQBkAGEAcgBUAG8AbwBsAGIAbwB4AEQAbwBjAGsAAAAAFgAAA/QAAABbAP///wAAAAEAAAEGAAADzfwCAAAAAfsAAAAeAEEAbABlAHIAdABEAG8AYwBrAFcAaQBkAGcAZQB0AAAAABYAAAPNAAAAigD///8AAAc4AAAD9AAAAAQAAAAEAAAAAQAAAAj8AAAAAA==",
+        "main_ui_geometry" : "AdnQywADAAAAAAABAAAAGQAABzgAAAQ8AAAAAQAAABkAAAc4AAAEPAAAAAEAAAAAB4AAAAABAAAAGQAABzgAAAQ8",
+        "map_annotation_state" : "{\"tool_id\":0,\"drawings_visible\":true,\"brush_preset_index\":0,\"stroke_width_m\":5E2,\"fill\":false,\"stroke_color_hex\":\"#e6ff3232\",\"overlay_visible\":true,\"expanded\":true,\"floating\":false,\"attached_x\":39,\"attached_y\":191,\"floating_x\":-1,\"floating_y\":-1,\"floating_position_global\":false,\"persist_version\":2}",
+        "map_pane_splitter_state" : "{\"gh\":2,\"gw\":2,\"rows\":[[924,923],[924,923]],\"v\":[506,505]}",
+        "map_pane_popout_state" : "{\"gh\":2,\"gw\":2,\"panes\":[]}",
+        "map_pane_view_link_state" : "{\"gh\":2,\"gw\":2,\"linked\":[true,true,true,true]}",
+        "panes_match_map_style" : true
     },
     "unit" : {
         "accumulation_units" : "inches",
